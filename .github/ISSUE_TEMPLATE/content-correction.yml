@@ -1,0 +1,63 @@
+name: Content correction
+description: Report a factual error, unclear explanation, typo, or wording problem in the textbook.
+title: "Content correction: "
+labels: [content, beta-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the public-beta textbook. Precise reports are especially useful.
+  - type: input
+    id: location
+    attributes:
+      label: Chapter or page
+      description: Name the chapter, section, heading, or page URL where the issue appears.
+      placeholder: "Example: Chapter 2, Natural-language analytics"
+    validations:
+      required: true
+  - type: textarea
+    id: current-text
+    attributes:
+      label: Current text or problem area
+      description: Paste the sentence, paragraph, heading, lab step, or description of the problem.
+      placeholder: "Paste the text or describe exactly where the problem appears."
+    validations:
+      required: true
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Type of correction
+      options:
+        - Factual error
+        - Unclear explanation
+        - Typos or grammar
+        - Formatting problem
+        - Broken internal reference
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested fix
+      description: Suggest replacement wording or describe the change you recommend.
+      placeholder: "Suggested replacement text or explanation."
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or source, if relevant
+      description: Add a URL, citation, screenshot description, or brief explanation supporting the correction.
+      placeholder: "Source URL or explanation."
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked that this issue is not already reported.
+          required: false
+        - label: I am not including private student, customer, employee, or account information.
+          required: true

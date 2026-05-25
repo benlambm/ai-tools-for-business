@@ -1,0 +1,132 @@
+# Public Beta Review Guide {.unnumbered}
+
+This book is in public beta because the manuscript is useful enough to share, but not yet final enough to freeze. Reviewers are invited to help improve accuracy, clarity, accessibility, citations, labs, figures, and adoption readiness before the first stable `v1.0.0` release.
+
+Good review does not need to be long. A precise issue about one sentence, one broken link, one confusing lab step, or one missing figure can be more useful than a general reaction to the whole book.
+
+## Review priorities
+
+During public beta, the highest-value review areas are:
+
+1. **Factual accuracy.** Are claims about AI tools, companies, regulations, studies, or public incidents correct and current?
+2. **Citation quality.** Does each significant claim have a source that actually supports it?
+3. **Student clarity.** Would an introductory college student understand the explanation without already knowing the jargon?
+4. **Lab feasibility.** Can students complete the lab safely with accessible tools and without private data?
+5. **Educational figures.** Where would a diagram, workflow, mockup, matrix, or visualization make the chapter easier to teach?
+6. **Accessibility.** Are headings, links, tables, figures, alt text, PDF, EPUB, and lab instructions accessible enough for real course use?
+7. **Adoption readiness.** What would prevent an instructor from assigning this book next semester?
+
+## Fast review path: 30 minutes
+
+If you only have half an hour:
+
+1. Choose one chapter.
+2. Read the course outcome, the first two sections, and the hands-on lab.
+3. Check three claims that seem source-dependent.
+4. Identify one place where a figure would help.
+5. Open one GitHub issue with your most important finding.
+
+That is enough to help.
+
+## Full chapter review path
+
+For a deeper review, read one chapter from start to finish and answer these questions:
+
+- Does the chapter match its course outcome?
+- Does it avoid both AI hype and reflexive AI doom?
+- Are technical terms defined clearly on first use?
+- Are examples current enough for a 2026 course?
+- Are vendor claims clearly distinguished from independent evidence?
+- Are any claims overconfident, vague, or unsupported?
+- Does the lab ask students to verify AI output rather than merely accept it?
+- Is the lab safe with respect to privacy, credentials, student records, customer data, and institutional data?
+- What figure would most improve student understanding?
+- What should be fixed before `v1.0.0`?
+
+## Source and citation review
+
+The book is moving toward a more consistent citation system using `references.bib`, chapter source notes, and a source manifest.
+
+When reviewing citations, ask:
+
+- Does the cited source actually support the sentence?
+- Is the source authoritative enough for the claim?
+- Is the source too promotional for the way it is used?
+- Is the source recent enough for a fast-moving AI-tool claim?
+- Would a government report, public filing, peer-reviewed study, standard, court document, or product documentation page be stronger?
+- Are source URLs clean, stable, and free of tracking parameters?
+
+Open a **Source or citation improvement** issue if you find a weak source, missing source, stale source, broken link, or better replacement.
+
+## Educational figure review
+
+Educational figures are a major public-beta priority. The book especially needs visuals that clarify systems and workflows.
+
+Good figure suggestions include:
+
+- how a support ticket moves from chatbot to human escalation;
+- how a dataset becomes a dashboard or AI-generated analytics summary;
+- where privacy risk enters a marketing personalization pipeline;
+- how false positives and false negatives work in fraud detection;
+- how demand forecasts affect inventory decisions;
+- how bias can enter an HR screening workflow;
+- how budget forecasts should be checked against assumptions;
+- how RPA handles exceptions;
+- how AI-assisted product design moves from idea to prototype to testing.
+
+Open an **Educational figure suggestion** issue if you can describe a figure's teaching purpose, likely placement, and rough content.
+
+## Lab review
+
+Labs should be practical, safe, and teach judgment. A strong lab asks students to do something, check the result, document assumptions, and explain risks.
+
+When reviewing a lab, ask:
+
+- Can students complete it without paid tools, or is there a clear alternative?
+- Does it avoid real private data?
+- Does it make students verify AI output?
+- Are the instructions specific enough?
+- Is the expected deliverable clear?
+- Would a rubric or example improve the activity?
+- Does the lab fit the chapter's learning outcome?
+
+Open a **Lab or assignment feedback** issue for lab-specific problems or improvements.
+
+## Accessibility review
+
+Accessibility review should cover the web book, PDF, EPUB, figures, tables, links, and lab workflows.
+
+Useful accessibility feedback includes:
+
+- missing or weak alt text;
+- unclear link text;
+- headings that skip levels or make navigation confusing;
+- tables that are hard to interpret;
+- color or contrast problems;
+- PDF or EPUB navigation problems;
+- labs that assume a tool or interface that creates avoidable barriers;
+- wording that could be made clearer without reducing intellectual seriousness.
+
+Open an **Accessibility feedback** issue for accessibility concerns.
+
+## Adoption review
+
+Adoption review asks a different question: what would make another instructor trust and use this book?
+
+Helpful adoption feedback includes:
+
+- where the book fits in a course or program;
+- what blocks adoption;
+- which chapters feel strongest;
+- which chapters need revision first;
+- which instructor supplements would matter most;
+- what LMS, assessment, accessibility, or policy supports are needed;
+- whether the public-beta label is clear enough for classroom use.
+
+Open a **Beta adoption review** issue for structured instructor, librarian, instructional designer, department, or student feedback.
+
+## Review etiquette
+
+Please be direct and specific. The purpose of public beta is improvement, not ceremonial praise. That said, this is an educational project. Good review should help make the book more accurate, more teachable, and more useful for students.
+
+When in doubt, report the issue. Small fixes compound into a stronger open textbook.

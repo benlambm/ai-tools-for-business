@@ -1,0 +1,66 @@
+name: Lab or assignment feedback
+description: Suggest an improvement to a hands-on lab, dataset, rubric, or student activity.
+title: "Lab feedback: "
+labels: [labs, pedagogy, beta-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for lab clarity, feasibility, safety, accessibility, student workload, datasets, prompts, rubrics, or classroom implementation notes.
+  - type: input
+    id: location
+    attributes:
+      label: Chapter and lab
+      description: Identify the chapter, lab title, step, or page URL.
+      placeholder: "Example: Chapter 2, Hands-on lab, Step 3"
+    validations:
+      required: true
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: Type of lab feedback
+      options:
+        - Instructions unclear
+        - Dataset issue
+        - AI prompt issue
+        - Verification/checking issue
+        - Accessibility or technology barrier
+        - Student workload concern
+        - Rubric or grading suggestion
+        - Safety or privacy concern
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What is confusing, unsafe, too hard, too easy, missing, or worth improving?
+      placeholder: "Describe the issue or improvement."
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-change
+    attributes:
+      label: Suggested change
+      description: Suggest replacement instructions, a better prompt, an alternate tool path, a revised dataset idea, or rubric change.
+      placeholder: "Suggested revision."
+    validations:
+      required: false
+  - type: textarea
+    id: classroom-context
+    attributes:
+      label: Classroom context, if relevant
+      description: Share course level, modality, student background, available tools, or implementation constraints.
+      placeholder: "Example: Introductory online course; students use Excel and browser-based AI tools."
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I am not including real student work, grades, private records, or personally identifying information.
+          required: true
+        - label: The suggested change can work with no-cost or commonly available tools, or I explained the limitation.
+          required: false

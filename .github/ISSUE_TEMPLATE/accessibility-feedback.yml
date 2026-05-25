@@ -1,0 +1,65 @@
+name: Accessibility feedback
+description: Report an accessibility issue or suggest an improvement for the textbook, PDF, EPUB, figures, or labs.
+title: "Accessibility: "
+labels: [accessibility, beta-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Accessibility feedback is welcome during public beta. Please describe the barrier as specifically as possible.
+  - type: input
+    id: location
+    attributes:
+      label: Chapter, page, or file
+      description: Identify the chapter, section, page URL, file, figure, table, or format affected.
+      placeholder: "Example: Chapter 3, Figure 2; PDF version; EPUB navigation"
+    validations:
+      required: true
+  - type: dropdown
+    id: accessibility-area
+    attributes:
+      label: Accessibility area
+      options:
+        - Alt text or figure description
+        - Heading structure or navigation
+        - Link text
+        - Table structure
+        - Color, contrast, or visual design
+        - PDF accessibility
+        - EPUB accessibility
+        - Lab technology barrier
+        - Plain-language clarity
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: barrier
+    attributes:
+      label: Barrier or issue
+      description: Describe what makes the material hard to access, navigate, understand, or use.
+      placeholder: "Describe the issue."
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested improvement
+      description: Suggest revised alt text, link text, structure, wording, or another fix.
+      placeholder: "Suggested fix."
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Reading environment, if relevant
+      description: Browser, screen reader, device, PDF reader, LMS, EPUB reader, or classroom technology context.
+      placeholder: "Example: NVDA with Firefox; Canvas mobile app; Kindle EPUB reader."
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I am not including private student, disability accommodation, grade, or identifying information.
+          required: true

@@ -1,0 +1,74 @@
+name: Educational figure suggestion
+description: Suggest a diagram, figure, workflow map, mockup, or visual explanation for the book.
+title: "Figure suggestion: "
+labels: [images, pedagogy, beta-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Educational images are a major public-beta priority. The most useful suggestions explain what students should understand better after seeing the figure.
+  - type: input
+    id: location
+    attributes:
+      label: Chapter or section
+      description: Where should this figure appear?
+      placeholder: "Example: Chapter 1, after the self-service AI agents section"
+    validations:
+      required: true
+  - type: dropdown
+    id: figure-type
+    attributes:
+      label: Type of figure
+      options:
+        - Process diagram
+        - Human-in-the-loop decision flow
+        - Risk matrix
+        - Before/after workflow map
+        - Dashboard or interface mockup
+        - Concept map
+        - Data visualization
+        - Lab aid
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: learning-purpose
+    attributes:
+      label: Learning purpose
+      description: What should the figure help students understand?
+      placeholder: "Students should be able to see how a support ticket moves from intake to escalation."
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-content
+    attributes:
+      label: Suggested figure content
+      description: Describe the figure, labels, flow, or visual elements.
+      placeholder: "Box 1: customer request; Box 2: AI triage; Box 3: knowledge-base retrieval; Box 4: human escalation..."
+    validations:
+      required: true
+  - type: textarea
+    id: caption-alt
+    attributes:
+      label: Draft caption or alt text
+      description: Optional but helpful. Plain-language alt text is especially valuable.
+      placeholder: "A diagram showing..."
+    validations:
+      required: false
+  - type: textarea
+    id: source-notes
+    attributes:
+      label: Source or generation notes
+      description: Note whether this should be original, AI-generated, adapted from a cited source, or based on a public dataset.
+      placeholder: "Original diagram; no external image source needed."
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: This suggestion is instructional, not decorative.
+          required: true
+        - label: I am not attaching copyrighted third-party artwork unless its reuse rights are clear.
+          required: true

@@ -1,0 +1,65 @@
+name: Source or citation improvement
+description: Suggest a better source, report a citation problem, or flag a claim that needs evidence.
+title: "Source/citation: "
+labels: [sources, citations, beta-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for missing citations, weak sources, broken source links, or better evidence for a claim.
+  - type: input
+    id: location
+    attributes:
+      label: Chapter or page
+      description: Identify the chapter, section, heading, or page URL.
+      placeholder: "Example: Chapter 4, Anomaly detection and fraud detection"
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim or citation in question
+      description: Paste the sentence, paragraph, citation, or link that needs attention.
+      placeholder: "Paste the claim or source link here."
+    validations:
+      required: true
+  - type: dropdown
+    id: source-problem
+    attributes:
+      label: What kind of source issue is this?
+      options:
+        - Missing citation
+        - Broken link
+        - Better source available
+        - Source is too promotional
+        - Source is outdated
+        - Source does not support the claim
+        - Citation formatting problem
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-source
+    attributes:
+      label: Suggested source or fix
+      description: Add a better URL, formal citation, DOI, filing link, government report, documentation page, or suggested wording.
+      placeholder: "Suggested source URL, citation, or replacement wording."
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Explain why the source is stronger, weaker, stale, or mismatched.
+      placeholder: "Brief explanation."
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I removed tracking parameters such as utm_source from any suggested URL when possible.
+          required: false
+        - label: I am not including private student, customer, employee, or account information.
+          required: true
