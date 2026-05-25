@@ -1,5 +1,9 @@
 # Preface {.unnumbered}
 
+> **Public Beta Status**
+>
+> This is a prerelease public beta of the complete converted manuscript. The book is available for review, classroom piloting, and portability testing as a Quarto web book, PDF, and EPUB, but it is not yet the final peer-reviewed v1.0 release.
+
 Artificial intelligence is already part of business and information technology. It appears in customer service systems, analytics platforms, marketing tools, cybersecurity products, supply-chain software, human resources systems, finance tools, automation platforms, and product-development workflows. But AI is often discussed in two unhelpful ways: as magic, or as doom.
 
 This book takes a different approach.

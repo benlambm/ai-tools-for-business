@@ -8,10 +8,11 @@ Keep instructor-facing supplements as separate commercial works. That includes C
 
 ## Versioning
 
-Use pre-1.0 tags while the book is incomplete:
+Use pre-1.0 tags while the book is still moving toward the first stable edition:
 
 - `v0.1.0`: Quarto pilot with preface and Chapter 1.
-- `v0.2.0` through `v0.9.0`: additional chapter conversion milestones.
+- `v0.2.0-beta`: complete converted manuscript public beta, clearly labeled prerelease.
+- `v0.3.0` through `v0.9.0`: revision, accessibility, supplement-boundary, cataloging, and pilot-feedback milestones.
 - `v1.0.0`: first complete public edition.
 
 After `v1.0.0`, use semantic versioning:

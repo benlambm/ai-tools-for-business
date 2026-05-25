@@ -4,7 +4,7 @@ title: "AI Tools for Business and Information Technology"
 authors:
   - family-names: "Lamb"
     given-names: "Benjamin"
-version: "0.1.0"
+version: "0.2.0-beta"
 date-released: "2026-05-25"
 license: "CC-BY-4.0"
 repository-code: "https://github.com/benlambm/ai-tools-for-business"

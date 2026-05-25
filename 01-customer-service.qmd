@@ -1,10 +1,8 @@
 # Chapter 1: AI Tools in Customer Service and IT Support
 
-::: {.callout-note title="Course Outcome"}
-
-VCCS-1. Customer Service Automation: Explain the role of AI-powered chatbots and virtual assistants in customer service automation to enhance response times and customer satisfaction.
-
-:::
+> **Course Outcome**
+>
+> VCCS-1. Customer Service Automation: Explain the role of AI-powered chatbots and virtual assistants in customer service automation to enhance response times and customer satisfaction.
 
 AI tools are already being used in customer service and IT support, but not usually in the science-fiction way people imagine. The most common 2026 reality is not a fully independent robot “replacing support.” It is a set of software tools that help answer routine questions, summarize conversations, route tickets, draft replies, search company knowledge, troubleshoot devices, and help human support staff work faster.
 
