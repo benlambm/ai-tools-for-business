@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the live book
+    url: https://aitoolsforbusiness.org/
+    about: Start here if you want to read the current public-beta edition.
+  - name: Review the repository README
+    url: https://github.com/benlambm/ai-tools-for-business#readme
+    about: See the project overview, license boundary, and build instructions.
