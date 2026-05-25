@@ -1,0 +1,10 @@
+.DS_Store
+.quarto/
+_book/
+.toolcache/
+.quarto-bin/
+node_modules/
+*.log
+
+/.quarto/
+**/*.quarto_ipynb

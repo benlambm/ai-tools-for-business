@@ -1,0 +1,93 @@
+# Preface {.unnumbered}
+
+Artificial intelligence is already part of business and information technology. It appears in customer service systems, analytics platforms, marketing tools, cybersecurity products, supply-chain software, human resources systems, finance tools, automation platforms, and product-development workflows. But AI is often discussed in two unhelpful ways: as magic, or as doom.
+
+This book takes a different approach.
+
+The goal of this textbook is to help you understand how AI tools are actually being used in business and IT, what they are good at, where they fail, and how responsible professionals should work with them. This is not a book about worshiping new technology. It is also not a book about rejecting it out of fear. It is a book about learning how to think clearly, use tools carefully, ask better questions, check evidence, and make better decisions.
+
+AI tools can summarize, classify, predict, draft, search, recommend, detect patterns, and automate parts of business processes. They can also hallucinate, overstate, misclassify, hide bias, expose private data, amplify bad assumptions, and make weak work look polished. The difference between useful AI and dangerous AI is rarely the tool alone. It is the workflow around the tool: the data, the prompt, the context, the human review, the measurement, the controls, and the judgment.
+
+That is the practical focus of this course.
+
+## What This Book Is Trying to Do
+
+This book is designed for students preparing to work in business, IT, cybersecurity, analytics, support, management, marketing, finance, operations, human resources, or related fields. You do not need to be a programmer or data scientist to benefit from it. You do need to be willing to think carefully.
+
+Each chapter focuses on one major area where AI tools are already affecting real organizations. You will learn the basic concepts, the business use cases, the risks, the current evidence, and the questions professionals should ask before trusting or deploying an AI system.
+
+The book avoids empty hype. You will not be told that AI will automatically “transform everything,” “replace everyone,” or “solve business forever.” Those claims are sloppy. Real AI use is more specific. A chatbot may help route support tickets. A forecasting tool may help estimate inventory needs. A marketing assistant may generate draft ad copy. A cybersecurity system may flag suspicious behavior. A finance tool may help explain a budget variance. These uses matter, but they still require people who understand the work.
+
+The book also avoids vendor lock-in. Many chapters mention real tools, platforms, and companies because students should know what is happening in the world. But this is not a training manual for one vendor’s product. Tools change. Pricing changes. Interfaces frequently change. Companies often rename features every time a marketing department gets restless. The durable skill is not memorizing where a button is today or its buzz words. The durable skill is understanding the workflow: what problem the tool is supposed to solve, what data it uses, what output it produces, what could go wrong, and who remains accountable.
+
+## Backward Learning: Starting With What You Need to Be Able to Do
+
+This book uses a backward-learning approach. That means each chapter begins from the question: What should you be able to understand, evaluate, explain, or produce by the end?
+
+Instead of starting with abstract theory and hoping it eventually becomes useful, the chapters work backward from real course outcomes and real workplace tasks. You will see the objective, learn the concepts needed to meet it, examine real-world examples and evidence, and then complete a hands-on project that asks you to apply what you learned.
+
+This matters because AI literacy is not just vocabulary. Knowing terms like “machine learning,” “generative AI,” “RAG,” “agentic AI,” “algorithmic bias,” or “workflow automation” is useful, but only if you can use those ideas to reason through actual situations. Can you evaluate whether an AI support assistant should escalate a ticket? Can you check whether an AI-generated analytics summary matches the spreadsheet? Can you identify when an AI marketing claim is unsupported? Can you explain why a fraud model creates false positives? Can you design controls for an automated invoice process?
+
+Those are the kinds of skills this book is designed to build.
+
+## Theory, Evidence, and Practice
+
+Each chapter combines three kinds of learning.
+
+First, you will learn theory and concepts. These include basic AI vocabulary, business-process thinking, data quality, automation, risk, governance, human-in-the-loop review, privacy, bias, accountability, and measurement.
+
+Second, you will examine empirical research, public data, vendor documentation, government reports, regulatory developments, company filings, and real-world examples. AI should not be understood only through advertisements or viral demos. When possible, this book asks: What evidence do we actually have? Who produced it? What does it show? What does it not prove?
+
+Third, you will practice. Each chapter includes one major hands-on lab or project. These labs are intentionally practical. You may analyze a small dataset, design a support assistant, build a marketing campaign, test a risk-scoring rule, forecast inventory, audit an HR screening process, review a cash-flow forecast, map an automation workflow, or design an AI-assisted product concept. The point is not to pretend that a classroom exercise is the same as a full enterprise deployment. The point is to learn the pattern of responsible AI work: use the tool, check the output, document assumptions, identify risks, and make a reasoned recommendation.
+
+## The Nine Course Outcomes
+
+This textbook is organized around the following nine VCCS-aligned course outcomes:
+
+Customer Service Automation: Explain the role of AI-powered chatbots and virtual assistants in customer service automation to enhance response times and customer satisfaction.
+
+Data Analytics and Insights: Analyze how AI-driven data analytics tools process large datasets to identify business patterns, trends, and opportunities.
+
+Exploring Marketing & Personalization Using AI Tools: Evaluate the impact of AI on marketing and personalization, including content customization, audience targeting, and campaign optimization.
+
+Fraud Detection and Security: Explain how AI enhances fraud detection and security by identifying fraudulent transactions, cybersecurity threats, and suspicious activities.
+
+Supply Chain Optimization Using AI Tools: Explore AI’s role in supply chain optimization, including demand forecasting, inventory management, and logistics efficiency.
+
+AI-Driven Human Resource Management: Assess how AI-driven tools streamline human resource management, including recruitment automation, résumé screening, and employee engagement analysis.
+
+Financial Forecasting and Budgeting Using AI: Apply AI-driven financial forecasting and budgeting techniques to predict trends, manage risks, and optimize business financial strategies.
+
+AI in Business / Designing Business Report Prompts: Examine the benefits of AI-powered process automation and robotic process automation, or RPA, in improving business productivity and efficiency.
+
+Product Design and Development: Discuss AI’s impact on product development and innovation, including research, performance simulation, and accelerated innovation processes.
+
+Together, these outcomes reflect a broad view of AI in business and IT. AI is not treated as one isolated tool or one technical specialty. It is treated as a set of capabilities appearing across many functions of modern organizations.
+
+## How to Read This Book
+
+Read this book actively. Do not simply memorize definitions. When you encounter an AI use case, ask practical questions:
+
+What task is being improved or automated? What data does the system need? Who benefits if it works? Who could be harmed if it fails? What does the AI produce: a draft, a prediction, a score, a recommendation, an action, or a final decision? How should a human check it? What evidence would show that the system actually improved the work? What controls should be in place before an organization trusts it?
+
+Those questions are more important than any single product name.
+
+You should also expect ambiguity. AI tools are not equally useful in every setting. A tool that helps a customer-support worker draft replies may be inappropriate for making final decisions about refunds, discipline, hiring, credit, medical care, or legal claims. A model that performs well in one company may fail in another because the data, workflow, customers, policies, and risks are different. Responsible AI work requires context.
+
+That is why this book emphasizes both prompting and verification. A good prompt can improve an AI system’s output. Good context can make that output more relevant. But neither one removes your responsibility to check the result.
+
+## A Note on AI Use in Creating This Textbook
+
+Prompt engineering and context engineering were both heavily and unapologetically used in the creation of this textbook. Chapter drafts were developed with the assistance of AI tools using structured prompts, source material, course objectives, chapter constraints, and carefully designed context. This use of AI was intentional, not hidden. It reflects one of the central claims of the course: AI tools can be valuable when they are used transparently, critically, and with human responsibility.
+
+However, the chapter drafts were not accepted as final simply because an AI system produced fluent text. They were reviewed through a human-in-the-loop process for quality, factfulness, clarity, course alignment, usefulness to students, and consistency with the goals of the class. Claims, examples, structure, tone, and assignments were checked and revised by a human instructor. The AI was used as a drafting and research-support tool, not as an unquestioned authority.
+
+The actual prompts, context-engineering approach, and agent setup used to help generate the chapter drafts are included in the Appendix. Students are encouraged to examine them. The goal is not only to learn about AI tools, but also to see how AI-assisted knowledge work can be documented, inspected, criticized, and improved.
+
+## Final Thought
+
+This course is not asking you to become impressed by AI. It is asking you to become competent around AI.
+
+Competence means knowing what the tools can do, what they cannot do, when to use them, when not to use them, and how to remain responsible when they are part of the work. In business and IT, that kind of judgment is becoming a core professional skill.
+
+AI will keep changing. The deeper skill is learning how to evaluate change without being fooled by it.

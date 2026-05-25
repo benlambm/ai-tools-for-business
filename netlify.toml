@@ -1,0 +1,6 @@
+[build]
+  command = "bash scripts/install-quarto-netlify.sh && ./.quarto-bin/quarto render"
+  publish = "_book"
+
+[build.environment]
+  QUARTO_VERSION = "1.9.37"

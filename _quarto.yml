@@ -1,0 +1,31 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "AI Tools for Business and Information Technology"
+  subtitle: "An Open Textbook for ITE 142"
+  author: "Benjamin Lamb, PhD"
+  date: "2026-05-25"
+  repo-url: "https://github.com/benlambm/ai-tools-for-business"
+  repo-actions: [edit, issue]
+  page-footer:
+    left: "AI Tools for Business and Information Technology"
+    right: "Licensed CC BY 4.0"
+  chapters:
+    - index.qmd
+    - 01-customer-service.qmd
+
+license: "CC BY 4.0"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: false
+    code-copy: true
+    link-external-newwindow: true
+    callout-appearance: simple
+
+execute:
+  freeze: auto
