@@ -1,5 +1,5 @@
 name: Content correction
-about: Report a factual error, unclear explanation, typo, or wording problem in the textbook.
+description: Report a factual error, unclear explanation, typo, or wording problem in the textbook.
 title: "Content correction: "
 labels: [content, beta-review]
 body:
@@ -30,7 +30,7 @@ body:
       options:
         - Factual error
         - Unclear explanation
-        - Typo or grammar
+        - Typos or grammar
         - Formatting problem
         - Broken internal reference
         - Other
