@@ -42,7 +42,7 @@ One of the biggest uses is **intelligent document processing**. This means using
 
 A typical invoice automation process might work like this. An invoice arrives by email. AI extracts the vendor, amount, invoice number, date, and purchase order. A rule checks whether the purchase order matches company records. If the amount is small and everything matches, the system routes it for normal approval or posts it to the accounting system. If the amount is large, the vendor is new, or the numbers do not match, the system sends it to a human for review.
 
-Microsoft’s AI Builder documentation describes document processing models that can be trained and then used in Power Automate or Power Apps. This is a good example of how AI document extraction is being connected directly to workflow automation rather than used as a standalone tool. ([Microsoft Learn](https://learn.microsoft.com/en-us/ai-builder/form-processing-model-overview?utm_source=chatgpt.com))
+Microsoft’s AI Builder documentation describes document processing models that can be trained and then used in Power Automate or Power Apps. This is a good example of how AI document extraction is being connected directly to workflow automation rather than used as a standalone tool. ([Microsoft Learn](https://learn.microsoft.com/en-us/ai-builder/form-processing-model-overview))
 
 Another major use is **ticket and case handling**. A ticket is a request that needs to be tracked, such as “my laptop will not connect to Wi-Fi” or “I need access to the finance folder.” A case is a broader service record, such as an HR issue, customer complaint, or legal review request. AI can classify the ticket, summarize the issue, suggest a response, recommend a knowledge-base article, or trigger an automated workflow.
 
@@ -62,7 +62,7 @@ Before a company automates a process, it needs to understand the process. This i
 
 **Task mining** focuses on the desktop work people perform, such as copying data from one application into another. It can help identify repetitive work that might be automated. Because task mining may observe employee computer activity, it raises privacy and labor concerns. Organizations should be transparent about what is being collected and why.
 
-UiPath’s annual filing describes process mining and task mining as part of its automation platform. Microsoft’s Power Automate materials also describe process and task mining as tools for understanding and optimizing processes before automating them. ([UiPath, Inc.](https://ir.uipath.com/financials/sec-filings/content/0001734722-26-000012/path-20260131.htm)) ([Microsoft Learn](https://learn.microsoft.com/en-us/power-automate/process-advisor-overview?utm_source=chatgpt.com))
+UiPath’s annual filing describes process mining and task mining as part of its automation platform. Microsoft’s Power Automate materials also describe process and task mining as tools for understanding and optimizing processes before automating them. ([UiPath, Inc.](https://ir.uipath.com/financials/sec-filings/content/0001734722-26-000012/path-20260131.htm)) ([Microsoft Learn](https://learn.microsoft.com/en-us/power-automate/process-advisor-overview))
 
 This is an important point for students: automation should not begin with the question, “Where can we use AI?” A better question is, “Where is the process slow, repetitive, error-prone, expensive, or frustrating?” AI is only useful when it improves a real process.
 
@@ -78,7 +78,7 @@ An **AI agent** interprets information and chooses actions within limits. It mig
 
 Microsoft’s 2025 annual report says Power Automate is part of its business applications portfolio, along with Dynamics 365 and Power Apps. The same report says Microsoft has seen large-scale use of Copilot and Copilot Studio, with more than 230,000 organizations using Copilot Studio to extend Microsoft 365 Copilot or build agents with low-code and no-code tools. ([Microsoft](https://www.microsoft.com/investor/reports/ar25/index.html)) ([Microsoft](https://www.microsoft.com/investor/reports/ar25/index.html))
 
-Microsoft’s Copilot Studio documentation also distinguishes deterministic flows from agent behavior. In plain English, a deterministic workflow is one where the same input should lead to the same result. That matters because many business processes, especially finance, HR, and compliance processes, need consistency and auditability. ([Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/flows-overview?utm_source=chatgpt.com))
+Microsoft’s Copilot Studio documentation also distinguishes deterministic flows from agent behavior. In plain English, a deterministic workflow is one where the same input should lead to the same result. That matters because many business processes, especially finance, HR, and compliance processes, need consistency and auditability. ([Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/flows-overview))
 
 The practical lesson is that companies are not simply replacing workflows with AI agents. They are often putting agents *inside* workflows.
 
@@ -116,7 +116,7 @@ Microsoft is integrating AI automation into Power Automate, Power Apps, Dynamics
 
 ServiceNow is embedding AI into IT, HR, customer service, procurement, security, legal, and operational workflows. Its annual filing emphasizes AI agents, human oversight, and enterprise workflow automation. ([SEC](https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm))
 
-SAP, a major enterprise resource planning vendor, is also adding AI to business processes. **Enterprise resource planning**, or **ERP**, means software that manages core business functions such as finance, procurement, inventory, supply chain, and human resources. SAP’s own 2025 release materials describe AI features, Joule agents, and SAP Build tools for process automation and AI-driven workflow design. Because this is vendor-published material, it should be read as product documentation rather than independent proof of results. ([SAP News Center](https://news.sap.com/2025/10/sap-business-ai-release-highlights-q3-2025/?utm_source=chatgpt.com)) ([SAP](https://www.sap.com/assetdetail/2025/11/b25304bb-297f-0010-bca6-c68f7e60039b.html?utm_source=chatgpt.com))
+SAP, a major enterprise resource planning vendor, is also adding AI to business processes. **Enterprise resource planning**, or **ERP**, means software that manages core business functions such as finance, procurement, inventory, supply chain, and human resources. SAP’s own 2025 release materials describe AI features, Joule agents, and SAP Build tools for process automation and AI-driven workflow design. Because this is vendor-published material, it should be read as product documentation rather than independent proof of results. ([SAP News Center](https://news.sap.com/2025/10/sap-business-ai-release-highlights-q3-2025/)) ([SAP](https://www.sap.com/assetdetail/2025/11/b25304bb-297f-0010-bca6-c68f7e60039b.html))
 
 Government agencies are also using automation. The U.S. General Services Administration’s Federal Automation Community of Practice says it includes more than 1,700 members from more than 100 federal departments and agencies, and that its 2025 inventory collected more than 3,000 automation use cases. ([U.S. General Services Administration](https://www.gsa.gov/technology/government-it-initiatives/federal-automation-community-of-practice))
 
@@ -142,7 +142,7 @@ This is a perfect example of why automation governance matters. A bot is not “
 
 AI adds more risks. A document model may extract the wrong amount from an invoice. A language model may summarize a complaint incorrectly. An agent may choose the wrong workflow. A chatbot may give an employee an outdated policy answer. These problems are especially serious in finance, healthcare, employment, public benefits, insurance, education, and legal settings.
 
-The U.S. Office of Management and Budget’s 2024 government AI guidance emphasizes AI governance, innovation, and risk management, including minimum practices for AI uses that can affect rights or safety. NIST’s Generative AI Profile is designed to help organizations identify risks specific to generative AI and manage them across design, development, use, and evaluation. ([NIST](https://www.nist.gov/itl/ai-risk-management-framework?utm_source=chatgpt.com))
+The U.S. Office of Management and Budget’s 2024 government AI guidance emphasizes AI governance, innovation, and risk management, including minimum practices for AI uses that can affect rights or safety. NIST’s Generative AI Profile is designed to help organizations identify risks specific to generative AI and manage them across design, development, use, and evaluation. ([NIST](https://www.nist.gov/itl/ai-risk-management-framework))
 
 ## 10. What good governance looks like
 
@@ -168,7 +168,7 @@ For BIT students, the opportunity is not only to learn coding. It is to learn ho
 
 ## 12. Hands-on lab: design an AI-enabled invoice automation
 
-This lab does not require paid enterprise software. You can complete it with a spreadsheet and any AI chatbot approved by your instructor. If you have access to Microsoft Power Automate Desktop, you can optionally build a small version of the workflow. Microsoft says Power Automate includes cloud flows, desktop flows, process and task mining, and AI-powered automation, but licensing varies; unattended desktop automation and premium features usually require paid plans. ([Microsoft](https://www.microsoft.com/en/power-platform/products/power-automate?utm_source=chatgpt.com)) ([Microsoft](https://www.microsoft.com/en/power-platform/products/power-automate/pricing?utm_source=chatgpt.com))
+This lab does not require paid enterprise software. You can complete it with a spreadsheet and any AI chatbot approved by your instructor. If you have access to Microsoft Power Automate Desktop, you can optionally build a small version of the workflow. Microsoft says Power Automate includes cloud flows, desktop flows, process and task mining, and AI-powered automation, but licensing varies; unattended desktop automation and premium features usually require paid plans. ([Microsoft](https://www.microsoft.com/en/power-platform/products/power-automate)) ([Microsoft](https://www.microsoft.com/en/power-platform/products/power-automate/pricing))
 
 ### Scenario
 

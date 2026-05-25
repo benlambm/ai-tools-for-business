@@ -96,7 +96,7 @@ AI is good at accelerating blank-page work. It can produce first drafts, generat
 
 AI is weaker when the cost of being wrong is high. It may invent facts, misunderstand users, ignore rare edge cases, leak sensitive information if used carelessly, reproduce bias from training data, or generate code that appears correct but fails under real conditions. In safety-critical fields such as aerospace, medical devices, finance, and automotive systems, AI output must be verified through engineering review, testing, documentation, and regulatory processes.
 
-NIST’s AI Risk Management Framework is a helpful reality check. NIST says trustworthy AI should be valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed. Those qualities do not appear automatically just because a tool is impressive; teams have to design review processes around them. ([NIST AI Resource Center](https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/?utm_source=chatgpt.com))
+NIST’s AI Risk Management Framework is a helpful reality check. NIST says trustworthy AI should be valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed. Those qualities do not appear automatically just because a tool is impressive; teams have to design review processes around them. ([NIST AI Resource Center](https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/))
 
 ## 12. Hands-on lab: Use AI to design a product concept responsibly
 

@@ -56,7 +56,7 @@ In online advertising, businesses often buy ad space through automated systems. 
 
 AI helps with this process by analyzing signals such as search terms, location, device type, browsing behavior, past purchases, content context, and advertiser goals. The AI does not “know” the person like a friend would. Instead, it estimates probabilities: Who is likely to click? Who is likely to buy? Which ad version is likely to perform best?
 
-Google’s Performance Max campaigns are a clear example. Google describes Performance Max as using Google AI across bidding, budget optimization, audiences, creative, attribution, and other parts of campaign management. The system can optimize across Google properties based on goals such as conversions, cost per acquisition, or return on ad spend. ([Google Help](https://support.google.com/google-ads/answer/10724817?hl=en&utm_source=chatgpt.com))
+Google’s Performance Max campaigns are a clear example. Google describes Performance Max as using Google AI across bidding, budget optimization, audiences, creative, attribution, and other parts of campaign management. The system can optimize across Google properties based on goals such as conversions, cost per acquisition, or return on ad spend. ([Google Help](https://support.google.com/google-ads/answer/10724817?hl=en))
 
 **Cost per acquisition**, or **CPA**, means the average amount spent to get one conversion. If a company spends \$200 and gets 10 purchases, the CPA is \$20. **Return on ad spend**, or **ROAS**, compares revenue to advertising cost. If a company spends \$100 on ads and earns \$400 in revenue from those ads, the ROAS is 4:1.
 
@@ -136,13 +136,13 @@ Search marketing is also changing. **Search engine optimization**, or **SEO**, m
 
 AI affects both.
 
-On the advertising side, Google has introduced AI Max for Search campaigns. Google describes AI Max as using landing page content, existing ads, assets, and generative AI to create customized ad copy that better matches user searches. ([Google Help](https://support.google.com/google-ads/answer/15910187?hl=en&utm_source=chatgpt.com))
+On the advertising side, Google has introduced AI Max for Search campaigns. Google describes AI Max as using landing page content, existing ads, assets, and generative AI to create customized ad copy that better matches user searches. ([Google Help](https://support.google.com/google-ads/answer/15910187?hl=en))
 
 On the organic search side, AI-generated summaries can change how people behave after searching. Pew Research Center analyzed browsing behavior from 900 U.S. adults in March 2025 and found that users who saw a Google AI summary clicked a traditional search result in 8% of visits, compared with 15% of visits without an AI summary. Pew also found users clicked links inside the AI summaries only 1% of the time and were more likely to end the browsing session after seeing a summary. ([Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/))
 
 For marketers, that means website traffic from search may become harder to predict. A person might get an answer directly from an AI summary instead of clicking to the company’s website. This creates pressure for marketers to write clearer pages, maintain accurate product data, use structured information, and think about visibility inside AI-generated answers, not only traditional search rankings.
 
-Google has also been expanding advertising into AI-powered search experiences. At Google Marketing Live 2025, Google said it was expanding ads in AI Overviews to desktop and bringing ads to AI Mode. ([blog.google](https://blog.google/products/ads-commerce/google-marketing-live-2025/?utm_source=chatgpt.com))
+Google has also been expanding advertising into AI-powered search experiences. At Google Marketing Live 2025, Google said it was expanding ads in AI Overviews to desktop and bringing ads to AI Mode. ([blog.google](https://blog.google/products/ads-commerce/google-marketing-live-2025/))
 
 ### 5. Analytics, attribution, and campaign reporting
 
