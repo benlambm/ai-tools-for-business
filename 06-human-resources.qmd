@@ -1,0 +1,306 @@
+# Chapter 6: AI Tools in Human Resources
+
+> **Course Outcome**
+>
+> VCCS-6. AI-Driven Human Resource Management: Assess how AI-driven tools streamline human resource management, including recruitment automation, resume screening, and employee engagement analysis.
+
+Artificial intelligence tools are already being used in **Human Resources**, usually called **HR**. HR is the business function responsible for hiring, onboarding, payroll coordination, benefits, employee records, training, performance reviews, promotions, workforce planning, and sometimes workplace investigations or employee relations. In 2026, AI in HR is not mainly a science-fiction “robot boss.” It is more often a set of features built into software that companies already use: applicant tracking systems, payroll platforms, human capital management systems, learning platforms, employee help desks, and workforce scheduling tools.
+
+A useful way to summarize the current reality is this: **AI is being used most heavily where HR work is repetitive, document-heavy, data-heavy, or communication-heavy.** That includes writing job postings, screening résumés, matching candidates to jobs, scheduling interviews, answering employee questions, detecting payroll anomalies, recommending training, summarizing performance feedback, and forecasting staffing needs. It is used much less consistently for final decisions about hiring, firing, promotion, discipline, or pay, partly because those decisions carry legal, ethical, and reputational risk.
+
+A 2026 SHRM survey of HR professionals found that 39% said AI had already been adopted inside their HR function, while another 7% planned to launch HR AI that year. The most common HR areas were recruiting, HR technology, learning and development, and employee experience. SHRM also found that many organizations still do not formally measure whether their AI investments are working, which is important: AI adoption is real, but its value is not always carefully proven. ([SHRM](https://www.shrm.org/topics-tools/research/state-of-ai-hr-2026/full-report))
+
+## 1. Basic Concepts: What “AI in HR” Means
+
+**Artificial intelligence**, or **AI**, means computer systems that perform tasks associated with human judgment, language, pattern recognition, prediction, or decision support. In HR, AI does not usually “understand people” the way a human manager might. It looks for patterns in data and produces outputs such as recommendations, rankings, summaries, predictions, or generated text.
+
+**Machine learning** is a type of AI in which software learns patterns from data. For example, a machine learning model might look at past employee turnover data and identify patterns associated with people leaving the company. That does not mean the model knows why someone will quit. It means the system has found statistical relationships in the data.
+
+**Generative AI** is AI that creates new content, such as text, images, code, or summaries. In HR, generative AI might draft a job description, summarize an employee handbook, write a first draft of a performance review, or create a training quiz.
+
+A **large language model**, or **LLM**, is a generative AI system trained on huge amounts of text. It predicts and generates language. ChatGPT is one example of an LLM-based tool. HR departments may use LLMs directly, but more often they use them through business software platforms that embed generative AI into everyday workflows.
+
+A **human capital management system**, or **HCM system**, is software that helps organizations manage employee information and HR processes. HCM systems may include recruiting, onboarding, payroll, benefits, performance management, learning, internal mobility, and analytics.
+
+The most important point for students is that AI in HR is usually not one single product. It is a layer inside many products. A company might not say, “We bought an AI HR system.” It might say, “We use Workday, ADP, Dayforce, Oracle, SAP, UKG, Greenhouse, iCIMS, LinkedIn Recruiter, or another HR platform,” and those systems may include AI features.
+
+## 2. Where AI Is Most Common: Recruiting and Hiring
+
+The most visible use of AI in HR is **talent acquisition**, which means finding, attracting, evaluating, and hiring job candidates. This is where HR departments face large volumes of documents and messages. A single job opening can attract hundreds or thousands of applications. AI tools are attractive because they promise to reduce repetitive screening and communication work.
+
+Common recruiting uses include:
+
+- drafting job descriptions and job ads;
+
+- rewriting job postings for clarity or tone;
+
+- parsing résumés into structured fields;
+
+- matching candidate skills to job requirements;
+
+- ranking or sorting applicants;
+
+- answering candidate questions through chatbots;
+
+- scheduling interviews;
+
+- generating interview questions;
+
+- summarizing interview notes;
+
+- helping recruiters search internal or external talent databases.
+
+SHRM’s 2024 research found that among organizations using AI in HR, talent acquisition was the most common area. Among organizations using AI for recruiting, common tasks included generating job descriptions, customizing job postings, reviewing or screening résumés, communicating with applicants, and automating candidate searches. ([SHRM](https://www.shrm.org/topics-tools/news/all-things-work/ai-hr-challenges-opportunities))
+
+Here is a realistic example. A retailer needs to hire 200 seasonal warehouse workers. The HR team posts jobs in multiple cities. AI helps generate job ads, a chatbot answers applicant questions, the system checks whether applicants meet basic requirements, and scheduling software books interviews or hiring events. A human recruiter may still make the final call, but the workflow is heavily automated.
+
+Large HR platforms are building these features directly into their products. Workday, one of the major enterprise HCM vendors, describes its HCM suite as covering the employee lifecycle from recruiting through retirement. In its 2026 annual filing, Workday described AI-powered talent acquisition products including HiredScore AI for Recruiting, Candidate Experience Agent, and Paradox Conversational Applicant Tracking System. ([SEC](https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm)) ADP, another major payroll and HR vendor, describes AI features in ADP Assist across payroll, time, talent, benefits, recruitment, analytics, reporting, and compliance. Its filings also describe tools that use large skills datasets to support candidate matching and labor market insight. ([SEC](https://www.sec.gov/Archives/edgar/data/8670/000000867024000024/adp-20240630.htm))
+
+This matters because HR AI is not limited to experimental startups. It is being embedded inside mainstream enterprise software used by large and midsize employers. Smaller employers may also use AI without building anything themselves, because AI features can appear inside payroll, scheduling, job posting, or applicant tracking tools they already subscribe to.
+
+### The Hiring Risk: Bias at Scale
+
+Hiring is also the area where AI risk is easiest to understand. If a human recruiter unfairly screens out candidates, that is a serious problem. If software unfairly screens out candidates at scale, the problem can affect thousands of people before anyone notices.
+
+A key legal concept is **adverse impact**, sometimes called **disparate impact**. This means a seemingly neutral practice may disproportionately exclude people in a protected group, such as by race, sex, age, disability, religion, or national origin. The U.S. Equal Employment Opportunity Commission, or **EEOC**, has said that federal employment discrimination law applies when employers use automated systems to make or inform employment selection decisions. The EEOC’s guidance discusses the “four-fifths rule,” a rule of thumb used to flag selection rates that may need closer review. ([EEOC](https://www.eeoc.gov/2023-annual-performance-report?utm_source=chatgpt.com))
+
+The risk is not theoretical. In one EEOC case, iTutorGroup was accused of programming online recruitment software to automatically reject female applicants age 55 or older and male applicants age 60 or older. The company later agreed to pay \$365,000 to settle the lawsuit. ([EEOC](https://www.eeoc.gov/newsroom/eeoc-sues-itutorgroup-age-discrimination?utm_source=chatgpt.com)) ([EEOC](https://www.eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit?utm_source=chatgpt.com))
+
+The lesson is simple: **automating a bad rule does not make it fair.** AI can make HR faster, but it can also make unfair screening faster.
+
+## 3. Employee Help Desks, Payroll, and Benefits
+
+A second major use of AI in HR is employee support. Many HR departments answer the same questions repeatedly:
+
+“Where do I find my W-2?”
+“How many vacation days do I have?”
+“What is the parental leave policy?”
+“How do I change my direct deposit?”
+“What happens if I miss open enrollment?”
+
+AI chatbots and generative AI assistants can answer common employee questions by searching company policy documents, benefit materials, payroll information, and HR knowledge bases. This type of AI is often less glamorous than résumé screening, but it can be very useful. HR teams spend a lot of time responding to routine questions, and employees often need answers outside normal office hours.
+
+ADP’s 2024 annual filing gives a concrete example. ADP Assist uses generative AI across payroll, time, talent, benefits, recruitment, analytics, reporting, and compliance. ADP describes uses such as validating payroll information, checking payroll anomalies, identifying missing tax registrations, answering compliance questions, simplifying report creation, and helping users access workforce data. ([SEC](https://www.sec.gov/Archives/edgar/data/8670/000000867024000024/adp-20240630.htm))
+
+This kind of AI usually works best when it is connected to reliable internal documents. A chatbot that answers from the actual employee handbook is more useful than a chatbot that guesses. But there is still risk. A chatbot could give an outdated answer about medical leave, misstate a benefit rule, or reveal information to the wrong person. For that reason, many organizations treat HR chatbots as assistants, not final authorities.
+
+A responsible HR chatbot should be able to say, “I do not know,” cite the policy it used, escalate to a human HR representative, and avoid exposing private employee data.
+
+## 4. Learning, Development, and Skills
+
+Another growing use of AI in HR is **learning and development**, often abbreviated as **L&D**. This means helping employees build skills through training, coaching, certifications, courses, mentoring, and career pathways.
+
+AI can help L&D teams in several ways. It can recommend training based on a worker’s role, career goals, or skill gaps. It can generate quizzes, practice scenarios, simulations, and course outlines. It can summarize training materials or convert a long policy document into a shorter lesson. It can also help build a **skills inventory**, which is a structured list of skills employees have or may need.
+
+SHRM’s 2026 report found learning and development among the more common HR AI areas, after recruiting and HR technology. It also described AI uses such as content generation, AI-generated quizzes and scenarios, candidate-job matching, and personalized learning recommendations. ([SHRM](https://www.shrm.org/topics-tools/research/state-of-ai-hr-2026/full-report))
+
+The idea of skills is especially important. Many companies want to move from job-title-based HR to **skills-based talent management**. Instead of saying, “Maria is a payroll specialist,” the system might say, “Maria has skills in payroll compliance, Excel, Spanish-language customer support, and tax reporting.” That can help companies find internal candidates for projects or promotions.
+
+But skills data can be incomplete. Some employees are better at describing their work than others. Some managers document employee skills carefully; others do not. Some skills are visible in software systems, while others are informal or relational. If AI recommends opportunities only to people whose skills are already well documented, it may reinforce existing inequalities.
+
+A good HR team should ask: Who is missing from the data? Whose work is easy to measure? Whose work is invisible to the system?
+
+## 5. Performance Reviews and Manager Support
+
+AI is also being used in **performance management**, the HR process for setting goals, giving feedback, evaluating work, and documenting performance. Generative AI can help managers write clearer feedback, summarize peer comments, draft goals, and turn rough notes into more professional language.
+
+This can be helpful because many managers struggle to write useful performance reviews. Some write vague comments such as “good team player” or “needs improvement.” AI can suggest more specific wording, remind managers to connect feedback to goals, or identify missing examples.
+
+SHRM’s 2024 research found that among organizations using AI for performance management, many used it to help managers provide more comprehensive and actionable feedback or to support employee goal setting. ([SHRM](https://www.shrm.org/topics-tools/news/all-things-work/ai-hr-challenges-opportunities))
+
+But performance reviews are sensitive. A poorly written AI-generated review can damage someone’s career. AI may produce confident but unsupported language. It may soften serious issues too much or make minor issues sound severe. It may also reproduce patterns in prior reviews, including biased language. For example, if women in past reviews were more often described as “helpful” while men were described as “strategic,” an AI tool trained on those patterns could repeat them.
+
+The safest use is not “let AI rate the employee.” The safer use is “let AI help the manager organize evidence, check clarity, and draft language that the manager must verify.” The human manager remains responsible for accuracy and fairness.
+
+## 6. Workforce Planning and People Analytics
+
+HR departments also use AI for **people analytics**, which means analyzing workforce data to support business decisions. Examples include turnover, absenteeism, pay, promotion patterns, hiring speed, engagement survey results, training completion, and staffing levels.
+
+AI can help answer questions such as:
+
+How many nurses will this hospital need next quarter?
+Which departments have unusually high turnover?
+Which skills are becoming harder to hire for?
+Are employees leaving after a certain manager, schedule, or commute pattern?
+How might a hiring freeze affect customer support wait times?
+
+Workday describes AI-supported planning features that assist forecasting using historical and third-party data, including labor statistics. ([SEC](https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm)) ADP also describes analytics tools that help users analyze compensation, turnover, candidate profile relevancy, and talent market insights. ([SEC](https://www.sec.gov/Archives/edgar/data/8670/000000867024000024/adp-20240630.htm))
+
+People analytics can improve planning, but it must be handled carefully. Employee data is not just business data; it is personal data about people’s jobs, pay, schedules, health benefits, locations, performance, and sometimes family situations. A turnover prediction model, for example, might label an employee as a “flight risk.” That could help a manager offer support, but it could also unfairly limit the employee’s promotion opportunities if the label is misused.
+
+Prediction is not destiny. A model might find that employees with long commutes are more likely to quit. That does not mean any one employee with a long commute is planning to quit. HR teams need to avoid turning probabilities into stereotypes.
+
+## 7. Scheduling, Monitoring, and Algorithmic Management
+
+A more controversial use of AI in HR is **algorithmic management**. Algorithmic management means using software, sometimes including AI, to automate tasks traditionally done by human managers. That can include assigning shifts, measuring productivity, ranking workers, triggering warnings, recommending discipline, or controlling work pace. The OECD describes algorithmic management as software that fully or partly automates managerial tasks, with possible productivity benefits but also risks for workers. ([OECD](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html?utm_source=chatgpt.com))
+
+This type of AI is common in frontline settings: warehouses, delivery, retail, call centers, restaurants, transportation, and gig-work platforms. AI may forecast customer demand, assign workers to shifts, track call times, monitor route completion, evaluate productivity, or flag unusual behavior.
+
+Some uses are reasonable. A hospital needs enough staff on a shift. A grocery store needs cashiers when customers arrive. A call center needs to know whether customers are waiting too long. AI can help forecast workload and improve scheduling.
+
+But monitoring can become harmful when workers feel constantly watched or when flawed metrics drive discipline. The U.S. Government Accountability Office reviewed research on digital workplace surveillance and noted that employers monitor workers for performance, productivity, and safety, while studies have examined effects on physical health, mental health, and employment opportunities. ([GAO](https://www.gao.gov/products/gao-25-107126?utm_source=chatgpt.com)) In a related report, GAO noted stakeholder concerns that digital surveillance can create distrust, reduce morale, and discourage workers from exercising workplace rights. ([GAO](https://www.gao.gov/products/gao-24-107639?utm_source=chatgpt.com))
+
+The core issue is not simply “AI is bad” or “monitoring is bad.” The issue is whether measurement is fair, accurate, transparent, and humane. Measuring keystrokes may be a poor way to evaluate a software developer. Measuring call length may punish a customer support worker who handles complex problems. Measuring warehouse speed without considering safety may encourage injuries.
+
+Good HR technology should help people do better work. It should not reduce people to a dashboard number.
+
+## 8. Employees Often Experience AI Differently Than Executives Do
+
+One reason AI in HR is confusing is that leaders and employees may see different realities. Senior executives may talk about AI strategy, while many workers have not been trained or even told clearly how AI is being used.
+
+Gallup found that 93% of Fortune 500 chief human resources officers said their organization had begun using AI tools or technologies to improve business practices, but only 33% of U.S. employees said their organization had begun integrating AI. Gallup also found that many employees had not received clear guidance or training. ([Gallup.com](https://www.gallup.com/workplace/651203/workplace-answering-big-questions.aspx)) Pew Research Center similarly found that many U.S. workers were more worried than hopeful about future workplace AI use, and only a minority said at least some of their current work was being done with AI. ([Pew Research Center](https://www.pewresearch.org/social-trends/2025/02/25/u-s-workers-are-more-worried-than-hopeful-about-future-ai-use-in-the-workplace/))
+
+This gap matters for HR. HR is often responsible for communication, training, policy, and trust. If employees believe AI is being introduced secretly, or mainly to replace or monitor them, they may resist it. If employees understand what the tool does, what it does not do, what data it uses, and how to challenge errors, adoption is more likely to be legitimate.
+
+## 9. Regulation and Governance Are Becoming Part of HR AI
+
+AI in HR is increasingly regulated, especially when it affects hiring, promotion, pay, discipline, or termination. The legal landscape is changing quickly, but the direction is clear: employers are being pushed to document, test, explain, and govern automated employment tools.
+
+New York City’s Local Law 144 is one example. It restricts employer use of automated employment decision tools unless a bias audit has been conducted, certain information is made public, and notices are provided to candidates or employees. ([New York City Government](https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page?utm_source=chatgpt.com)) Enforcement is not simple, however. A 2025 New York State Comptroller audit found that the city agency responsible for enforcement had difficulty identifying noncompliance, especially when employers did not disclose AI use or post required audit information. ([Office of the New York State Comptroller](https://www.osc.ny.gov/press/releases/2025/12/dinapoli-new-yorkers-deserve-transparent-hiring-process-when-artificial-intelligence-used-vet-their?utm_source=chatgpt.com))
+
+Colorado has also moved into this area. In May 2026, Colorado enacted SB26-189, replacing and revising its earlier AI law. The law defines automated decision-making technology and covers consequential decisions, including employment. Starting January 1, 2027, developers and deployers of covered systems face requirements involving documentation, notices, records, adverse-outcome explanations, correction requests, and meaningful human review. ([Colorado General Assembly](https://leg.colorado.gov/bills/sb26-189))
+
+California’s Civil Rights Council approved regulations clarifying that employment discrimination protections apply to AI, algorithms, and automated decision systems. ([Civil Rights Department](https://calcivilrights.ca.gov/2025/06/30/civil-rights-council-secures-approval-for-regulations-to-protect-against-employment-discrimination-related-to-artificial-intelligence/?utm_source=chatgpt.com)) In the European Union, the AI Act treats employment and worker-management AI systems as high-risk, meaning they face stricter requirements around documentation, risk management, data governance, human oversight, accuracy, and cybersecurity. ([Digital Strategy EU](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai?utm_source=chatgpt.com)) ([Artificial Intelligence Act EU](https://artificialintelligenceact.eu/annex/3/?utm_source=chatgpt.com))
+
+For HR professionals, the takeaway is practical: AI governance is becoming part of HR work. HR teams need to know what systems they use, what decisions those systems affect, what data they process, how bias is tested, how humans review outputs, and how employees or applicants can challenge errors.
+
+## 10. What Responsible HR AI Looks Like
+
+A responsible HR AI program does not start with a flashy tool. It starts with a clear question: **What HR problem are we trying to solve, and what would count as success?**
+
+For example, “We want AI” is not a good goal. “We want to reduce interview scheduling time while maintaining candidate satisfaction and avoiding discriminatory screening” is better. “We want to use AI to identify internal employees who may qualify for cybersecurity training, while allowing people to add missing skills to their profiles” is also better.
+
+Responsible HR AI usually includes several practices.
+
+First, the organization keeps an inventory of AI tools. HR cannot govern tools it does not know about. That inventory should include vendor tools, internally built tools, and general-purpose AI tools used by HR staff.
+
+Second, the organization classifies use cases by risk. Drafting a picnic announcement is low risk. Ranking job applicants is high risk. Recommending termination is very high risk.
+
+Third, the organization tests for accuracy and bias. In hiring, that may include adverse-impact analysis. In payroll, it may include checking whether anomaly detection creates false alarms. In chatbots, it may include testing whether answers match current policy.
+
+Fourth, the organization keeps humans accountable. “Human in the loop” should not mean a person blindly clicks approve. It should mean the human reviewer has enough information, authority, and time to question the system.
+
+Fifth, the organization communicates clearly. Applicants and employees should know when automated tools are being used in important decisions, what data is involved, and how to request review or correction.
+
+Finally, the organization measures outcomes. This is where many companies are still immature. SHRM found that more than half of HR professionals said their organizations did not formally measure the success of AI investments. ([SHRM](https://www.shrm.org/topics-tools/research/state-of-ai-hr-2026/full-report)) Without measurement, AI can become expensive decoration: impressive in demos but weak in real impact.
+
+## 11. Hands-On Lab: Run a Mini Bias Audit on an AI Screening Tool
+
+This lab gives you a simplified version of an HR AI governance task. You will test whether an AI screening tool may be creating an adverse-impact warning. This is not a full legal audit. It is a classroom exercise using the four-fifths rule as a practical screening method.
+
+### Scenario
+
+A company used an AI-assisted résumé screening tool for an entry-level analyst job. The tool did not make final hiring decisions. It recommended applicants for recruiter review. HR wants to check whether recommendation rates differ sharply across demographic groups.
+
+In a real company, demographic data must be handled carefully and legally. For this lab, we will use anonymous groups: Group A, Group B, and Group C.
+
+### Data
+
+| **Group** | **Applicants** | **Recommended for recruiter review** |
+|-----------|---------------:|-------------------------------------:|
+| Group A   |            100 |                                   50 |
+| Group B   |             80 |                                   28 |
+| Group C   |             40 |                                   18 |
+
+### Step 1: Calculate the selection rate
+
+The **selection rate** is the percentage of applicants in a group who were selected or recommended.
+
+Formula:
+
+Selection rate = Recommended applicants ÷ Total applicants
+
+For Group A:
+
+50 ÷ 100 = 0.50, or 50%
+
+For Group B:
+
+28 ÷ 80 = 0.35, or 35%
+
+For Group C:
+
+18 ÷ 40 = 0.45, or 45%
+
+### Step 2: Find the highest selection rate
+
+The highest rate is Group A’s 50%.
+
+### Step 3: Calculate the impact ratio
+
+The **impact ratio** compares each group’s selection rate with the highest selection rate.
+
+Formula:
+
+Impact ratio = Group selection rate ÷ Highest selection rate
+
+Group A:
+
+0.50 ÷ 0.50 = 1.00
+
+Group B:
+
+0.35 ÷ 0.50 = 0.70
+
+Group C:
+
+0.45 ÷ 0.50 = 0.90
+
+### Step 4: Apply the four-fifths rule
+
+The four-fifths rule says that if a group’s selection rate is less than 80% of the highest group’s rate, that result may be evidence of adverse impact and should be investigated. The EEOC describes this as a general rule of thumb, not an automatic legal conclusion. ([EEOC](https://www.eeoc.gov/laws/guidance/questions-and-answers-clarify-and-provide-common-interpretation-uniform-guidelines?utm_source=chatgpt.com))
+
+Group B’s impact ratio is 0.70, which is below 0.80. That is a warning sign.
+
+### Step 5: Interpret the result
+
+A warning sign does not prove the AI tool is illegal or discriminatory. It means HR should investigate before trusting the tool. The team should ask:
+
+Was the AI recommendation actually job-related?
+What features did the tool use?
+Did it rely on proxies such as school prestige, employment gaps, ZIP code, or résumé style?
+Were applicants with disabilities disadvantaged by the format?
+Were candidates able to request accommodation?
+Were humans reviewing the recommendations carefully?
+Would a different screening method produce less adverse impact while still identifying qualified candidates?
+
+### Spreadsheet Version
+
+Create columns named:
+
+Group
+Applicants
+Recommended
+Selection Rate
+Impact Ratio
+Flag
+
+In the Selection Rate column, use:
+
+=C2/B2
+
+In the Impact Ratio column, use:
+
+=D2/MAX(\$D\$2:\$D\$4)
+
+In the Flag column, use:
+
+=IF(E2\<0.8,"Review needed","No 4/5ths flag")
+
+Then copy the formulas down for all groups.
+
+### Lab Reflection
+
+The most important result is not the number itself. The important result is the conversation the number forces HR to have. A responsible organization does not say, “The AI ranked them, so we are done.” It says, “Can we justify this process? Can we explain it? Can we test it? Can people challenge it? Does it actually help us hire qualified people fairly?”
+
+That is the difference between using AI as a tool and hiding behind AI as an excuse.
+
+## 12. Final Takeaways
+
+AI tools are definitely being used in Human Resources. The biggest uses are in recruiting, employee support, payroll assistance, learning, performance review drafting, workforce analytics, scheduling, and monitoring. The most mature deployments are often embedded in large HR software platforms rather than built from scratch by HR departments.
+
+The benefits are real but practical: faster communication, less repetitive administration, better search across documents, improved scheduling, more consistent workflows, and stronger analytics. The risks are also real: biased screening, privacy invasion, inaccurate recommendations, over-monitoring, weak vendor transparency, and decisions that humans approve without meaningful review.
+
+The best way to understand HR AI is not to ask, “Will AI replace HR?” A better question is: **Which HR tasks are being automated, who is affected, what data is being used, how are errors caught, and who remains accountable?**
+
+In responsible organizations, AI helps HR professionals serve people better. In irresponsible organizations, AI can make unfair or careless systems faster and harder to challenge. The technology matters, but the governance matters just as much.

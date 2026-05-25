@@ -1,0 +1,184 @@
+# Chapter 4: AI Tools in Fraud Detection and Cybersecurity
+
+> **Course Outcome**
+>
+> VCCS-4. Explain how AI enhances fraud detection and security by identifying fraudulent transactions, cybersecurity threats, and suspicious activities.
+
+AI tools are absolutely being used in fraud detection and security. In fact, these are among the most common real-world uses of artificial intelligence in business today. But they usually do not look like a robot “catching criminals.” They look like risk scores, alerts, dashboards, automated blocks, identity checks, phishing triage, and investigation summaries that help human workers decide what to do next.
+
+A useful way to think about AI in fraud and security is this: modern businesses see too many transactions, logins, emails, files, devices, and network events for people to inspect one by one. AI tools help sort that flood of activity into “probably normal,” “possibly risky,” and “urgent.” The U.S. Government Accountability Office, for example, reports that financial institutions use AI for activities such as detecting illicit activity, identifying fake IDs, screening against sanctions lists, analyzing transaction data, and detecting cyber threats in real time. ([GAO Files](https://files.gao.gov/reports/GAO-25-107197/index.html))
+
+Fraud detection means finding deception that could lead to stolen money, stolen goods, stolen accounts, or illegal transactions. Security, or cybersecurity, means protecting systems, devices, networks, and data from unauthorized access or harm. These two areas overlap. A stolen password can become credit card fraud. A phishing email can lead to ransomware. A fake identity can be used to open a bank account, launder money, or attack a business.
+
+The scale of the problem explains why AI is so attractive. The Federal Trade Commission reported that U.S. consumers lost more than \$12.5 billion to fraud in 2024, with investment scams and imposter scams among the largest categories. ([Federal Trade Commission](https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024)) The FBI’s Internet Crime Complaint Center reported more than 1 million complaints in 2025 and nearly \$21 billion in losses from cyber-enabled crime; it also created a specific AI-related section after receiving more than 22,000 AI-related complaints with nearly \$893 million in reported losses. ([Federal Bureau of Investigation](https://www.fbi.gov/news/press-releases/cryptocurrency-and-ai-scams-bilk-americans-of-billions))
+
+So the basic answer is: yes, AI is being used, but mostly as a high-speed decision-support layer. It helps businesses notice patterns faster than people can, but it still needs good data, sensible rules, human oversight, and careful governance.
+
+## The basic idea: AI turns messy activity into risk signals
+
+Artificial intelligence, or AI, is software designed to perform tasks that normally require human-like judgment, such as recognizing patterns, classifying information, or generating explanations. Machine learning is a type of AI in which software learns patterns from data instead of being programmed with only fixed rules. A model is the trained system that makes predictions or classifications.
+
+In fraud and security, the model usually works with features. A feature is a piece of information the system can use, such as transaction amount, time of day, location, device type, number of failed login attempts, or whether a shipping address matches a billing address.
+
+For example, imagine an online order. A fraud system might consider these signals:
+
+The customer is using a new device. The order is unusually expensive. The shipping address is new. The account was created yesterday. The customer tried three credit cards before one worked. The IP address appears to come from a country where the customer has never logged in before.
+
+None of these facts alone proves fraud. A real customer might buy a laptop while traveling. But the combination may be suspicious. AI is good at combining many weak clues into a risk score. A risk score is a number that estimates how risky an event looks. A payment might receive a score of 92 out of 100, meaning “very suspicious,” or 12 out of 100, meaning “probably normal.”
+
+That score can trigger different actions. A low-risk transaction may be approved automatically. A medium-risk transaction may require step-up authentication, meaning the customer must provide extra proof, such as a passkey, one-time code, or app confirmation. A high-risk transaction may be declined or sent to a human fraud analyst.
+
+This is why AI in fraud detection is rarely a single yes-or-no machine. It is usually part of a workflow: collect signals, score the event, apply business rules, send difficult cases to people, and learn from the final outcome.
+
+## Why old-fashioned rules are not enough
+
+Businesses still use rules. A rule is a fixed instruction such as “block any order above \$5,000 from a brand-new account” or “require extra verification after five failed login attempts.” Rules are useful because they are easy to understand and quick to apply.
+
+But fraudsters adapt. Once criminals learn a rule, they change their behavior. If orders above \$5,000 are blocked, they may place five orders for \$900. If a stolen card is tested with large purchases, they may first test it with a \$2 charge. If an email filter blocks one phrase, attackers write a different phrase.
+
+Machine learning helps because it can detect patterns across many features at once. It can learn that a transaction is suspicious not because of one obvious rule, but because it resembles past fraud cases in subtle ways. It can also be updated as criminals change tactics.
+
+That said, AI does not eliminate rules. In real systems, rules and AI are usually combined. A bank may use machine learning to assign a risk score, then use rules to decide what happens at each score level. For example, scores under 30 might pass, scores from 30 to 70 might require extra verification, and scores above 70 might go to manual review.
+
+## How AI is used in payment fraud
+
+Payment fraud is one of the clearest examples of AI deployment. Every time a card payment is approved online, there may be a fraud system evaluating it in the background. This is especially important for card-not-present transactions, which means online or phone payments where the card is not physically tapped, inserted, or swiped.
+
+Visa, Mastercard, PayPal, Stripe, Square, and other payment companies all describe AI or machine learning as part of their fraud and risk products. Visa says its Visa Protect suite uses AI-powered fraud prevention, and its public materials describe tools such as Visa Advanced Authorization and Visa Deep Authorization that score transactions using hundreds of signals. Because those details come from Visa’s own product pages, they should be treated as vendor-published descriptions rather than independent proof of performance. ([Visa](https://www.visa.com/en-us/solutions/secure-card-payments)) Visa also disclosed in an SEC filing that it acquired Featurespace, a company focused on real-time AI payments protection, for \$946 million in December 2024. ([SEC](https://www.sec.gov/Archives/edgar/data/1403161/000140316125000052/v-20250630.htm))
+
+Mastercard’s 2025 Form 10-K describes security solutions for prevention, identification, detection, and remediation. It also says its detection systems scan billions of data points across millions of transactions per day and use AI, data analytics, and cyber risk assessment to reduce fraud and false declines. ([SEC](https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm)) Mastercard separately described Decision Intelligence Pro as using generative AI techniques to help assess whether a transaction is valid. ([SEC](https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm))
+
+For smaller businesses, these systems are often embedded inside tools they already use. Stripe Radar, for example, is a vendor-published fraud tool that says it scores payments using signals from Stripe’s network. ([Stripe](https://stripe.com/radar)) Square describes risk evaluations based on proprietary machine learning models informed by signals from its payments ecosystem. ([Square](https://squareup.com/help/us/en/article/6772-understanding-risk-evaluations-on-transactions)) Shopify’s fraud analysis tools help merchants review orders that may be fraudulent, even though the product page does not necessarily mean each part is advanced AI. ([Shopify Help Center](https://help.shopify.com/en/manual/fulfillment/managing-orders/protecting-orders/fraud-analysis))
+
+The important practical point is that many small businesses use AI fraud detection without building AI themselves. A coffee shop, online boutique, repair business, or local nonprofit may rely on fraud scoring built into its payment processor, e-commerce platform, email provider, or bank.
+
+## How AI is used for account security and identity checks
+
+Fraud is not only about stolen cards. Criminals also try to take over accounts, create fake accounts, and impersonate real people. Account takeover means someone gains access to an account that does not belong to them. Synthetic identity fraud means criminals combine real and fake personal information to create a new identity that looks legitimate.
+
+AI tools are used to detect suspicious account behavior. A system might notice that a customer who usually logs in from New Jersey on an iPhone is suddenly logging in from a new device in another country, changing the password, adding a new bank account, and attempting a large transfer. Each action might be allowed by itself, but together they create a risky pattern.
+
+Businesses also use AI in identity verification. Computer vision, a type of AI that analyzes images or video, can compare a selfie to a government ID, detect whether an ID image appears altered, or check whether a person appears to be physically present rather than using a photo. Natural language processing, or NLP, can analyze text such as emails, chat messages, or documents. NLP is AI for processing human language.
+
+This area has become more complicated because criminals are also using AI. FinCEN, the Financial Crimes Enforcement Network, warned financial institutions about fraud schemes involving deepfake media created by generative AI, including fake identity documents used to bypass verification checks. ([FinCEN.gov](https://www.fincen.gov/news/news-releases/fincen-issues-alert-fraud-schemes-involving-deepfake-media-targeting-financial)) A deepfake is synthetic audio, video, or imagery that makes it look or sound as if a real person said or did something they did not.
+
+That creates an arms race. Businesses use AI to detect fake IDs and unusual behavior, while criminals use AI to create more convincing fake documents, voices, videos, and messages.
+
+## How AI is used in anti-money laundering and financial crime monitoring
+
+Anti-money laundering, often shortened to AML, refers to systems that try to prevent criminals from disguising illegal money as legitimate money. Know your customer, or KYC, refers to identity checks businesses perform to understand who their customers are. A suspicious activity report, or SAR, is a report that financial institutions may file with regulators when activity appears suspicious.
+
+AI can help with AML because illegal financial activity may involve many small steps across many accounts. A person may move money through several accounts, companies, wallets, or payment methods to hide its source. A single transaction may look normal, but the overall pattern may be suspicious.
+
+The GAO describes financial institutions using AI to assess customer risk, detect illicit activity, screen against sanctions and other lists, analyze transaction data, and review unstructured data such as email, text, or audio for possible money laundering, terrorist financing, bribery, tax evasion, insider trading, and market manipulation. ([GAO Files](https://files.gao.gov/reports/GAO-25-107197/index.html)) Unstructured data means information that does not fit neatly into rows and columns, such as a call transcript or email thread.
+
+A common AI method here is graph analytics. A graph is a network of connected items. In fraud detection, the items might be people, accounts, phone numbers, addresses, devices, credit cards, and companies. The connections might show who used the same device, who shared an address, or which accounts transferred money to each other. Graph analytics helps investigators see hidden relationships.
+
+For example, one new account may not look suspicious. But if it shares a device, phone number, shipping address, and bank account with ten previously banned accounts, the network tells a different story.
+
+## How AI is used in cybersecurity
+
+Security teams also use AI to detect attacks on systems and networks. A security information and event management system, or SIEM, collects logs from many systems and helps analysts investigate alerts. A log is a record of what happened, such as a login attempt, file change, or network connection. Endpoint detection and response, or EDR, monitors endpoints such as laptops, servers, and workstations. Extended detection and response, or XDR, combines signals from endpoints, email, cloud systems, identity systems, and networks.
+
+AI helps because cybersecurity produces enormous amounts of data. A large organization may see millions or billions of events per day. Most are harmless. The hard part is finding the few that matter.
+
+In practice, AI security tools may detect suspicious login patterns, identify malware-like behavior, group related alerts into one incident, summarize what happened, recommend next steps, or help analysts write search queries. CrowdStrike’s 2026 Form 10-K describes its Falcon platform as AI-native and says it uses security and enterprise data to support real-time detection, investigation, and response. ([SEC](https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm)) Microsoft’s Security Copilot documentation describes a generative AI-powered security solution for incident response, threat hunting, intelligence gathering, posture management, and other security tasks. ([Microsoft Learn](https://learn.microsoft.com/en-us/copilot/security/microsoft-security-copilot))
+
+Generative AI is AI that creates new content, such as text, code, images, or summaries. A large language model, or LLM, is a generative AI model trained on large amounts of text and code. In security work, an LLM might summarize a phishing investigation, explain a suspicious script, draft an incident report, or translate a natural-language question into a query that searches security logs.
+
+This can be useful, especially for overloaded teams. But it is not the same as fully automated security. Microsoft’s own documentation says Security Copilot returns responses for users to review and assess. ([Microsoft Learn](https://learn.microsoft.com/en-us/copilot/security/microsoft-security-copilot)) That review step matters because AI systems can make mistakes.
+
+## Attackers use AI too
+
+The same AI tools that help defenders can also help attackers. Criminals can use generative AI to write more convincing phishing emails, translate scams into many languages, generate fake customer support messages, create malicious code, or imitate voices.
+
+Verizon’s 2026 Data Breach Investigations Report says 31% of breaches started with software vulnerabilities, 48% involved ransomware, and 15 attack techniques were being bolstered by generative AI. ([Verizon](https://www.verizon.com/business/resources/reports/dbir/)) Google Threat Intelligence Group reported that threat actors were increasingly integrating AI into reconnaissance, social engineering, and malware development in late 2025. ([Google Cloud](https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use)) Reconnaissance means gathering information about a target before attacking it. Social engineering means tricking people, rather than only attacking machines.
+
+This is important for students to understand: AI is not automatically “good” or “bad.” It is a capability. Defenders use it to find suspicious patterns faster. Attackers use it to produce more convincing deception faster. Businesses therefore need both AI tools and basic security discipline: strong authentication, employee training, software patching, least-privilege access, backups, monitoring, and incident response plans.
+
+## The most common AI techniques
+
+Fraud and security systems use several types of AI. Not every system uses all of them.
+
+Supervised machine learning learns from labeled examples. Labeled means the training data includes the correct answer, such as “fraud” or “legitimate.” If a company has years of payment history, it can train a model on past transactions that were later confirmed as fraud or not fraud.
+
+Anomaly detection looks for activity that is unusual compared with normal behavior. An anomaly is something that stands out. A login at 3 a.m. from a new country may be anomalous for one person but normal for another.
+
+Graph analytics studies relationships. This is useful when fraudsters create many accounts that appear separate but share hidden connections.
+
+Computer vision analyzes images or video. It can support ID checks, document review, and liveness detection.
+
+Natural language processing analyzes text or speech. It can help identify phishing emails, suspicious chat messages, fake reviews, or risky customer support conversations.
+
+Generative AI and LLMs help with investigation and explanation. They can summarize alerts, draft reports, explain code, or help analysts search logs. They are usually strongest as assistants, not final decision-makers.
+
+## What this looks like in different-sized businesses
+
+A small business usually does not hire a team of data scientists to build a fraud model. Instead, it uses AI indirectly through services such as payment processors, banks, e-commerce platforms, email security tools, accounting platforms, and cloud security products. The owner may see a simple dashboard: “high-risk order,” “possible phishing email,” or “unusual login.”
+
+A medium-sized business may have more control. It might configure fraud rules, choose risk thresholds, use a SIEM, require multi-factor authentication, and review weekly fraud reports. Multi-factor authentication, or MFA, means users must provide more than one proof of identity, such as a password plus a mobile app approval.
+
+A large business may combine vendor tools with custom models. A bank, marketplace, insurance company, airline, or telecom provider may have a fraud operations team, cybersecurity analysts, data engineers, model-risk staff, and legal or compliance reviewers. These organizations may build models using their own data because they see patterns that no outside vendor can fully see.
+
+In all three cases, the pattern is similar: AI helps prioritize attention. It does not remove the need for policy, judgment, or accountability.
+
+## Risks and limitations
+
+AI fraud and security tools make two basic kinds of mistakes. A false positive happens when the system flags something innocent as suspicious. A real customer’s card gets declined, an account is frozen, or an employee is locked out. A false negative happens when the system misses a real threat. A fraudulent order ships, a stolen login succeeds, or malware spreads.
+
+Both are costly. Too many false positives frustrate customers and waste staff time. Too many false negatives allow losses and breaches. The goal is not “perfect AI.” The goal is a practical balance between catching risk and allowing normal business to continue.
+
+There are also fairness and privacy concerns. A fraud system may use data that correlates with geography, income, device type, language, or shopping behavior. If not tested carefully, it may treat some groups unfairly. PayPal’s SEC risk disclosures, for example, warn that AI and machine-learning algorithms may be flawed or based on biased or insufficient datasets. ([SEC](https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm))
+
+Another limitation is model drift. Drift happens when the world changes and a model becomes less accurate. Fraud tactics change, customer habits change, products change, and new attack methods appear. A model trained on last year’s fraud may not catch this year’s fraud unless it is monitored and updated.
+
+Finally, there is an automation risk. A business may be tempted to let the system decide everything. That can be dangerous in high-stakes cases, such as account freezes, denied access, or law-enforcement referrals. The GAO notes that financial regulators using AI generally described AI outputs as informing staff decisions rather than serving as the sole decision-maker. ([GAO](https://www.gao.gov/products/gao-25-107197)) NIST’s AI Risk Management Framework and its generative AI profile emphasize identifying and managing AI risks rather than assuming AI systems are automatically trustworthy. ([nist.gov](https://www.nist.gov/itl/ai-risk-management-framework))
+
+## Hands-on lab: Build a simple fraud risk score in a spreadsheet
+
+This lab shows the basic logic behind many fraud systems. It is not production AI. It is a transparent scoring model, which means you can see exactly how the score is calculated. Real machine-learning systems often learn the weights from historical data, but the idea is similar: combine signals, produce a score, and decide what to do.
+
+Create a spreadsheet with these columns:
+
+| txn_id | amount_usd | billing_shipping_match | new_device | failed_logins_1h | account_age_days | rush_shipping | known_outcome |
+|----|---:|----|----|---:|---:|----|----|
+| T001 | 42 | Yes | No | 0 | 365 | No | Legit |
+| T002 | 980 | No | Yes | 4 | 2 | Yes | Fraud |
+| T003 | 120 | Yes | Yes | 0 | 45 | No | Legit |
+| T004 | 760 | Yes | Yes | 0 | 700 | No | Legit |
+| T005 | 215 | No | No | 1 | 20 | Yes | Fraud |
+| T006 | 35 | Yes | No | 0 | 10 | No | Legit |
+| T007 | 640 | No | Yes | 2 | 3 | No | Fraud |
+| T008 | 88 | Yes | Yes | 5 | 1 | Yes | Fraud |
+| T009 | 510 | Yes | No | 0 | 180 | Yes | Legit |
+| T010 | 130 | No | Yes | 0 | 5 | No | Fraud |
+| T011 | 275 | Yes | Yes | 4 | 400 | No | Legit |
+| T012 | 1500 | No | No | 0 | 900 | No | Fraud |
+
+Add a column called risk_score. In row 2, enter this formula and copy it down:
+
+=IF(B2\>500,25,0)+IF(C2="No",20,0)+IF(D2="Yes",20,0)+IF(E2\>=3,20,0)+IF(F2\<7,10,0)+IF(G2="Yes",5,0)
+
+In plain English, the formula says:
+
+Add 25 points if the amount is above \$500. Add 20 if the billing and shipping addresses do not match. Add 20 if the customer is using a new device. Add 20 if there were at least three failed logins in the last hour. Add 10 if the account is less than seven days old. Add 5 if rush shipping was chosen.
+
+Now add a column called decision. Use this formula:
+
+=IF(I2\>=50,"Review/Block","Approve")
+
+This means any transaction with a risk score of 50 or higher is sent to review or blocked. Anything below 50 is approved.
+
+Finally, compare the decision to known_outcome. A true positive is fraud that was correctly reviewed or blocked. A true negative is a legitimate transaction that was correctly approved. A false positive is a legitimate transaction that was blocked or reviewed. A false negative is fraud that was approved.
+
+Try changing the threshold from 50 to 40, then to 60. Watch what happens. A lower threshold usually catches more fraud but creates more false positives. A higher threshold usually reduces customer friction but lets more fraud through.
+
+That tradeoff is one of the central problems in real fraud detection.
+
+## What students should remember
+
+AI tools are being used in fraud detection and security right now, not just in future predictions. They are used by payment networks, banks, fintech companies, merchants, cybersecurity vendors, cloud platforms, and regulators. Their main job is to detect patterns, assign risk scores, prioritize alerts, and help people respond faster.
+
+But AI is not magic. It can be fooled. It can make unfair or costly mistakes. It can become outdated. It can also be used by attackers. The best real-world systems combine AI with rules, human review, strong authentication, good data governance, monitoring, and clear accountability.
+
+The most realistic way to describe AI in fraud and security is this: AI is a powerful sorting and pattern-recognition tool in a much larger defense system. It helps businesses see danger sooner, but people still have to decide what risks are acceptable, how customers should be treated, and what happens when the system is wrong.

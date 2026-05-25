@@ -1,0 +1,247 @@
+# Chapter 5: AI in Supply Chain Management and Logistics
+
+> **Course Outcome**
+>
+> VCCS-5. Supply Chain Optimization Using AI Tools: Explore AI's role in supply chain optimization, including demand forecasting, inventory management, and logistics efficiency.
+
+Artificial intelligence tools are already being used in supply chain management and logistics. The more useful answer is that they are usually **not** replacing the whole supply chain. Instead, AI tools are being inserted into specific work steps: forecasting demand, routing deliveries, assigning warehouse tasks, reading freight emails, classifying customs documents, predicting shipment delays, and helping managers decide what to do next.
+
+That distinction matters. A supply chain is the network of people, companies, systems, facilities, and transportation links that move goods from raw materials to customers. Logistics is the part of the supply chain focused on moving, storing, and delivering goods. In real businesses, supply chains are messy. A shipment may depend on weather, labor availability, port congestion, tariffs, fuel prices, warehouse capacity, supplier reliability, customer demand, and software systems that do not always share clean data. AI helps with parts of that mess, but it does not magically make uncertainty disappear.
+
+A good 2026 reality check is this: AI in supply chain management is mostly **embedded**. That means the AI is built into software people already use, such as enterprise resource planning systems, warehouse management systems, transportation management systems, carrier platforms, and customer service tools. Reuters Practical Law described current supply-chain AI use cases as including demand forecasting, procurement and supplier risk, inventory and warehousing, transportation and logistics, customs compliance, fraud prevention, sustainability, and legal support. ([Reuters](https://www.reuters.com/practical-law-the-journal/transactional/ai-supply-chain-2025-06-01/))
+
+Large companies are also telling investors that AI is part of their operating systems, not just an experiment. Walmart’s 2026 Form 10-K says the company continues to invest in supply-chain automation and fulfillment and delivery capabilities, and it reports hundreds of distribution facilities across its U.S. and international operations. ([Walmart Inc.](https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000055/wmt-20260131.htm)) UPS tells investors it uses advanced and emerging technologies, including artificial intelligence, for shipment creation, tracking, data management, data-analysis automation, automated agents, personalization, and pricing. ([SEC](https://www.sec.gov/Archives/edgar/data/1090727/000162828026008432/ups-20251231.htm)) DHL’s 2025 annual report says robotics and artificial intelligence are increasingly contributing to quality and efficiency in customer service, customs clearance, fulfillment, and service logistics.
+
+The key lesson is that AI is not one thing. In supply chains, it is a family of tools used for prediction, automation, pattern recognition, language processing, and optimization.
+
+## 2. The basic AI terms students need
+
+Artificial intelligence, or **AI**, means computer systems that perform tasks that normally require human judgment, such as recognizing patterns, predicting outcomes, generating text, or recommending actions. In business, AI usually works by finding patterns in data and using those patterns to support a decision.
+
+**Machine learning** is a type of AI where software learns from examples instead of being programmed with every rule by hand. For example, a delivery company may train a model on past delivery data so it can estimate whether today’s package will arrive late.
+
+**Generative AI** is AI that creates new content, such as text, summaries, emails, code, or images. A large language model, or **LLM**, is a generative AI model trained to work with language. In logistics, an LLM might read a shipper’s email, extract the pickup location and delivery date, and draft a response.
+
+**Computer vision** is AI that analyzes images or video. In a warehouse, computer vision can help identify damaged packages, read labels, check whether a pallet is loaded correctly, or guide a robot arm.
+
+**Optimization** is the process of finding the best choice under constraints. A route-planning system, for example, may try to minimize miles driven while also respecting delivery windows, truck capacity, driver hours, traffic, and customer preferences. Optimization is not always AI by itself, but modern logistics tools often combine optimization with machine learning predictions.
+
+**Agentic AI** refers to software agents that can take a sequence of steps toward a goal. In business settings, an AI agent might read an email, check a shipment record, update a transportation system, and draft a reply. In serious deployments, these agents are usually limited by permissions, audit logs, and human review for higher-risk decisions.
+
+## 3. Demand forecasting: predicting what customers will need
+
+One of the most common supply-chain uses of AI is **demand forecasting**, which means predicting future customer demand. A forecast might answer questions like: How many cases of bottled water will a store need next week? How many replacement parts should a manufacturer keep in stock? Which products should a retailer move closer to customers before a holiday weekend?
+
+Traditional forecasting used historical sales data and simple formulas. AI forecasting can combine many more signals: past sales, seasonality, promotions, local events, weather, e-commerce searches, price changes, economic conditions, and product substitutions. The goal is not perfect prediction. The goal is better decisions about purchasing, production, inventory, labor, and transportation.
+
+This matters because two costly problems sit on opposite sides of the same decision. A **stockout** happens when a company runs out of a product customers want. An **overstock** happens when the company buys or produces too much and has to store, discount, or discard it. Better forecasts can reduce both, although no forecast can eliminate uncertainty.
+
+Walmart has publicly described its newer supply-chain systems as using real-time AI and automation to predict demand, reroute inventory, reduce waste, and simplify work across markets including Costa Rica, Mexico, and Canada. Because this is company-published information, it should be read as Walmart’s own description of its system, not as an independent audit of results. ([Walmart News & Leadership](https://corporate.walmart.com/news/2025/07/17/walmarts-us-supply-chain-playbook-goes-global-and-its-reinventing-retail-at-scale)) Amazon also describes demand forecasting as one of the practical AI applications used in its logistics network. ([Amazon News](https://www.aboutamazon.com/news/operations/amazon-ai-innovations-delivery-forecasting-robotics))
+
+For students, the important concept is that forecasting is not just “guessing sales.” It changes real operations. A forecast may trigger a purchase order, move inventory from one warehouse to another, schedule workers, reserve truck capacity, or warn a manager that a product is at risk of running out.
+
+## 4. Transportation and last-mile delivery: planning routes and predicting exceptions
+
+Transportation is another major AI use area. The **last mile** is the final movement of a product from a distribution point to the customer’s door or business location. It is expensive and difficult because it involves traffic, parking, delivery windows, missing apartment numbers, theft risk, bad weather, and customers changing plans.
+
+AI tools are used to estimate delivery times, design routes, predict failed deliveries, identify risky addresses, and recommend changes when conditions shift. Business Insider reported in 2025 that UPS’s ORION routing system, originally launched in 2013, has evolved into a machine-learning tool that can shorten routes and reroute drivers based on changing conditions. ([Business Insider](https://www.businessinsider.com/ai-transforms-last-mile-delivery-predictive-analytics-route-optimization-2025-7)) UPS also reports in its own filings that it uses AI and digital tools for shipment creation, tracking, data management, automated agents, and pricing. ([SEC](https://www.sec.gov/Archives/edgar/data/1090727/000162828026008432/ups-20251231.htm))
+
+This does not mean a delivery driver simply follows whatever an AI says. The route plan is a decision aid. The driver still deals with real-world constraints: a locked gate, a blocked loading dock, an unsafe stop, a customer who is not home, or a road closure that the system has not recognized yet.
+
+Amazon has also described AI tools for delivery accuracy. Its “Wellspring” system is presented by Amazon as using signals from maps, addresses, delivery history, and other data to improve delivery-location accuracy. ([Amazon News](https://www.aboutamazon.com/news/operations/amazon-ai-innovations-delivery-forecasting-robotics)) Again, the source is Amazon’s own publication, so the safest interpretation is that these tools show where the company is deploying AI, not that every performance claim has been independently verified.
+
+The business value is clear: even a small improvement in miles driven, failed delivery rates, or package placement accuracy can matter at massive scale. But the risk is also clear. A routing model can be wrong, and a wrong model can create safety issues, unfair workloads, or poor customer service if no one checks its effects.
+
+## 5. Warehouses and fulfillment: robots, cameras, and task assignment
+
+Warehouses are among the most visible places where AI touches physical work. A warehouse management system, or **WMS**, is software that helps control receiving, storage, picking, packing, and shipping. AI can be added to a WMS to decide which worker or robot should handle a task, which items should be stored near each other, or which orders should be picked together.
+
+Modern fulfillment centers use several kinds of automation. Some robots move shelves or containers. Others sort packages, scan labels, or assist workers. Computer vision can inspect items, read barcodes, or detect exceptions. AI can also predict congestion inside a facility and adjust task assignments.
+
+Amazon is one of the clearest examples because it operates at enormous scale and publishes technical descriptions of its robotics systems. In 2025, Amazon said it had deployed more than one million robots across its operations and introduced DeepFleet, a generative AI foundation model designed to coordinate robot movement and improve robot fleet travel time. ([Amazon News](https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model)) Amazon Science described DeepFleet as being trained on millions of hours of fulfillment and sort-center data and as predicting interactions among mobile robots so the system can assign tasks and route around congestion. ([amazon.science](https://www.amazon.science/blog/amazon-builds-first-foundation-model-for-multirobot-coordination))
+
+The phrase **foundation model** means a large AI model trained on broad data that can be adapted to many related tasks. In this case, the model is not writing poetry or chatting with customers. It is helping coordinate physical movement inside logistics facilities.
+
+DHL’s annual report gives a broader logistics-industry view. DHL says robotics and AI are contributing to improved quality and efficiency in fulfillment, customer service, customs clearance, and service logistics. That phrasing is useful because it is measured and operational. It does not claim that warehouses are “fully autonomous.” It says AI and robotics are becoming levers for quality and efficiency.
+
+For students, the main point is that warehouse AI is usually connected to work queues. It asks: What task should happen next? Who or what should do it? Where is the item? What is the fastest safe path? Is something unusual happening?
+
+## 6. Freight brokerage and logistics paperwork: where generative AI is very practical
+
+Some of the most realistic AI deployments are not flashy robots. They are tools that read emails, documents, forms, and status messages.
+
+A **freight broker** helps match shippers that need to move goods with carriers that can move them. A **third-party logistics provider**, or **3PL**, manages logistics services for another company. These businesses handle huge volumes of repetitive communication: quote requests, pickup appointments, load tenders, tracking updates, proof-of-delivery documents, invoices, and exception notices.
+
+This is where generative AI can be useful. Many logistics processes still run through email and PDFs. A shipper may email, “Can you move 18 pallets from Atlanta to Dallas next Tuesday?” A human employee or AI tool must extract the origin, destination, date, weight, equipment type, and delivery requirements, then check prices and capacity.
+
+C.H. Robinson, a large logistics provider, has described using generative AI agents to automate parts of the shipment lifecycle. In 2025, the company said its AI had performed more than three million shipping tasks, including over one million price quotes and over one million orders processed. It also said its agents can quote prices, process orders, acquire trucking capacity, set appointments, check loads in transit, and provide tracking updates. These are company-published numbers, so they should be treated as disclosed corporate claims rather than independent evaluation. ([C.H. Robinson](https://investor.chrobinson.com/News-and-Events/Press-Releases/press-release-details/2025/At-C-H--Robinson-Artificial-Intelligence-Has-Now-Performed-Over-3-Million-Shipping-Tasks/default.aspx))
+
+In a 2024 company release, C.H. Robinson said generative AI was reading emails and automating tasks such as price quotes, load acceptance, scheduling pickup and delivery appointments, and checking loads. The company said more than 10,000 email transactions per day no longer required manual handling. ([C.H. Robinson](https://www.chrobinson.com/en-us/about-us/newsroom/press-releases/2024/generative-ai-for-freight-shipment-lifecycle/))
+
+This is a powerful example because it shows what AI agents often do in real business: they sit between messy human communication and structured business systems. They convert unstructured information, such as an email, into structured fields, such as pickup date, delivery address, pallet count, and carrier rate. Then they either update a system or prepare an action for a human to approve.
+
+DHL has also discussed autonomous AI agents for logistics communication. In 2025, DHL described working with HappyRobot on AI agents that can interact through phone, email, and messaging and integrate with DHL internal systems. ([DHL Group](https://group.dhl.com/en/media-relations/press-releases/2025/dhl-boosts-operational-efficiency-and-customer-communications-with-happyrobots-ai-agents.html)) That does not mean every call center or dispatcher disappears. It means companies are testing or deploying AI on routine interactions where speed and consistency matter.
+
+## 7. Customs, tariffs, and trade compliance
+
+International supply chains create a different kind of challenge: rules. Goods crossing borders may need tariff classification, export-control screening, customs declarations, country-of-origin documentation, product descriptions, and restricted-party checks. A mistake can delay shipments or create legal penalties.
+
+A **tariff** is a tax or duty on imported goods. A **customs classification code** is a standardized code used to identify a product for customs and tariff purposes. In the United States and many other countries, product classification can be extremely detailed. Similar-looking products may have different duty rates depending on material, use, and origin.
+
+AI can help by reading product descriptions, suggesting classification codes, checking documents for missing information, and flagging risky shipments. It does not remove legal responsibility. A company still needs compliance professionals, especially for high-value, regulated, or ambiguous goods.
+
+Maersk, one of the world’s largest shipping and logistics companies, rolled out an AI-backed customs platform called Trade & Tariff Studio in 2025. FreightWaves reported that the system was designed to help with complex customs processes, product codes and subcodes, risk screening, and tariff optimization, with support from customs experts and data partners. ([FreightWaves](https://www.freightwaves.com/news/maersk-unveils-new-ai-platform-to-simplify-customs-tasks)) Oracle’s supply-chain software documentation also lists AI-assisted features for global trade management, including harmonized-system code classification and trade compliance tasks. ([Oracle Docs](https://docs.oracle.com/en/cloud/saas/fusion-ai/aiafl/ai-scm.html))
+
+This is a good example of AI as “first-pass assistant.” The model may suggest a code or flag an issue, but a human expert may still need to approve the classification, especially when the financial or legal stakes are high.
+
+## 8. Supplier risk, disruption management, and control towers
+
+A supply chain manager does not only ask, “Where is my shipment?” They also ask, “What might go wrong next?”
+
+A **supplier risk** tool helps evaluate whether a supplier may fail to deliver because of financial trouble, quality problems, labor disruption, geopolitical risk, severe weather, or regulatory changes. A **control tower** is a dashboard that gives managers visibility across orders, inventory, shipments, suppliers, and exceptions. The name sounds dramatic, but in practice it usually means software that combines data from multiple systems and highlights issues.
+
+AI can scan shipment data, supplier performance, weather alerts, port delays, news, and internal orders to detect risks. It may recommend expediting a shipment, switching suppliers, moving inventory, or warning a customer earlier. Reuters Practical Law described AI supply-chain risk use cases as including supplier monitoring, contract review, sanctions screening, and risk assessment. ([Reuters](https://www.reuters.com/practical-law-the-journal/transactional/ai-supply-chain-2025-06-01/))
+
+This area also shows why “more AI” is not automatically better. If a model is trained mostly on normal conditions, it may struggle with rare disruptions: a major war, sudden tariff change, pandemic, cyberattack, bridge collapse, port strike, or extreme weather event. Supply chains need human judgment because many disruptions are unusual, political, or relationship-based. A supplier might be late not because it is unreliable, but because a customer changed specifications or because a port inspection delayed containers.
+
+The best control-tower tools therefore combine prediction with escalation. The system surfaces the problem; a planner decides what to do.
+
+## 9. What the technology stack looks like
+
+A supply-chain AI system usually has four layers.
+
+The first layer is the **data layer**. It includes orders, invoices, purchase orders, inventory records, barcode scans, GPS pings, RFID tags, carrier messages, customer-service tickets, supplier data, weather data, and customs documents. RFID, or **radio-frequency identification**, uses small tags and radio signals to identify items without scanning each barcode directly.
+
+The second layer is the **model layer**. This is where machine learning models, forecasting models, optimization engines, computer-vision tools, and large language models do their work. One model might predict demand. Another might estimate arrival time. Another might classify a customs document.
+
+The third layer is the **workflow layer**. This is where employees actually interact with the system: an alert in a transportation dashboard, a recommended reorder quantity in an inventory screen, a suggested supplier email, a robot task assignment, or a customer-service response.
+
+The fourth layer is the **governance layer**. Governance means the rules, controls, and accountability around a system. Who can use the AI? What data can it access? Which decisions require human approval? Are outputs logged? Can the company explain why a shipment was rejected, a supplier was flagged, or a customer was charged a certain rate?
+
+This structure helps explain why AI adoption is uneven. A large retailer or carrier may have enough data, engineers, and process discipline to build or customize AI. A small business may use AI only through tools already built into software from a vendor, carrier, marketplace, or 3PL.
+
+That vendor embedding is accelerating. Oracle announced AI agents for Oracle Fusion Cloud Applications in 2025, including agents for supply-chain planning, fulfillment, and process automation. ([Oracle](https://www.oracle.com/news/announcement/ai-world-oracle-ai-agents-help-supply-chain-leaders-boost-operational-efficiency-2025-10-15/)) SAP announced Joule agents for supply-chain tasks such as production-order checks, change management, and supplier onboarding, with some availability planned in 2026. ([SAP News Center](https://news.sap.com/2025/10/sap-connect-innovative-updates-supply-chain-management/)) These announcements do not prove customer results by themselves, but they show that major enterprise software vendors are making AI part of standard business applications rather than a separate experimental tool.
+
+## 10. What is real, what is exaggerated
+
+The real part is that AI is already changing specific supply-chain jobs. Planners get better forecast suggestions. Dispatchers get route recommendations. Warehouse workers interact with robot-assisted systems. Freight coordinators spend less time copying information from emails into transportation systems. Customs teams receive suggested classifications and risk flags. Customer-service agents get summaries and recommended replies.
+
+The exaggerated part is the idea of a fully autonomous supply chain that runs itself from supplier negotiation to final delivery. That is not the normal reality in 2026. Most companies still have fragmented data, legacy systems, supplier exceptions, contract complexity, and human relationships. Many still depend on spreadsheets, email, phone calls, and manual workarounds.
+
+There is another reason full autonomy is limited: accountability. If an AI system chooses the wrong supplier, misclassifies a product, violates a delivery rule, or creates an unsafe route, the company cannot blame “the algorithm” and walk away. A business still has legal, financial, safety, and customer obligations.
+
+The best way to understand AI in logistics is not “human versus machine.” It is **human plus machine plus process**. A weak process with AI added to it may simply fail faster. A strong process with good data and clear controls may become faster, more reliable, and easier to manage.
+
+## 11. Risks and governance
+
+AI in supply chains creates several serious risks.
+
+The first is **data quality**. If inventory records are wrong, supplier names are inconsistent, delivery scans are missing, or product descriptions are vague, the AI may produce confident but incorrect recommendations. In logistics, bad data can cause real-world costs: a truck goes to the wrong dock, a warehouse runs out of space, or a customer is promised inventory that does not exist.
+
+The second risk is **hallucination**, a term used when generative AI produces information that sounds plausible but is false. In a supply chain, a hallucinated delivery promise, tariff code, or supplier instruction could be expensive. This is why generative AI outputs need verification when they affect money, law, safety, or customer commitments.
+
+The third risk is cybersecurity. UPS explicitly warns investors that increased AI use can increase cybersecurity risks because AI systems may process sensitive data or be targeted by malicious actors. ([SEC](https://www.sec.gov/Archives/edgar/data/1090727/000162828026008432/ups-20251231.htm)) A logistics system may contain customer addresses, shipment contents, pricing, supplier contracts, customs documents, and operational schedules. That information is valuable.
+
+The fourth risk is unfair or unsafe optimization. A route model might create unrealistic driver workloads. A warehouse algorithm might assign tasks in a way that increases injury risk. A supplier-risk model might penalize small suppliers because they have less digital data, not because they perform worse.
+
+The fifth risk is overdependence. When companies optimize tightly for cost and speed, they may remove backup capacity. That can make the network fragile when disruption occurs. AI should support resilience, not only efficiency.
+
+Governance frameworks are emerging to help organizations manage these risks. The National Institute of Standards and Technology, or NIST, created the AI Risk Management Framework to help organizations manage AI risks, and NIST’s 2024 generative AI profile focuses on risks and controls specific to generative AI. ([nist.gov](https://www.nist.gov/itl/ai-risk-management-framework)) The European Union’s AI Act entered into force in 2024 and becomes fully applicable in stages, with broad applicability by August 2026, which matters for companies operating in or selling into the European market. ([Digital Strategy EU](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai))
+
+For a student entering business or IT, the practical question is not just “Can we use AI?” It is “What decision is this AI changing, what could go wrong, and who is responsible for checking it?”
+
+## 12. Hands-on lab: build a simple AI-supported inventory decision
+
+This lab uses a small example so you can see the logic behind a real supply-chain decision. You can do it in Excel, Google Sheets, or any spreadsheet. You may also use a chatbot as an assistant, but the spreadsheet math is the source of truth.
+
+### Scenario
+
+You manage inventory for a small campus store that sells a popular water bottle. The supplier takes two weeks to deliver after you place an order. You want to decide whether to reorder.
+
+Here is your weekly sales history:
+
+| **Week** | **Units sold** |
+|---------:|---------------:|
+|        1 |            120 |
+|        2 |            132 |
+|        3 |            128 |
+|        4 |            145 |
+|        5 |            160 |
+|        6 |            170 |
+|        7 |            155 |
+|        8 |            180 |
+
+### Step 1: Create a simple forecast
+
+A **moving average** forecast uses the average of recent periods to predict the next period. It is not advanced AI, but it teaches the same basic idea: use past data to estimate future demand.
+
+Use a three-week moving average.
+
+Week 4 forecast = average of Weeks 1, 2, and 3
+= (120 + 132 + 128) / 3
+= 126.7 units
+
+Continue the same method:
+
+| **Forecast for week** | **Calculation**      | **Forecast** |
+|----------------------:|----------------------|-------------:|
+|                     4 | Average of Weeks 1–3 |        126.7 |
+|                     5 | Average of Weeks 2–4 |        135.0 |
+|                     6 | Average of Weeks 3–5 |        144.3 |
+|                     7 | Average of Weeks 4–6 |        158.3 |
+|                     8 | Average of Weeks 5–7 |        161.7 |
+|                     9 | Average of Weeks 6–8 |        168.3 |
+
+Your Week 9 forecast is about **168 units**.
+
+### Step 2: Add lead time and safety stock
+
+**Lead time** is how long it takes to receive inventory after ordering. Here, lead time is two weeks.
+
+**Safety stock** is extra inventory kept as a cushion against uncertainty. Here, use 60 units.
+
+A simple reorder point is:
+
+Reorder point = expected demand during lead time + safety stock
+
+Expected demand during lead time = 168.3 units per week × 2 weeks = 336.6 units
+
+Reorder point = 336.6 + 60 = 396.6, rounded to **397 units**
+
+Plain-English translation: if your inventory falls below 397 units, you may not have enough to cover expected sales during the two-week wait, plus a small cushion.
+
+### Step 3: Make the decision
+
+Suppose you currently have 310 units on hand.
+
+Because 310 is below the reorder point of 397, you should reorder.
+
+Now choose a simple target stock level. One practical target is:
+
+Target stock = reorder point + one more week of forecast demand
+= 397 + 168
+= 565 units
+
+Recommended order quantity = target stock − inventory on hand
+= 565 − 310
+= **255 units**
+
+So your recommendation is: order about **255 water bottles**.
+
+### Step 4: Use generative AI carefully
+
+Now use a chatbot as an assistant, not as the authority. Paste this prompt:
+
+You are a supply-chain analyst for a small campus store. Weekly sales for a water bottle were 120, 132, 128, 145, 160, 170, 155, and 180 units. I used a three-week moving average and got a Week 9 forecast of 168.3 units. Supplier lead time is two weeks, safety stock is 60 units, and current inventory is 310 units. Check whether I should reorder, explain the reasoning in plain English, list three uncertainties, and draft a short supplier email asking about availability and lead time. Do not invent discounts, delivery promises, or supplier names.
+
+Then verify the AI’s answer. Did it keep the arithmetic correct? Did it avoid inventing facts? Did it explain uncertainty? Did it clearly separate recommendation from assumption?
+
+This is what real AI-supported supply-chain work often looks like. The AI helps summarize, explain, draft, and check. The human still owns the decision.
+
+## 13. What students should take away
+
+AI tools are being used in supply chain management and logistics today, but their value comes from targeted deployment. They forecast demand, route deliveries, coordinate robots, read freight messages, classify documents, detect risks, and help workers respond faster. They are most useful when connected to clean data, clear processes, and responsible human oversight.
+
+The most important career skill is not memorizing one AI product. Products will change. The durable skill is understanding the workflow. Ask: What decision is being made? What data supports it? What system will the AI update? What happens if the AI is wrong? Who reviews the output? How will the company measure whether the tool actually improved cost, speed, service, safety, or resilience?
+
+For supply chains, AI is not a magic brain floating above the business. It is a set of tools inside the business. The companies that benefit are usually the ones that combine AI with operational knowledge, disciplined data, and thoughtful controls.

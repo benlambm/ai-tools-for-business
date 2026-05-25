@@ -1,0 +1,469 @@
+# Chapter 3: AI Tools in Digital Marketing
+
+> **Course Outcome**
+>
+> VCCS-3. Exploring Marketing & Personalization Using AI-tools: Evaluate the impact of AI on marketing and personalization, including content customization, audience targeting, and campaign optimization.
+
+AI tools are already being used heavily in digital marketing. They are not only “future technology,” and they are not limited to giant technology companies. In 2026, AI shows up inside the everyday tools marketers use to create ads, write email campaigns, choose audiences, set bids, test creative versions, personalize websites, analyze customer behavior, and summarize campaign results.
+
+The important thing to understand is that most companies are **not** building their own large AI systems from scratch. They are usually using AI that is already built into platforms such as Google Ads, Meta Ads, Amazon Ads, Adobe, HubSpot, Mailchimp, ecommerce systems, customer relationship management software, and analytics tools. In other words, businesses often “rent” AI through the marketing software they already pay for.
+
+Recent evidence shows this is not a small trend. The February 2025 CMO Survey reported that artificial intelligence and machine learning powered 17.2% of marketing efforts among surveyed U.S. companies, roughly double the 2022 level, and marketing leaders expected that share to keep growing. The 2026 CMO Survey said marketers expected AI to account for more than half of marketing activities within three years, while also warning that many organizations were not fully ready to manage the change. These are survey findings, not audited performance data, but they show how mainstream AI has become in marketing leadership conversations. ([Duke's Fuqua School of Business](https://www.fuqua.duke.edu/duke-fuqua-insights/marketing-strategic-influence-expands-as-does-scrutiny))
+
+At the same time, the advertising industry’s own research shows a more cautious reality. A 2025 Interactive Advertising Bureau study found that only 30% of agencies, brands, and publishers had fully integrated AI across the media campaign life cycle, and many still lacked a strategic roadmap. Another IAB study found that more than half of marketers were using generative AI for creative content and audience targeting, but more than 70% had already encountered an AI-related incident such as inaccurate content, bias, or off-brand material. ([IAB](https://www.iab.com/news/iab-state-of-data-report-2025/))
+
+So the best answer is: **AI is widely used in digital marketing, but it is usually used as a powerful assistant and automation layer, not as a fully independent marketing department.**
+
+## What “digital marketing” means
+
+**Digital marketing** means promoting products, services, brands, or ideas through digital channels. These channels include search engines, websites, social media, email, mobile apps, online marketplaces, streaming video, digital audio, and connected TV. A connected TV is a television that streams internet-based video through apps such as YouTube, Hulu, Netflix, or other streaming services.
+
+Digital marketing usually follows a basic path called the **marketing funnel**. A funnel is a simplified model of how people move from not knowing about a product to possibly becoming customers. The main stages are:
+
+1.  **Awareness** — people first learn that a product or brand exists.
+
+2.  **Consideration** — people compare options and decide whether they are interested.
+
+3.  **Conversion** — people take the desired action, such as buying, signing up, downloading, donating, or booking.
+
+4.  **Retention** — people return, renew, subscribe, or buy again.
+
+A **conversion** is the action a business wants a person to take. For an online store, a conversion might be a purchase. For a dentist’s office, it might be booking an appointment. For a college, it might be requesting information or starting an application.
+
+AI can help at every stage of this funnel. It can generate awareness ads, recommend which audiences should see them, personalize offers, decide when to send emails, predict which customers might leave, and summarize which parts of a campaign worked.
+
+## What “AI tool” means in marketing
+
+**Artificial intelligence**, or **AI**, refers to computer systems that perform tasks associated with human judgment, pattern recognition, language, prediction, or decision support. In digital marketing, three kinds of AI matter most.
+
+**Machine learning** is a type of AI where software learns patterns from data rather than being programmed with every rule by hand. For example, an ad platform can learn that people who recently searched for “running shoes for flat feet” are more likely to click on a shoe ad than people browsing unrelated content.
+
+**Predictive AI** estimates what is likely to happen. It might predict which customers are likely to buy, which subscribers may cancel, which ad placement may get clicks, or how much a company should bid for an ad impression.
+
+**Generative AI** creates new content, such as text, images, video, audio, summaries, product descriptions, or ad variations. A marketer might ask a generative AI tool to write five email subject lines, create a product image background, or draft a 15-second video script.
+
+A **prompt** is the instruction a person gives to an AI system. For example: “Write three Instagram captions for a local bakery promoting a weekend cupcake sale. Keep the tone friendly and under 100 characters.”
+
+A **hallucination** is when an AI system produces information that sounds confident but is false, unsupported, or made up. In marketing, hallucinations are especially risky because an AI tool might invent a discount, misstate a product feature, create a fake quote, or make a legal claim the company cannot support.
+
+## Where AI is actually being used
+
+### 1. Ad targeting and automated bidding
+
+One of the most important uses of AI in digital marketing is deciding **who sees which ad, when, and at what price**.
+
+In online advertising, businesses often buy ad space through automated systems. This is called **programmatic advertising**, meaning ad placements are bought and sold using software, often through real-time auctions. When a person opens a website, app, search results page, or video platform, ad systems may instantly decide which advertiser’s message should appear.
+
+AI helps with this process by analyzing signals such as search terms, location, device type, browsing behavior, past purchases, content context, and advertiser goals. The AI does not “know” the person like a friend would. Instead, it estimates probabilities: Who is likely to click? Who is likely to buy? Which ad version is likely to perform best?
+
+Google’s Performance Max campaigns are a clear example. Google describes Performance Max as using Google AI across bidding, budget optimization, audiences, creative, attribution, and other parts of campaign management. The system can optimize across Google properties based on goals such as conversions, cost per acquisition, or return on ad spend. ([Google Help](https://support.google.com/google-ads/answer/10724817?hl=en&utm_source=chatgpt.com))
+
+**Cost per acquisition**, or **CPA**, means the average amount spent to get one conversion. If a company spends \$200 and gets 10 purchases, the CPA is \$20. **Return on ad spend**, or **ROAS**, compares revenue to advertising cost. If a company spends \$100 on ads and earns \$400 in revenue from those ads, the ROAS is 4:1.
+
+Meta also emphasizes AI as central to its advertising business. In its 2024 annual filing, Meta said AI investments power ranking systems, its discovery engine, and tools advertisers use to reach customers. Meta also said it generates substantially all of its revenue from selling ads to marketers. ([SEC](https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm))
+
+This matters because Meta, Google, Amazon, TikTok, and other large platforms have enormous incentives to automate advertising. The easier they make campaign setup, targeting, creative production, and optimization, the more businesses can spend money on ads without needing a large internal marketing team.
+
+### 2. Creative production: text, images, and video
+
+The most visible use of AI in marketing is creative production. **Creative** means the words, images, videos, layouts, and messages people see in an ad or campaign.
+
+Before generative AI, producing ad creative often required several separate steps: write a brief, hire designers or video editors, schedule a photo shoot, edit assets, create different versions for each platform, send files for approval, and upload the finished work. That process still exists, especially for major brand campaigns, but AI has changed the speed and scale of everyday production.
+
+Generative AI can create:
+
+- ad headlines;
+
+- email subject lines;
+
+- product descriptions;
+
+- social media captions;
+
+- image backgrounds;
+
+- video storyboards;
+
+- short product videos;
+
+- translated campaign copy;
+
+- many versions of the same message for different audiences.
+
+This is not theoretical. Reuters reported in 2024 that Klarna used generative AI for marketing campaigns and image generation, estimating about \$10 million in annual savings. Klarna said AI helped reduce image production costs by about \$6 million, shortened image development cycles from six weeks to seven days, and helped produce more than 1,000 images in three months. ([Reuters](https://www.reuters.com/technology/klarna-using-genai-cut-marketing-costs-by-10-mln-annually-2024-05-28/))
+
+A 2026 Reuters report described Polish fashion retailer LPP using AI to predict trends and generate marketing visuals. According to the company, AI-generated visuals rose from 20% of marketing visuals in 2025 to 80%, while content costs fell by 60%. LPP also said AI helped shorten parts of the design process from months to weeks. ([Reuters](https://www.reuters.com/business/sinsay-owner-lpp-relies-ai-track-trends-slash-costs-2026-05-21/))
+
+Amazon Ads has also moved directly into AI-generated creative. In 2025, Amazon made an enhanced Video Generator available to U.S. advertisers. The tool can turn a product image into short video options with motion, text animations, music, and brand elements. Amazon describes these tools as reducing “creative friction,” meaning they make it easier for advertisers to create usable assets without a full production team. ([Amazon Ads](https://advertising.amazon.com/library/news/video-generator))
+
+Adobe is another important example because many professional marketing teams already use Adobe software. Adobe’s 2025 annual report describes Firefly as a generative AI system for images, video, vector graphics, audio, design templates, and other assets. Adobe also describes GenStudio as a system for managing the content supply chain, including ideation, production, activation, asset management, and analytics.
+
+A **content supply chain** is the full process of planning, creating, approving, storing, distributing, and measuring marketing content. Large companies may need thousands of content variations: different languages, regions, product lines, platforms, audience segments, and legal requirements. AI is attractive because it can produce and adapt versions faster than traditional workflows.
+
+But faster does not automatically mean better. AI-generated creative can be bland, inaccurate, legally risky, or off-brand. AdExchanger reported in 2025 that Amazon’s AI creative tools could still produce outputs that looked “off,” and Amazon said only about half of generated assets were actually used. That is a useful reality check: many AI outputs are drafts, not finished professional work. ([AdExchanger](https://www.adexchanger.com/ai/amazon-ads-introduces-agentic-functions-to-its-generative-ai-creative-studio/))
+
+### 3. Personalization in email, websites, and customer journeys
+
+Another major use of AI is **personalization**, which means changing a message, offer, recommendation, or experience based on what is known about a customer or visitor.
+
+Personalization can be simple, such as putting a first name in an email. AI-enabled personalization is more advanced. It might decide:
+
+- which products to recommend;
+
+- which email subject line to send;
+
+- when to send a message;
+
+- whether a customer should receive a discount;
+
+- which website banner to show;
+
+- which customers may stop buying soon;
+
+- which customers should be excluded from a campaign because they already purchased.
+
+A **customer relationship management system**, or **CRM**, is software that stores information about customers, prospects, sales activity, service history, and marketing interactions. HubSpot’s 2024 annual report describes its Breeze AI as part of a customer platform that includes CRM, marketing automation, engagement hubs, AI agents, and data enrichment. ([SEC](https://www.sec.gov/Archives/edgar/data/1404655/000095017025018873/hubs-20241231.htm))
+
+**Marketing automation** means using software to send messages or trigger actions based on rules or customer behavior. For example, an online store might automatically send a welcome email after signup, a reminder after someone abandons a shopping cart, and a thank-you message after purchase.
+
+Mailchimp, a widely used email marketing platform, offers AI-assisted flow templates that can create designed, on-brand emails for certain users. Its documentation says the AI can use brand kit information and generate content and style suggestions, while users review and activate the automation. ([Mailchimp](https://mailchimp.com/help/create-pre-built-journey-emails-intuit-ai/))
+
+This last point is important: the human marketer still matters. A responsible workflow does not allow the AI to invent offers, send messages to the wrong audience, or ignore unsubscribe rules. Humans define the goal, review the content, check the data, and monitor the results.
+
+### 4. Search marketing and AI search results
+
+Search marketing is also changing. **Search engine optimization**, or **SEO**, means improving website content so it can be found through search engines. **Search advertising** means paying to show ads when people search for certain topics, products, or questions.
+
+AI affects both.
+
+On the advertising side, Google has introduced AI Max for Search campaigns. Google describes AI Max as using landing page content, existing ads, assets, and generative AI to create customized ad copy that better matches user searches. ([Google Help](https://support.google.com/google-ads/answer/15910187?hl=en&utm_source=chatgpt.com))
+
+On the organic search side, AI-generated summaries can change how people behave after searching. Pew Research Center analyzed browsing behavior from 900 U.S. adults in March 2025 and found that users who saw a Google AI summary clicked a traditional search result in 8% of visits, compared with 15% of visits without an AI summary. Pew also found users clicked links inside the AI summaries only 1% of the time and were more likely to end the browsing session after seeing a summary. ([Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/))
+
+For marketers, that means website traffic from search may become harder to predict. A person might get an answer directly from an AI summary instead of clicking to the company’s website. This creates pressure for marketers to write clearer pages, maintain accurate product data, use structured information, and think about visibility inside AI-generated answers, not only traditional search rankings.
+
+Google has also been expanding advertising into AI-powered search experiences. At Google Marketing Live 2025, Google said it was expanding ads in AI Overviews to desktop and bringing ads to AI Mode. ([blog.google](https://blog.google/products/ads-commerce/google-marketing-live-2025/?utm_source=chatgpt.com))
+
+### 5. Analytics, attribution, and campaign reporting
+
+AI is also used after campaigns launch. Marketers need to know what worked, what failed, and what to change.
+
+A **key performance indicator**, or **KPI**, is a metric used to judge performance. Common digital marketing KPIs include impressions, clicks, click-through rate, conversion rate, cost per conversion, revenue, and return on ad spend.
+
+An **impression** means an ad or piece of content was shown. A **click-through rate**, or **CTR**, is the percentage of impressions that turned into clicks. A **conversion rate** is the percentage of visitors or clicks that turned into conversions.
+
+A simple version looks like this:
+
+**Click-through rate = clicks ÷ impressions**
+
+Plain-English translation: “Out of everyone who saw this, what share clicked?”
+
+**Conversion rate = conversions ÷ clicks**
+
+Plain-English translation: “Out of everyone who clicked, what share took the desired action?”
+
+**Attribution** means assigning credit for a conversion to one or more marketing touchpoints. For example, suppose someone sees a TikTok ad, later searches the brand on Google, clicks an email, and finally buys. Which channel gets credit? The answer is not always obvious.
+
+AI tools can help summarize campaign data, detect unusual changes, forecast performance, group customers into segments, and recommend budget shifts. But attribution is one of the easiest places to fool yourself. A platform may report that its own ads drove sales, but some customers might have purchased anyway. That is why serious marketers use controlled tests, holdout groups, incrementality studies, or careful before-and-after comparisons whenever possible.
+
+**Incrementality** means the extra result caused by marketing that would not have happened otherwise. If 100 people buy after seeing an ad, but 60 of them would have bought anyway, the incremental effect is closer to 40 purchases, not 100.
+
+## How this looks inside a business
+
+A practical AI marketing setup usually has five layers.
+
+First is **data**. This includes product information, website visits, email engagement, purchase history, search terms, ad performance, loyalty data, and customer service records. **First-party data** is data a business collects directly from its own customers or users, such as email signups, purchase records, or app activity.
+
+Second is the **tool layer**. This may include ad platforms, email platforms, CRM systems, ecommerce software, analytics dashboards, creative tools, and generative AI assistants.
+
+Third is **activation**. Activation means putting the campaign into the world: launching ads, sending emails, updating website content, publishing social posts, or changing product recommendations.
+
+Fourth is **measurement**. The business tracks what happened: impressions, clicks, purchases, unsubscribes, revenue, complaints, or customer lifetime value. **Customer lifetime value** is an estimate of how much revenue or profit a customer may generate over the full relationship with the business.
+
+Fifth is **governance**. Governance means the rules, approvals, roles, and monitoring that keep AI use accurate, legal, ethical, and brand-safe. **Brand safety** means avoiding situations where ads or content appear in harmful, misleading, offensive, or inappropriate contexts.
+
+The companies that use AI well do not simply say, “Let the AI handle marketing.” They build workflows. They decide who can generate content, who approves it, what data may be used, what claims require legal review, and what happens if the AI output is wrong.
+
+## How AI use differs by business size
+
+Small businesses often use AI through built-in platform features. A local restaurant, boutique, repair shop, or fitness studio may use AI inside Google Ads, Meta Ads, Mailchimp, Shopify, Square, Canva, or other tools. The business owner may never train a model or write code. They might use AI to draft posts, create ad variations, design email promotions, or let an ad platform optimize for calls, reservations, or purchases.
+
+Medium-sized businesses usually connect more systems. They may use a CRM, ecommerce database, email automation platform, ad platforms, website analytics, and customer support tools. Their challenge is less about generating one ad and more about keeping customer data clean, avoiding duplicate messages, and measuring what actually caused sales.
+
+Large enterprises often focus on scale, compliance, and brand control. A global consumer brand may need product images in dozens of countries, multiple languages, different legal requirements, and different retail partners. That is why companies such as Adobe emphasize content supply chain tools and brand-controlled generative AI systems.
+
+Large companies are also using AI to reduce production costs and speed up campaign cycles. Unilever, in company-published materials, described using AI and digital twins of products to create marketing imagery faster and cheaper. Because this is company-published, it should be treated as the company’s own account, not independent proof of performance. ([Unilever](https://www.unilever.com/news/news-search/2025/unilever-reinvents-product-shoots-with-ai-for-faster-content-creation/))
+
+A **digital twin** is a digital representation of a real-world object, process, or system. In marketing, a digital twin of a product might allow a team to generate many realistic product images without photographing the product every time.
+
+## Risks and limits
+
+AI marketing has real benefits, but it also creates real risks.
+
+The first risk is accuracy. Generative AI can invent product features, fake statistics, false claims, or misleading comparisons. In regulated industries such as finance, healthcare, insurance, education, and housing, inaccurate marketing claims can create legal problems.
+
+The second risk is fake social proof. Social proof means evidence that other people like or trust something, such as reviews, testimonials, follower counts, or ratings. In 2024, the U.S. Federal Trade Commission finalized a rule banning fake reviews and testimonials, including reviews that misrepresent a nonexistent person or someone’s actual experience. The rule also covers buying, selling, or spreading fake reviews when the business knew or should have known they were false. ([Federal Trade Commission](https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials))
+
+The third risk is deceptive AI claims. The FTC’s 2024 “Operation AI Comply” actions targeted companies accused of using AI claims in misleading or unfair ways, including fake review tools and exaggerated AI-powered business opportunities. ([Federal Trade Commission](https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes))
+
+The fourth risk is privacy and discrimination. AI targeting can become harmful if it uses sensitive traits, excludes protected groups unfairly, or relies on data collected without meaningful consent. In the European Union, the Digital Services Act requires online ads to be clearly labeled, requires very large online platforms to maintain public ad repositories, and restricts ad targeting based on sensitive data such as race, religion, or sexual orientation. ([Digital Strategy EU](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act))
+
+The fifth risk is overreliance on platform numbers. Google, Meta, Amazon, and other platforms provide useful reporting, but they are also selling the ads. A smart business treats platform dashboards as evidence, not as the final truth. Whenever possible, marketers compare platform data with sales records, website analytics, customer surveys, experiments, and financial results.
+
+The sixth risk is workflow disruption. When AI can create many images, draft many messages, or automate media buying, some tasks become faster and cheaper. That can help small teams, but it can also reduce work for freelancers, agencies, translators, photographers, junior copywriters, and production vendors. Klarna’s reported savings from reducing external marketing suppliers show that AI adoption is not only a technical change; it is also an organizational and labor-market change. ([Reuters](https://www.reuters.com/technology/klarna-using-genai-cut-marketing-costs-by-10-mln-annually-2024-05-28/))
+
+## Hands-on lab: Build an AI-assisted digital marketing campaign
+
+### Lab goal
+
+In this lab, you will design a small AI-assisted digital marketing campaign for a fictional local business. You will not need paid advertising accounts or real customer data. The goal is to practice how marketers use AI responsibly: as a research, drafting, testing, and planning assistant.
+
+### Scenario
+
+You are helping **Campus Cup**, a small coffee cart near a community college library. Campus Cup wants to promote a new product: an iced latte flight with three small flavors. The product costs \$6.50. It is available Monday through Thursday from 8:00 a.m. to 11:00 a.m. The business wants students, staff, and commuters to preorder online and pick up at the cart.
+
+Campaign goal: Get 120 preorders in two weeks.
+
+Budget: \$150.
+
+Channels: Instagram-style social posts, search ads, and one email campaign.
+
+Important constraints: No delivery. No medical claims. No fake reviews. No “best coffee on campus” claim unless the business can prove it. Mention that oat milk is available, but do not claim the drink is allergen-free.
+
+### Step 1: Write the campaign brief
+
+A **campaign brief** is a short document that explains the goal, audience, message, channels, and measurement plan.
+
+Create a one-page brief with these sections:
+
+- Product
+
+- Audience
+
+- Main customer problem
+
+- Main promise
+
+- Offer
+
+- Channels
+
+- Budget
+
+- Success metric
+
+- Risks to avoid
+
+Use this prompt with an AI writing tool:
+
+You are helping a small coffee cart create a two-week digital marketing campaign.
+
+Product: iced latte flight with three small flavors.
+
+Price: \$6.50.
+
+Availability: Monday through Thursday, 8:00 a.m. to 11:00 a.m.
+
+Location: near a community college library.
+
+Goal: 120 online preorders in two weeks.
+
+Budget: \$150.
+
+Audience: students, staff, and commuters.
+
+Constraints: no delivery, no fake reviews, no unsupported “best coffee” claim, oat milk available but not allergen-free.
+
+Create a simple campaign brief for an introductory marketing class.
+
+Use clear language and include risks to avoid.
+
+After the AI responds, revise the brief yourself. Remove anything that sounds exaggerated, unsupported, or confusing.
+
+### Step 2: Create audience segments
+
+An **audience segment** is a group of people with similar needs, behaviors, or situations. Ask the AI to suggest three segments.
+
+Prompt:
+
+Based on the Campus Cup campaign brief, suggest three audience segments.
+
+For each segment, include:
+
+1\. What they care about
+
+2\. What might stop them from buying
+
+3\. A message angle that could appeal to them
+
+Keep the answer realistic and avoid stereotypes.
+
+A strong answer might include commuters who want speed, students who want a small treat before class, and staff who want a convenient morning break. A weak answer would rely on stereotypes or make claims without evidence.
+
+### Step 3: Draft ad variations
+
+Now create different ad versions. This is one of the most common real uses of generative AI in marketing: producing many first drafts quickly.
+
+Prompt:
+
+Write ad copy for the Campus Cup iced latte flight campaign.
+
+Create:
+
+\- 4 short social media captions under 100 characters
+
+\- 4 search ad headlines under 35 characters
+
+\- 2 search ad descriptions under 90 characters
+
+\- 3 calls to action
+
+Rules:
+
+Do not claim “best coffee.”
+
+Do not invent reviews.
+
+Do not imply delivery.
+
+Mention preorder and library pickup when useful.
+
+Use a friendly but not childish tone.
+
+Review the output. Choose the best versions and edit them. Good marketing copy is clear, truthful, and specific. The AI may give you usable drafts, but you are responsible for the final message.
+
+### Step 4: Plan one A/B test
+
+An **A/B test** compares two versions of something to see which performs better. The key rule is to test one major difference at a time.
+
+Create two social captions:
+
+- Version A emphasizes convenience.
+
+- Version B emphasizes trying three flavors.
+
+Then define the success metric. For this campaign, the best metric is not likes. It is preorders.
+
+Use this simple structure:
+
+A/B test question:
+
+Does a convenience message or a flavor-variety message get more preorder clicks?
+
+Version A:
+
+\[caption\]
+
+Version B:
+
+\[caption\]
+
+Success metric:
+
+Preorder conversion rate.
+
+Decision rule:
+
+After both versions receive a similar number of impressions, choose the one with the higher preorder conversion rate.
+
+### Step 5: Build the email
+
+Email marketing is still a major digital marketing channel because the business owns the customer relationship more directly than it does on social platforms.
+
+Prompt:
+
+Write a short promotional email for Campus Cup.
+
+Audience: students and staff who opted in to receive emails.
+
+Goal: get preorders for the iced latte flight.
+
+Include:
+
+\- subject line
+
+\- preview text
+
+\- body copy under 150 words
+
+\- one call to action
+
+Rules:
+
+No fake urgency unless tied to the real two-week campaign.
+
+No unsupported claims.
+
+Mention pickup near the library.
+
+Now revise the email. Make sure it is easy to scan on a phone. Make sure the call to action is obvious.
+
+### Step 6: Create a measurement plan
+
+Use these metrics:
+
+**Impressions** — how many times the ad or post was shown.
+**Clicks** — how many people clicked.
+**CTR** — clicks divided by impressions.
+**Conversions** — completed preorders.
+**Conversion rate** — conversions divided by clicks.
+**CPA** — ad spend divided by conversions.
+**Revenue** — conversions multiplied by \$6.50.
+**ROAS** — revenue divided by ad spend.
+
+For example, if the campaign spends \$150 and gets 120 preorders:
+
+Revenue = 120 × \$6.50 = \$780
+ROAS = \$780 ÷ \$150 = 5.2
+
+Plain-English translation: for every \$1 spent on ads, the campaign produced \$5.20 in preorder revenue before considering costs such as ingredients, labor, payment fees, and time.
+
+### Step 7: Run a human review checklist
+
+Before launching any AI-assisted campaign, complete this checklist:
+
+- Are all claims true?
+
+- Did the AI invent testimonials, ratings, awards, or discounts?
+
+- Is the offer clear?
+
+- Are the dates and times accurate?
+
+- Are accessibility needs considered, such as readable text and alt text for images?
+
+- Does the campaign avoid targeting sensitive personal traits?
+
+- Does the email go only to people who opted in?
+
+- Is there an unsubscribe option?
+
+- Would the business be comfortable explaining how the campaign was made?
+
+This is the difference between using AI as a tool and letting AI become a liability.
+
+### Lab deliverables
+
+Submit:
+
+1.  One-page campaign brief
+
+2.  Three audience segments
+
+3.  Four social captions
+
+4.  Four search ad headlines
+
+5.  One promotional email
+
+6.  One A/B test plan
+
+7.  One measurement plan
+
+8.  One human review checklist with at least three revisions you made after AI output
+
+## Chapter takeaway
+
+AI tools are absolutely being used in digital marketing, but the real story is more practical than futuristic. Businesses use AI to create more content versions, automate ad targeting and bidding, personalize emails and websites, summarize analytics, and speed up campaign workflows. Small businesses usually access these capabilities through built-in tools. Large enterprises use AI across content supply chains, customer data systems, ad platforms, and approval workflows.
+
+The best marketers in 2026 are not simply asking AI to “make ads.” They are learning how to give better instructions, use cleaner data, test results carefully, protect customer privacy, avoid fake or misleading content, and keep humans responsible for judgment. AI can make digital marketing faster and more scalable. It does not remove the need for strategy, ethics, creativity, or accountability.
