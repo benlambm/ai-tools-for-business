@@ -1,52 +1,71 @@
 # AI Tools for Business and Information Technology
 
-This repository contains the Quarto source for an open textbook aligned to VCCS ITE 142, with the initial scaffold converted from the 2026-05-25 Word compilation.
+**Read the live book:** https://aitoolsforbusiness.org
 
-## Public Beta Status
+An open textbook for VCCS **ITE 142 — AI Tools for Business and IT**, by Benjamin Lamb, PhD. Currently in **public beta**: the full manuscript is available as a Quarto web book, PDF, and EPUB for review, classroom piloting, and adaptation.
 
-This repository is being prepared for a public beta OER launch, not a final v1.0 release. The beta makes the complete converted manuscript available as a Quarto web book, PDF, and EPUB for review, classroom piloting, and portability testing.
+## Who this is for
 
-The recommended release stance is to keep the GitHub repository private until the beta checklist is complete, then make the repository public and tag a prerelease such as `v0.2.0-beta`.
+- **Students and self-learners** — read free online at the link above, or download a PDF or EPUB for offline use.
+- **Instructors considering adoption** — the book itself is openly licensed (see below). Optional instructor supplements (slides, Canvas shell, test banks, solution keys) are sold separately.
+- **Contributors** — file an issue or open a pull request if you spot errors, dead links, or have suggestions.
 
-Instructor supplements are separate from the open textbook source and are not included in this repository.
+## OER and licensing transparency
 
-## Current scope
+This project deliberately separates the open textbook from the paid instructor package:
 
-- `index.qmd`: preface converted from the Word compilation.
-- `01-customer-service.qmd` through `09-product-design.qmd`: Chapters 1-9 converted to Quarto Markdown.
-- `appendix-ai-assisted-workflow.qmd`: appendix documenting the AI-assisted chapter development workflow.
-- `labs/`: future lab assets and starter files.
-- `images/`: future image assets.
+| Component | License | Cost |
+|---|---|---|
+| Textbook web book, PDF, EPUB, chapter source | **CC BY 4.0** (open) | Free |
+| Instructor supplements — slides, Canvas course shell, test banks, lab solution keys, pacing/implementation guide | **All rights reserved** | Paid (in development) |
+
+This split follows the common OER pattern used by OpenStax and similar projects: the student-facing content is genuinely open and free, and the instructor package is a separate commercial work that funds ongoing maintenance.
+
+You may share, adapt, remix, and redistribute the **textbook text** for any purpose — including commercial — as long as you give appropriate credit, link to the license, and indicate any changes you made.
+
+**Suggested attribution:**
+
+> *AI Tools for Business and Information Technology* by Benjamin Lamb, PhD is licensed under CC BY 4.0. Source: https://github.com/benlambm/ai-tools-for-business
+
+Full terms: [LICENSE](LICENSE) (textbook) and [LICENSE-SUPPLEMENTS.md](LICENSE-SUPPLEMENTS.md) (supplements).
+
+## Instructor supplements (paid, in development)
+
+The following are **not** in this repository and are sold separately:
+
+- Lecture slide decks (`.pptx`)
+- Canvas course shell as IMS Common Cartridge (`.imscc`)
+- Test banks and quiz pools
+- Lab solution keys and grading rubrics
+- Pacing guide and implementation notes
+
+To be notified at launch or request early access, contact the author via the repository's [Issues](https://github.com/benlambm/ai-tools-for-business/issues) tab or email.
+
+## What's in this repository
+
+- `index.qmd` — preface and reader's guide
+- `01-customer-service.qmd` … `09-product-design.qmd` — Chapters 1–9
+- `appendix-ai-assisted-workflow.qmd` — documents the AI-assisted authoring workflow
+- `labs/` — lab assets and starter files
+- `images/` — figure assets
+- `scripts/` — local and CI build helpers
+- `_quarto.yml`, `netlify.toml` — build configuration
 
 ## Build locally
 
-Install Quarto, then render:
+Install [Quarto](https://quarto.org), then render:
 
 ```bash
 scripts/render-local.sh
 ```
 
-If Quarto is not installed globally on this Mac, use the local extracted executable from the bootstrap run:
+The HTML book is written to `_book/`. Portable formats:
 
 ```bash
-scripts/render-local.sh
-```
-
-The HTML book is written to `_book/`. The configured portable formats are also written there:
-
-```bash
-scripts/render-local.sh --to typst
+scripts/render-local.sh --to typst   # PDF via Typst — no LaTeX install required
 scripts/render-local.sh --to epub
 ```
 
-The `typst` format produces the beta PDF without requiring a local LaTeX installation.
+## Status
 
-## License
-
-The textbook text is licensed under Creative Commons Attribution 4.0 International (`CC BY 4.0`). Instructor-only supplements, if created, are separate works and are not licensed under `CC BY 4.0` unless explicitly marked that way.
-
-Suggested attribution:
-
-> AI Tools for Business and Information Technology by Benjamin Lamb, PhD is licensed under CC BY 4.0.
-
-When reusing or adapting the book, include the title, author, license, and a link to the source repository or public book site when available. Mark any changes you make.
+Public beta, tagged `v0.2.0-beta`. Issues and pull requests are welcome — small fixes (typos, broken links, factual corrections) are especially appreciated.
