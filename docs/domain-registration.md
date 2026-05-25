@@ -26,3 +26,12 @@ Treat RDAP availability as a strong signal, not a checkout guarantee. Verify aga
 3. Add `aitoolsforbusiness.org` in Netlify domain settings.
 4. Follow Netlify's DNS instructions. If Netlify DNS is used, change the registrar nameservers to Netlify's assigned nameservers. If external DNS is used, add the records Netlify provides.
 5. Wait for Netlify to issue the TLS certificate before public launch.
+
+## Current setup
+
+The domain was purchased at Porkbun and added to the Netlify project `ai-tools-for-business`.
+
+Use Porkbun DNS with:
+
+- `A` record for `@` pointing to `75.2.60.5`
+- `CNAME` record for `www` pointing to `ai-tools-for-business.netlify.app`
