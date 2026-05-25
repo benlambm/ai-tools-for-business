@@ -1,0 +1,213 @@
+# Public Beta Roadmap {.unnumbered}
+
+This roadmap describes the work needed to move **AI Tools for Business and Information Technology** from public beta toward a stable `v1.0.0` open textbook release.
+
+The roadmap is intentionally practical. The goal is not to make the book larger for its own sake. The goal is to make it more accurate, more teachable, more accessible, easier to adopt, and easier to maintain as AI tools change.
+
+## Current status
+
+The book is live as a public-beta Quarto web book with PDF and EPUB downloads. The complete manuscript is available for reading, review, classroom piloting, and adaptation testing.
+
+The main beta work is now editorial infrastructure: citations, figures, source tracking, lab review, accessibility, adoption support, and update workflows.
+
+## Guiding principles
+
+The project is guided by five principles:
+
+1. **Student-facing content stays open.** The textbook remains free and openly licensed under CC BY 4.0.
+2. **Instructor supplements can be separate paid works.** Slides, Canvas packages, test banks, solution keys, rubrics, and implementation guides may support the project financially without closing the textbook.
+3. **Evidence beats hype.** Claims about AI adoption, impact, and product capabilities should be sourced and carefully framed.
+4. **Images should teach.** Figures should clarify workflows, risks, decision points, and system relationships, not merely decorate the pages.
+5. **Humans remain responsible.** Automated update workflows may assist review, but they should not silently rewrite the public textbook without human judgment.
+
+## v0.3 target: public beta infrastructure
+
+The `v0.3` target is about making the book easier to review, adopt, and maintain.
+
+Planned work:
+
+- add contributing guide;
+- add GitHub issue templates;
+- add adoption guide;
+- add public beta review guide;
+- add roadmap;
+- add seed `references.bib`;
+- add source manifest structure;
+- document the source and figure review workflow;
+- confirm the public web, PDF, and EPUB builds still render after structural changes.
+
+Definition of done:
+
+- reviewers can easily report content, citation, lab, figure, accessibility, and adoption issues;
+- instructors can understand the license boundary and public-beta adoption path;
+- contributors can see the project's source standards and editorial posture;
+- the book renders successfully in the deployed web format.
+
+## v0.4 target: citation and source pass
+
+The `v0.4` target is a full citation cleanup and source-quality pass.
+
+Planned work:
+
+- standardize citation style across all chapters;
+- convert important recurring sources into `references.bib` entries;
+- add or improve chapter source notes where needed;
+- remove tracking parameters from URLs;
+- check that sources support the claims they are attached to;
+- flag vendor claims, case studies, and consultancy material appropriately;
+- identify time-sensitive claims that need later review;
+- add a basic link-checking or source-audit workflow.
+
+Definition of done:
+
+- every major empirical, product, regulatory, or public-incident claim has a checkable source;
+- source quality is consistent enough for OER review and instructor adoption;
+- known source gaps are tracked as GitHub issues rather than hidden in the manuscript.
+
+## v0.5 target: educational figure pass
+
+The `v0.5` target is the first major figure release.
+
+Planned work:
+
+- create a figure inventory for all chapters;
+- prioritize at least two to three educational figures per chapter;
+- add captions and alt text for every figure;
+- document whether each figure is original, AI-generated, adapted, or based on a source;
+- avoid decorative stock-style imagery;
+- focus on diagrams, workflows, risk matrices, mockups, and lab aids;
+- check HTML, PDF, and EPUB rendering of figures.
+
+Definition of done:
+
+- every chapter has meaningful visual support;
+- figures improve comprehension of workflows, tradeoffs, and risk;
+- all figures have draft accessibility metadata;
+- generated or original images have a clear review trail.
+
+## v0.6 target: lab and assessment polish
+
+The `v0.6` target is practical classroom readiness.
+
+Planned work:
+
+- review each hands-on lab for clarity, safety, tool access, and student workload;
+- move reusable files, datasets, templates, and starter materials into `labs/` where useful;
+- add optional alternate paths for students without access to specific commercial tools;
+- create draft rubrics for public student-facing use where appropriate;
+- separate instructor-only solution keys and grading notes into the paid supplement boundary;
+- check that labs avoid private data and unsafe assumptions.
+
+Definition of done:
+
+- every chapter lab has clear deliverables;
+- students are asked to verify AI outputs rather than accept them passively;
+- privacy and data-use warnings are clear;
+- common instructor implementation questions are documented.
+
+## v0.7 target: accessibility and portability review
+
+The `v0.7` target is accessibility and format quality.
+
+Planned work:
+
+- review heading structure;
+- improve link text where needed;
+- check tables for readability and structure;
+- improve figure alt text;
+- review PDF output;
+- review EPUB output;
+- add a public accessibility statement;
+- document any known limitations and planned fixes.
+
+Definition of done:
+
+- the web book is easier to navigate with assistive technologies;
+- PDF and EPUB versions are usable enough for public-beta distribution;
+- known accessibility limitations are transparent rather than hidden.
+
+## v0.8 target: interactive web edition prototypes
+
+The `v0.8` target explores optional interactivity for the Netlify HTML edition while keeping PDF and EPUB self-contained.
+
+Possible prototypes:
+
+- small data exploration widgets;
+- prompt-comparison activities;
+- interactive decision trees;
+- lightweight simulations for forecasting, return rates, false positives, or inventory tradeoffs;
+- browser-based code snippets where appropriate;
+- static fallback content for PDF and EPUB.
+
+Definition of done:
+
+- at least one or two chapters contain useful interactive prototypes;
+- the interactions serve learning goals rather than novelty;
+- non-interactive formats remain coherent;
+- no private API keys or unsafe live tool calls are exposed in browser code.
+
+## v0.9 target: pilot feedback and release candidate
+
+The `v0.9` target is the final beta consolidation before `v1.0.0`.
+
+Planned work:
+
+- collect instructor, student, librarian, and instructional-designer feedback;
+- resolve high-priority issues;
+- freeze major chapter structure unless a serious flaw is found;
+- update changelog and release notes;
+- prepare metadata for OER directories and institutional sharing;
+- prepare a DOI/archive plan for the stable release;
+- prepare a sample instructor supplement package.
+
+Definition of done:
+
+- major adoption blockers are addressed or documented;
+- the author has enough feedback to make a stable release decision;
+- known remaining issues are triaged for post-`v1.0.0` maintenance.
+
+## v1.0.0 target: first stable public edition
+
+The `v1.0.0` release should represent the first complete, stable public edition of the textbook.
+
+Expected release criteria:
+
+- complete nine-chapter textbook;
+- consistent citation approach;
+- public source and review infrastructure;
+- meaningful educational figures;
+- reviewed labs;
+- accessibility statement;
+- stable web, PDF, and EPUB outputs;
+- release notes and version tag;
+- clear adoption guidance;
+- clear boundary between open textbook and paid instructor supplements.
+
+## Post-v1 maintenance
+
+After `v1.0.0`, the book should move into a maintenance rhythm.
+
+Recommended cadence:
+
+- **Patch releases** for typos, broken links, minor corrections, and errata.
+- **Minor releases** for revised labs, new figures, updated examples, source refreshes, and small new sections.
+- **Major releases** for substantial course redesigns, chapter restructuring, or major changes in the field.
+
+AI tools, regulations, product names, and business practices will continue changing. The maintenance workflow should make updating easy without making the book feel unstable for instructors and students.
+
+## Paid supplement roadmap
+
+The open textbook and paid instructor package should develop in parallel but remain clearly separated.
+
+Potential supplement milestones:
+
+1. one-chapter instructor sample package;
+2. full slide deck set;
+3. Canvas course shell or module package;
+4. quiz pools and test banks;
+5. lab solution keys and grading rubrics;
+6. pacing guide and implementation notes;
+7. individual instructor license;
+8. department or institution license.
+
+The student-facing textbook remains open. The paid package exists to save instructors time and support ongoing maintenance.
