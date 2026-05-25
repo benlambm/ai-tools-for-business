@@ -1,0 +1,281 @@
+# Source manifest for AI Tools for Business and Information Technology
+#
+# This file is an editorial tracking layer. It does not replace inline
+# citations or references.bib. Use it to track source type, chapter usage,
+# volatility, and review status as the public beta moves toward v1.0.0.
+
+manifest_version: 0.1
+last_updated: 2026-05-25
+status_values:
+  - seeded
+  - verified
+  - needs_review
+  - replace_candidate
+  - stale
+  - removed
+volatility_values:
+  - low
+  - medium
+  - high
+source_types:
+  - government_report
+  - government_data
+  - standard_or_guidance
+  - public_company_filing
+  - peer_reviewed_research
+  - court_or_legal_document
+  - reputable_journalism
+  - product_documentation
+  - vendor_press_release
+  - vendor_case_study
+  - consultancy_report
+  - other
+
+sources:
+  - source_id: federalreserve-2026-ai-adoption
+    citation_key: federalreserve2026aiadoption
+    title: Monitoring AI Adoption in the U.S. Economy
+    source_type: government_report
+    url: https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html
+    used_in:
+      - 01-customer-service.qmd
+    claim_area: U.S. business AI adoption estimates
+    volatility: medium
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Used for broad adoption framing. Recheck before v1.0.0 or whenever newer official adoption estimates become available.
+
+  - source_id: servicenow-2026-annual-report
+    citation_key: servicenow2026annualreport
+    title: ServiceNow Form 10-K Annual Report for Fiscal Year Ended December 31, 2025
+    source_type: public_company_filing
+    url: https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm
+    used_in:
+      - 01-customer-service.qmd
+    claim_area: AI tools in IT service management, customer service, HR, and workflow automation
+    volatility: medium
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Formal company disclosure. Useful for product deployment descriptions, not neutral proof of customer outcomes.
+
+  - source_id: atlassian-virtual-service-agent
+    citation_key: atlassianVirtualServiceAgent
+    title: Virtual Service Agent in Jira Service Management
+    source_type: product_documentation
+    url: https://www.atlassian.com/software/jira/service-management/product-guide/tips-and-tricks/virtual-agent
+    used_in:
+      - 01-customer-service.qmd
+    claim_area: AI virtual service agent capabilities and metrics
+    volatility: high
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Product documentation. Recheck feature names and capability descriptions before major releases.
+
+  - source_id: microsoft-dynamics365-customer-service-2025
+    citation_key: microsoftDynamics365CustomerService2025
+    title: Dynamics 365 Customer Service 2025 Release Wave 1 Plan
+    source_type: product_documentation
+    url: https://learn.microsoft.com/en-us/dynamics365/release-plan/2025wave1/service/dynamics365-customer-service/
+    used_in:
+      - 01-customer-service.qmd
+    claim_area: Copilot features for customer service, routing, and summaries
+    volatility: high
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Product documentation tied to a release wave. Recheck for renamed features or superseded docs.
+
+  - source_id: aws-connect-contact-lens-summaries
+    citation_key: amazonConnectContactLensSummaries
+    title: View Generative AI-Powered Post-Contact Summaries in Amazon Connect Contact Lens
+    source_type: product_documentation
+    url: https://docs.aws.amazon.com/connect/latest/adminguide/view-generative-ai-contact-summaries.html
+    used_in:
+      - 01-customer-service.qmd
+    claim_area: Contact-center summarization and after-contact work
+    volatility: high
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Product documentation. Use for feature description only.
+
+  - source_id: pagerduty-aiops-docs
+    citation_key: pagerdutyAIOpsDocs
+    title: AIOps
+    source_type: product_documentation
+    url: https://support.pagerduty.com/main/docs/aiops
+    used_in:
+      - 01-customer-service.qmd
+    claim_area: AIOps triage, noise reduction, probable origin, and incident context
+    volatility: high
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Product documentation. Recheck for feature naming and scope.
+
+  - source_id: dynatrace-2026-preventive-operations
+    citation_key: dynatrace2026preventiveOperations
+    title: Dynatrace Advances AIOps with Preventive Operations
+    source_type: vendor_press_release
+    url: https://www.dynatrace.com/news/press-release/dynatrace-advances-aiops-with-preventive-operations/
+    used_in:
+      - 01-customer-service.qmd
+    claim_area: Vendor-described AIOps capabilities
+    volatility: high
+    review_status: replace_candidate
+    last_reviewed: 2026-05-25
+    notes: Prefer product documentation or independent source if available. Press release should not support broad impact claims.
+
+  - source_id: nist-2024-generative-ai-profile
+    citation_key: nist2024generativeAIProfile
+    title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile
+    source_type: standard_or_guidance
+    url: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
+    used_in:
+      - 01-customer-service.qmd
+      - 02-data-analytics.qmd
+    claim_area: Generative AI risk framing, confabulation, testing, monitoring, governance
+    volatility: low
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Strong standards/guidance source. Check for newer revisions before v1.0.0.
+
+  - source_id: canlii-2024-air-canada-chatbot
+    citation_key: canlii2024airCanadaChatbot
+    title: Air Canada Chatbot Case Summary
+    source_type: court_or_legal_document
+    url: https://blog.canlii.org/2024/03/
+    used_in:
+      - 01-customer-service.qmd
+    claim_area: Business accountability for chatbot misinformation
+    volatility: low
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Consider replacing or supplementing with the direct tribunal decision if a stable source is preferred.
+
+  - source_id: guardian-2024-dpd-chatbot
+    citation_key: guardian2024dpdChatbot
+    title: DPD AI Chatbot Swears, Calls Itself Useless and Criticises Firm
+    source_type: reputable_journalism
+    url: https://www.theguardian.com/technology/2024/jan/20/dpd-ai-chatbot-swears-calls-itself-useless-and-criticises-firm
+    used_in:
+      - 01-customer-service.qmd
+    claim_area: Public chatbot failure incident
+    volatility: low
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Reputable journalism source for a public incident.
+
+  - source_id: reuters-2025-klarna-ai
+    citation_key: reuters2025klarnaAI
+    title: Sweden's Klarna Shifts AI Focus from Cost Cuts to Growth
+    source_type: reputable_journalism
+    url: https://www.reuters.com/business/swedens-klarna-shifts-ai-focus-cost-cuts-growth-2025-09-10/
+    used_in:
+      - 01-customer-service.qmd
+    claim_area: Labor and cost-cutting cautionary example
+    volatility: medium
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Recheck if later reporting changes the interpretation.
+
+  - source_id: census-2026-btos-ai
+    citation_key: census2026btosAI
+    title: Business Trends and Outlook Survey Artificial Intelligence Supplemental Questions
+    source_type: government_data
+    url: https://www.census.gov/newsroom/press-releases/2026/btos-apr-23.html
+    used_in:
+      - 02-data-analytics.qmd
+    claim_area: U.S. business AI adoption measurement
+    volatility: medium
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Official government survey context. Recheck if newer BTOS releases supersede this.
+
+  - source_id: census-2026-ai-business-use-working-paper
+    citation_key: census2026aiBusinessUseWorkingPaper
+    title: Business Use of Artificial Intelligence: Evidence from the Business Trends and Outlook Survey
+    source_type: government_report
+    url: https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html
+    used_in:
+      - 02-data-analytics.qmd
+    claim_area: AI use across business functions and employment-weighted adoption
+    volatility: medium
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Strong source for adoption estimates. Review before v1.0.0 for updates.
+
+  - source_id: microsoft-powerbi-copilot-intro
+    citation_key: microsoftPowerBICopilotIntro
+    title: Introduction to Copilot for Power BI
+    source_type: product_documentation
+    url: https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction
+    used_in:
+      - 02-data-analytics.qmd
+    claim_area: Natural-language analytics and Power BI Copilot capabilities
+    volatility: high
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Product documentation. Recheck features, requirements, and limitations.
+
+  - source_id: google-bigquery-gemini-overview
+    citation_key: googleBigQueryGeminiOverview
+    title: Gemini in BigQuery Overview
+    source_type: product_documentation
+    url: https://docs.cloud.google.com/bigquery/docs/gemini-overview
+    used_in:
+      - 02-data-analytics.qmd
+    claim_area: Natural-language querying, transformation, and visualization in BigQuery
+    volatility: high
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Product documentation. Recheck before major releases.
+
+  - source_id: snowflake-cortex-analyst
+    citation_key: snowflakeCortexAnalyst
+    title: Snowflake Cortex Analyst
+    source_type: product_documentation
+    url: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst
+    used_in:
+      - 02-data-analytics.qmd
+    claim_area: Natural-language analytics over structured data in Snowflake
+    volatility: high
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Product documentation. Recheck for feature maturity and naming.
+
+  - source_id: tableau-agent-help
+    citation_key: tableauAgentHelp
+    title: Tableau Agent
+    source_type: product_documentation
+    url: https://help.tableau.com/current/online/en-us/web_author_einstein.htm
+    used_in:
+      - 02-data-analytics.qmd
+    claim_area: Conversational analytics and visualization assistance
+    volatility: high
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Product documentation. Recheck as Salesforce/Tableau branding shifts.
+
+  - source_id: eu-ai-act-overview
+    citation_key: euAIActOverview
+    title: Regulatory Framework on Artificial Intelligence
+    source_type: government_report
+    url: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+    used_in:
+      - 02-data-analytics.qmd
+    claim_area: EU AI Act timeline and regulatory context
+    volatility: high
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Regulatory implementation dates are time-sensitive. Recheck before any broad distribution.
+
+  - source_id: ftc-2024-privacy-confidentiality-ai
+    citation_key: ftc2024privacyConfidentialityAI
+    title: AI Companies: Uphold Your Privacy and Confidentiality Commitments
+    source_type: government_report
+    url: https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2024/01/ai-companies-uphold-your-privacy-confidentiality-commitments
+    used_in:
+      - 02-data-analytics.qmd
+    claim_area: Privacy, data use, and enforcement risk in AI systems
+    volatility: medium
+    review_status: seeded
+    last_reviewed: 2026-05-25
+    notes: Strong regulatory source. Check for newer FTC AI guidance before v1.0.0.
