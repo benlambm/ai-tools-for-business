@@ -1,0 +1,113 @@
+# Adopt This Book {.unnumbered}
+
+**AI Tools for Business and Information Technology** is an open textbook for introductory students studying how AI tools are being used in business, information technology, and related workplace settings.
+
+The book is currently in **public beta**. It is complete enough to read, pilot, review, and adapt, but it is still being revised toward a stable `v1.0.0` release.
+
+## Best fit
+
+This book is designed for courses that introduce students to practical AI use across business and IT functions. It is especially appropriate for:
+
+- community college business information technology courses;
+- introductory AI literacy courses for business or IT students;
+- workforce and continuing-education courses on AI tools;
+- first-year seminars or special topics courses on AI in organizations;
+- modules within business, management, cybersecurity, analytics, support, operations, or product-design courses.
+
+The book assumes no programming background. Students should be willing to read carefully, test AI outputs, work with examples, and think critically about evidence, risk, and responsibility.
+
+## Course alignment
+
+The book is organized around nine applied course outcomes:
+
+1. customer service automation;
+2. data analytics and insights;
+3. marketing and personalization;
+4. fraud detection and security;
+5. supply chain optimization;
+6. human resource management;
+7. financial forecasting and budgeting;
+8. business process automation;
+9. product design and development.
+
+Each chapter combines conceptual explanation, current examples, risk analysis, and a hands-on lab or applied activity.
+
+## Formats
+
+The public-beta textbook is available as:
+
+- a web book at <https://aitoolsforbusiness.org/>;
+- a downloadable PDF;
+- a downloadable EPUB;
+- editable Quarto source files in the public GitHub repository.
+
+The web version is the preferred reading format during public beta because it is easiest to update and review.
+
+## License
+
+The textbook content is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+
+You may share, adapt, remix, and redistribute the textbook text for any purpose, including commercial purposes, as long as you give appropriate credit, link to the license, and indicate whether changes were made.
+
+Suggested attribution:
+
+> *AI Tools for Business and Information Technology* by Benjamin Lamb, PhD is licensed under CC BY 4.0. Source: <https://github.com/benlambm/ai-tools-for-business>
+
+Instructor-facing supplements are separate works unless a file explicitly says otherwise. Slides, Canvas course packages, test banks, answer keys, solution keys, rubrics, and private instructor notes are not automatically included under the textbook's CC BY license.
+
+## Public beta adoption guidance
+
+Instructors are welcome to use the public beta, but should treat it as a living text. If you assign it before `v1.0.0`, consider telling students that the book is under active review and may receive corrections or improvements during the term.
+
+Recommended beta use:
+
+- assign selected chapters rather than the whole book if your course calendar is already fixed;
+- use the web book for the most current version;
+- download the PDF or EPUB only after checking the release date;
+- report factual issues, broken links, unclear passages, or lab problems through GitHub Issues;
+- adapt the labs to your local tool access, privacy rules, and student preparation.
+
+## What instructors should review before assigning
+
+Before assigning a chapter, check:
+
+- whether the examples match your course level;
+- whether the lab can be completed with tools your students can access;
+- whether any tool-specific claims have changed;
+- whether your institution has rules about student AI tool use;
+- whether you need an alternate activity for students who cannot or should not use a commercial AI system;
+- whether the chapter's sources and examples are current enough for your teaching purpose.
+
+## Instructor resources
+
+Paid instructor supplements are in development and will remain separate from the open textbook. Planned resources include:
+
+- lecture slide decks;
+- Canvas course shell or modules;
+- quiz pools and test banks;
+- lab solution keys;
+- grading rubrics;
+- pacing guide and implementation notes;
+- sample syllabus language;
+- public-beta adoption notes.
+
+This structure keeps the student-facing textbook free and open while making it possible to support ongoing maintenance and course deployment work.
+
+## How to give adoption feedback
+
+The most useful adoption feedback answers practical questions:
+
+- Could this book fit your course as-is?
+- What would block adoption?
+- Which chapter is strongest?
+- Which chapter needs the most revision?
+- What instructor supplement would save you the most time?
+- What accessibility, LMS, or institutional-policy issue should be addressed before `v1.0.0`?
+
+Use the repository's **Beta adoption review** issue template for structured feedback.
+
+## Stable release target
+
+The public beta will move toward `v1.0.0` after the major review passes are complete: citation cleanup, educational figures, accessibility checks, lab review, source freshness review, and pilot feedback.
+
+Until then, the beta should be treated as open, usable, and improving rather than final.
