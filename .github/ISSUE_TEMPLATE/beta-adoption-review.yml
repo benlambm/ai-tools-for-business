@@ -1,0 +1,86 @@
+name: Beta adoption review
+description: Share structured feedback from an instructor, librarian, instructional designer, or pilot reader.
+title: "Beta adoption review: "
+labels: [adoption, beta-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the public-beta edition. This template is designed for adoption-focused feedback: what would help another instructor confidently assign, adapt, or pilot the book?
+  - type: dropdown
+    id: reviewer-role
+    attributes:
+      label: Reviewer role
+      options:
+        - Instructor
+        - OER librarian
+        - Instructional designer
+        - Department chair or program lead
+        - Student
+        - Industry reviewer
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: course-context
+    attributes:
+      label: Course or program context
+      description: Optional. Name the course, discipline, level, modality, or institution type.
+      placeholder: "Example: Intro business IT course at a community college"
+    validations:
+      required: false
+  - type: textarea
+    id: adoption-fit
+    attributes:
+      label: Adoption fit
+      description: Where would this book fit well? Where would it not fit?
+      placeholder: "Describe the course, audience, or use case where this book seems appropriate."
+    validations:
+      required: true
+  - type: textarea
+    id: blockers
+    attributes:
+      label: Adoption blockers
+      description: What would prevent you or another instructor from assigning this book?
+      placeholder: "Examples: citations, missing figures, accessibility, LMS package, test bank, chapter length, lab feasibility."
+    validations:
+      required: true
+  - type: textarea
+    id: strongest-parts
+    attributes:
+      label: Strongest parts
+      description: What should definitely be preserved?
+      placeholder: "Chapters, labs, framing, source posture, explanations, examples, etc."
+    validations:
+      required: false
+  - type: textarea
+    id: weakest-parts
+    attributes:
+      label: Weakest parts or highest-priority revisions
+      description: What should be improved before v1.0?
+      placeholder: "Specific chapters, sections, labs, figures, citation issues, or missing supports."
+    validations:
+      required: false
+  - type: textarea
+    id: instructor-resources
+    attributes:
+      label: Instructor resources needed
+      description: What companion materials would make adoption easier?
+      placeholder: "Slides, Canvas shell, quiz bank, rubrics, answer keys, pacing guide, sample syllabus, etc."
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Anything else the author should know.
+      placeholder: "Additional feedback."
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy checklist
+      options:
+        - label: I am not including private student, employee, grade, accommodation, or institutional information that should not be public.
+          required: true
