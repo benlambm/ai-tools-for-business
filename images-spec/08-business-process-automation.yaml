@@ -1,0 +1,74 @@
+chapter: 08-business-process-automation
+hero:
+  slug: hero
+  prompt: Wide editorial illustration introducing How AI Tools Are Used in Business Process
+    Automation and RPA. Show an abstract business and information technology workplace with
+    simplified people, screens containing only abstract shapes, workflow signals, and AI tool
+    support in a calm classroom-ready composition.
+  alt: Illustration introducing How AI Tools Are Used in Business Process Automation and RPA
+    with abstract business and technology elements.
+  caption: How AI Tools Are Used in Business Process Automation and RPA is one area where
+    AI tools are changing business and IT work.
+  aspect: '16:9'
+  placement: after-title
+figures:
+- slug: the-basic-vocabulary
+  prompt: 'Editorial textbook illustration for the section ''The basic vocabulary''. Represent
+    this idea visually: A **business process** is a repeatable series of steps that produces
+    a business result. Hiring an employee, paying an invoice, resetting a password, approving
+    a refund, ordering supplies, or processing an insurance claim are all business processes.
+    **Business Process Automation**, often shortened to **BPA**, means using software to automate
+    all or part of a business process. BPA usually focuses on the process as... Use simplified
+    people, business objects, workflow arrows, abstract screens, and symbolic data shapes
+    only.'
+  alt: Illustration of The basic vocabulary using abstract business and technology symbols.
+  caption: The basic vocabulary is a practical part of AI use in business and IT.
+  aspect: '4:3'
+  anchor_heading: 1. The basic vocabulary
+  placement: after-first-paragraph
+- slug: process-mining-and-task-mining-finding
+  prompt: "Editorial textbook illustration for the section 'Process mining and task mining:\
+    \ finding what to automate'. Represent this idea visually: Before a company automates\
+    \ a process, it needs to understand the process. This is harder than it sounds. The official\
+    \ process diagram might say that invoices go from \u201Creceived\u201D to \u201Capproved\u201D\
+    \ to \u201Cpaid.\u201D The real process might involve five email threads, three spreadsheets,\
+    \ a manager who is always late, and a clerk who manually fixes vendor names every Friday.\
+    \ **Process mining** uses event logs from business... Use simplified people, business\
+    \ objects, workflow arrows, abstract screens, and symbolic data shapes only."
+  alt: 'Illustration of Process mining and task mining: finding what to automate using abstract
+    business and technology symbols.'
+  caption: 'Process mining and task mining: finding what to automate is a practical part of
+    AI use in business and IT.'
+  aspect: '4:3'
+  anchor_heading: '4. Process mining and task mining: finding what to automate'
+  placement: after-first-paragraph
+- slug: why-businesses-use-ai-automation
+  prompt: 'Editorial textbook illustration for the section ''Why businesses use AI automation''.
+    Represent this idea visually: The first reason is speed. A bot can move data or check
+    records faster than a person doing repetitive keystrokes. AI can also reduce the time
+    needed to read and summarize documents. The second reason is consistency. A workflow can
+    enforce the same routing rule every time. A human may forget a step at the end of a long
+    day; software does not get tired. Of course, software can still be wrong if the rule is
+    wrong,... Use simplified people, business objects, workflow arrows, abstract screens,
+    and symbolic data shapes only.'
+  alt: Illustration of Why businesses use AI automation using abstract business and technology
+    symbols.
+  caption: Why businesses use AI automation is a practical part of AI use in business and
+    IT.
+  aspect: '4:3'
+  anchor_heading: 8. Why businesses use AI automation
+  placement: after-first-paragraph
+- slug: what-this-means-for-jobs
+  prompt: "Editorial textbook illustration for the section 'What this means for jobs'. Represent\
+    \ this idea visually: AI automation changes work, but not always in the simple \u201C\
+    robots replace people\u201D way. In many offices, the first tasks automated are repetitive\
+    \ data movement, document sorting, basic classification, status updates, and standard\
+    \ replies. People still handle exceptions, judgment calls, customer relationships, policy\
+    \ interpretation, and process improvement. New roles are also growing around automation.\
+    \ A **business... Use simplified people, business objects, workflow arrows, abstract screens,\
+    \ and symbolic data shapes only."
+  alt: Illustration of What this means for jobs using abstract business and technology symbols.
+  caption: What this means for jobs is a practical part of AI use in business and IT.
+  aspect: '4:3'
+  anchor_heading: 11. What this means for jobs
+  placement: after-first-paragraph

@@ -1,0 +1,74 @@
+chapter: 04-fraud-security
+hero:
+  slug: hero
+  prompt: Wide editorial illustration introducing AI Tools in Fraud Detection and Cybersecurity.
+    Show an abstract business and information technology workplace with simplified people,
+    screens containing only abstract shapes, workflow signals, and AI tool support in a calm
+    classroom-ready composition.
+  alt: Illustration introducing AI Tools in Fraud Detection and Cybersecurity with abstract
+    business and technology elements.
+  caption: AI Tools in Fraud Detection and Cybersecurity is one area where AI tools are changing
+    business and IT work.
+  aspect: '16:9'
+  placement: after-title
+figures:
+- slug: the-basic-idea-ai-turns-messy
+  prompt: 'Editorial textbook illustration for the section ''The basic idea: AI turns messy
+    activity into risk signals''. Represent this idea visually: Artificial intelligence, or
+    AI, is software designed to perform tasks that normally require human-like judgment, such
+    as recognizing patterns, classifying information, or generating explanations. Machine
+    learning is a type of AI in which software learns patterns from data instead of being
+    programmed with only fixed rules. A model is the trained system that makes predictions
+    or classifications. In fraud and... Use simplified people, business objects, workflow
+    arrows, abstract screens, and symbolic data shapes only.'
+  alt: 'Illustration of The basic idea: AI turns messy activity into risk signals using abstract
+    business and technology symbols.'
+  caption: 'The basic idea: AI turns messy activity into risk signals is a practical part
+    of AI use in business and IT.'
+  aspect: '4:3'
+  anchor_heading: 'The basic idea: AI turns messy activity into risk signals'
+  placement: after-first-paragraph
+- slug: how-ai-is-used-for-account
+  prompt: 'Editorial textbook illustration for the section ''How AI is used for account security
+    and identity checks''. Represent this idea visually: Fraud is not only about stolen cards.
+    Criminals also try to take over accounts, create fake accounts, and impersonate real people.
+    Account takeover means someone gains access to an account that does not belong to them.
+    Synthetic identity fraud means criminals combine real and fake personal information to
+    create a new identity that looks legitimate. AI tools are used to detect suspicious account
+    behavior. A system... Use simplified people, business objects, workflow arrows, abstract
+    screens, and symbolic data shapes only.'
+  alt: Illustration of How AI is used for account security and identity checks using abstract
+    business and technology symbols.
+  caption: How AI is used for account security and identity checks is a practical part of
+    AI use in business and IT.
+  aspect: '4:3'
+  anchor_heading: How AI is used for account security and identity checks
+  placement: after-first-paragraph
+- slug: attackers-use-ai-too
+  prompt: "Editorial textbook illustration for the section 'Attackers use AI too'. Represent\
+    \ this idea visually: The same AI tools that help defenders can also help attackers. Criminals\
+    \ can use generative AI to write more convincing phishing emails, translate scams into\
+    \ many languages, generate fake customer support messages, create malicious code, or imitate\
+    \ voices. Verizon\u2019s 2026 Data Breach Investigations Report says 31% of breaches started\
+    \ with software vulnerabilities, 48% involved ransomware, and 15 attack techniques...\
+    \ Use simplified people, business objects, workflow arrows, abstract screens, and symbolic\
+    \ data shapes only."
+  alt: Illustration of Attackers use AI too using abstract business and technology symbols.
+  caption: Attackers use AI too is a practical part of AI use in business and IT.
+  aspect: '4:3'
+  anchor_heading: Attackers use AI too
+  placement: after-first-paragraph
+- slug: risks-and-limitations
+  prompt: "Editorial textbook illustration for the section 'Risks and limitations'. Represent\
+    \ this idea visually: AI fraud and security tools make two basic kinds of mistakes. A\
+    \ false positive happens when the system flags something innocent as suspicious. A real\
+    \ customer\u2019s card gets declined, an account is frozen, or an employee is locked out.\
+    \ A false negative happens when the system misses a real threat. A fraudulent order ships,\
+    \ a stolen login succeeds, or malware spreads. Both are costly. Too many false positives...\
+    \ Use simplified people, business objects, workflow arrows, abstract screens, and symbolic\
+    \ data shapes only."
+  alt: Illustration of Risks and limitations using abstract business and technology symbols.
+  caption: Risks and limitations is a practical part of AI use in business and IT.
+  aspect: '4:3'
+  anchor_heading: Risks and limitations
+  placement: after-first-paragraph

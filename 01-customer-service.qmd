@@ -1,5 +1,10 @@
 # Chapter 1: AI Tools in Customer Service and IT Support
 
+
+<!-- imagegen:begin slug=hero -->
+![Customer service and IT support are full of language work — the kind of work AI tools can assist with.](images/01/hero.png){#fig-hero fig-alt="Three support representatives at curved desks looking at screens displaying abstract chat-bubble icons in a calm office environment." width="100%"}
+<!-- imagegen:end -->
+
 > **Course Outcome**
 >
 > VCCS-1. Customer Service Automation: Explain the role of AI-powered chatbots and virtual assistants in customer service automation to enhance response times and customer satisfaction.
@@ -13,6 +18,11 @@ The broad business adoption picture is real but uneven. A 2026 Federal Reserve n
 ## 1. The basic idea: support work is full of language
 
 Artificial intelligence, or AI, is software designed to perform tasks that usually require human-like judgment, such as recognizing patterns, understanding language, or making predictions. Generative AI is a type of AI that creates new content, such as text, summaries, images, code, or audio. A large language model, often shortened to LLM, is a generative AI system trained on very large amounts of text so it can predict and produce language.
+
+<!-- imagegen:begin slug=the-basic-idea-support-work-is -->
+![The basic idea: support work is full of language is a practical part of AI use in business and IT.](images/01/the-basic-idea-support-work-is.png){#fig-the-basic-idea-support-work-is fig-alt="Illustration of The basic idea: support work is full of language using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 Customer service and IT support are natural places to use these tools because support work is full of language. A support employee reads a problem description, asks clarifying questions, searches help articles, writes a response, and records what happened. That does not mean the work is easy. A frustrated customer may leave out key details. A broken laptop may have multiple causes. A billing problem may involve policy, law, and customer emotion. But many support tasks have repeatable patterns, which makes them good candidates for partial automation.
 
@@ -29,6 +39,11 @@ The key word is bounded. The safest deployments give the AI a narrow job: answer
 ## 3. The second major pattern: agent assist
 
 The most important AI use is often invisible to the customer. Agent assist means AI helps a human support worker while the human remains responsible for the response. This can include drafting replies, suggesting knowledge articles, summarizing long case histories, translating between languages, detecting customer sentiment, and recommending next steps.
+
+<!-- imagegen:begin slug=agent-assist -->
+![Agent-assist tools draft replies from conversation context; the human decides what to send.](images/01/agent-assist.png){#fig-agent-assist fig-alt="Support agent wearing a headset at a desk with abstract suggested-reply shapes floating near an abstract message icon on the screen." width="80%"}
+<!-- imagegen:end -->
+
 
 Microsoft’s Dynamics 365 Customer Service Copilot, for instance, gathers knowledge from internal and external sources to draft contextual answers for email and chat, lets service representatives ask questions while researching a case, and generates case and conversation summaries. It also uses AI-assisted routing to classify, route, and assign incoming requests to suitable representatives. ([Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/release-plan/2025wave1/service/dynamics365-customer-service/))
 
@@ -48,6 +63,11 @@ This does not mean summaries should be accepted blindly. A summary can omit a pr
 
 A knowledge base is a library of approved help articles, troubleshooting guides, policy pages, and scripts. In older systems, support workers searched by keyword. Newer AI tools use natural-language questions: “Customer says their invoice is wrong after upgrading mid-month. What policy applies?” The AI searches the approved material and returns a suggested answer.
 
+<!-- imagegen:begin slug=the-fourth-major-pattern-knowledge-search -->
+![The fourth major pattern: knowledge search and retrieval is a practical part of AI use in business and IT.](images/01/the-fourth-major-pattern-knowledge-search.png){#fig-the-fourth-major-pattern-knowledge-search fig-alt="Illustration of The fourth major pattern: knowledge search and retrieval using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
+
 A related technique is retrieval-augmented generation, often called RAG. In plain English, RAG means the AI is told to answer using retrieved company documents instead of relying only on what the model “remembers” from training. This is important because a company’s return policy, outage procedure, or laptop setup instructions may be private, recent, or different from general internet information.
 
 RAG does not magically eliminate errors. The knowledge base may be outdated. The AI may retrieve the wrong article. The user’s question may be ambiguous. But RAG is usually safer than asking a general-purpose chatbot to invent an answer from memory. For students, the practical lesson is simple: AI support quality depends heavily on the quality of the company’s documentation.
@@ -55,6 +75,11 @@ RAG does not magically eliminate errors. The knowledge base may be outdated. The
 ## 6. The fifth major pattern: IT operations and incident response
 
 IT support is not only “my printer will not work.” It also includes keeping systems online. IT operations teams monitor servers, applications, networks, databases, cloud services, and security tools. When something breaks, hundreds or thousands of alerts may arrive. AIOps, short for AI for IT operations, uses machine learning and automation to reduce alert noise, group related alerts, identify likely causes, and recommend fixes.
+
+<!-- imagegen:begin slug=alert-noise -->
+![AI-assisted monitoring can reduce alert noise so teams focus on signals that matter.](images/01/alert-noise.png){#fig-alert-noise fig-alt="Illustration contrasting a dense cluster of abstract alert symbols with a clearer area showing fewer symbols after noise reduction." width="80%"}
+<!-- imagegen:end -->
+
 
 PagerDuty’s AIOps documentation describes features for noise reduction, triage and root-cause analysis, event orchestration, and automation. Its documentation says machine learning can surface critical incident information, identify probable origin, show whether an incident happened before, and suggest whether a recent change may be related. ([PagerDuty](https://support.pagerduty.com/main/docs/aiops))
 

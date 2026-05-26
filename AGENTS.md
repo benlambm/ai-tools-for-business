@@ -47,6 +47,22 @@ Strategic goals he is actively exploring, roughly ordered by priority:
 4. **Paid e-commerce for Instructor / Institution deployments.** Sold separately from the open textbook: slide decks, Canvas `.imscc` course shell, test banks, lab solution keys, pacing/implementation guide. See `docs/publishing-notes.md` for the license boundary.
 5. **Interactive code snippets and dynamic playgrounds in the Netlify HTML edition.** Quarto Live (Pyodide-based, in-browser Python) or embedded sandboxes for the HTML version, while keeping the PDF and EPUB editions self-contained.
 
+## Image pipeline
+
+Shared CLI package: `~/BookProjects` (`pip install -e` via `.venv` there). Plan: `~/BookProjects/docs/image-pipeline-plan.md`.
+
+```bash
+scripts/imagegen.zsh providers
+scripts/imagegen.zsh gen 01 hero              # gemini-only OK if no OpenAI key
+scripts/imagegen.zsh scaffold --all --density rich-bounded
+scripts/imagegen.zsh illustrate --all --density rich-bounded --publish-failed --render
+scripts/imagegen.zsh review
+scripts/imagegen.zsh remove 01 hero
+scripts/imagegen.zsh lint 01
+```
+
+Config: `imagegen.book.yaml`. Style prefix: `images/STYLE.md`. Drafts: `images/_drafts/` (gitignored). Bulk illustration inserts managed Quarto figure blocks and writes `_book/image-review.html` for visual cleanup.
+
 ## Remaining Work
 
 1. Verify the public beta render across HTML, PDF, and EPUB.

@@ -1,0 +1,66 @@
+chapter: 01-customer-service
+hero:
+  slug: hero
+  prompt: A small customer support team at curved workstations in a calm office, three simplified
+    figures focused on monitors showing abstract chat-bubble and ticket shapes only, soft
+    ambient lighting, wide establishing view.
+  alt: Three support representatives at curved desks looking at screens displaying abstract
+    chat-bubble icons in a calm office environment.
+  caption: "Customer service and IT support are full of language work \u2014 the kind of work\
+    \ AI tools can assist with."
+  aspect: '16:9'
+  placement: after-title
+figures:
+- slug: agent-assist
+  prompt: A support agent at a desk with a headset, a friendly simplified figure, monitor
+    showing abstract suggested-reply bubbles floating beside an abstract customer message
+    shape, coral and teal accents on cream.
+  alt: Support agent wearing a headset at a desk with abstract suggested-reply shapes floating
+    near an abstract message icon on the screen.
+  caption: Agent-assist tools draft replies from conversation context; the human decides what
+    to send.
+  aspect: '4:3'
+  anchor_heading: '3. The second major pattern: agent assist'
+  placement: after-first-paragraph
+- slug: alert-noise
+  prompt: An IT operations scene abstracted as many overlapping alert icons and pulse lines
+    clustering on one side of the frame, with a calmer cleared zone on the other side after
+    filtering, geometric and symbolic only.
+  alt: Illustration contrasting a dense cluster of abstract alert symbols with a clearer area
+    showing fewer symbols after noise reduction.
+  caption: AI-assisted monitoring can reduce alert noise so teams focus on signals that matter.
+  aspect: '4:3'
+  anchor_heading: '6. The fifth major pattern: IT operations and incident response'
+  placement: after-first-paragraph
+- slug: the-basic-idea-support-work-is
+  prompt: 'Editorial textbook illustration for the section ''The basic idea: support work
+    is full of language''. Represent this idea visually: Artificial intelligence, or AI, is
+    software designed to perform tasks that usually require human-like judgment, such as recognizing
+    patterns, understanding language, or making predictions. Generative AI is a type of AI
+    that creates new content, such as text, summaries, images, code, or audio. A large language
+    model, often shortened to LLM, is a generative AI system trained on very large amounts
+    of text so it can... Use simplified people, business objects, workflow arrows, abstract
+    screens, and symbolic data shapes only.'
+  alt: 'Illustration of The basic idea: support work is full of language using abstract business
+    and technology symbols.'
+  caption: 'The basic idea: support work is full of language is a practical part of AI use
+    in business and IT.'
+  aspect: '4:3'
+  anchor_heading: '1. The basic idea: support work is full of language'
+  placement: after-first-paragraph
+- slug: the-fourth-major-pattern-knowledge-search
+  prompt: "Editorial textbook illustration for the section 'The fourth major pattern: knowledge\
+    \ search and retrieval'. Represent this idea visually: A knowledge base is a library of\
+    \ approved help articles, troubleshooting guides, policy pages, and scripts. In older\
+    \ systems, support workers searched by keyword. Newer AI tools use natural-language questions:\
+    \ \u201CCustomer says their invoice is wrong after upgrading mid-month. What policy applies?\u201D\
+    \ The AI searches the approved material and returns a suggested answer. A related technique\
+    \ is retrieval-augmented... Use simplified people, business objects, workflow arrows,\
+    \ abstract screens, and symbolic data shapes only."
+  alt: 'Illustration of The fourth major pattern: knowledge search and retrieval using abstract
+    business and technology symbols.'
+  caption: 'The fourth major pattern: knowledge search and retrieval is a practical part of
+    AI use in business and IT.'
+  aspect: '4:3'
+  anchor_heading: '5. The fourth major pattern: knowledge search and retrieval'
+  placement: after-first-paragraph

@@ -9,5 +9,9 @@ node_modules/
 /.quarto/
 **/*.quarto_ipynb
 
+.env
+images/_drafts/
+images/_drafts/_log.jsonl
+
 # Local Netlify folder
 .netlify

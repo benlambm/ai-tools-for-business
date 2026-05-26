@@ -1,0 +1,72 @@
+chapter: 07-financial-forecasting
+hero:
+  slug: hero
+  prompt: Wide editorial illustration introducing AI Tools in Financial Forecasting and Budgeting.
+    Show an abstract business and information technology workplace with simplified people,
+    screens containing only abstract shapes, workflow signals, and AI tool support in a calm
+    classroom-ready composition.
+  alt: Illustration introducing AI Tools in Financial Forecasting and Budgeting with abstract
+    business and technology elements.
+  caption: AI Tools in Financial Forecasting and Budgeting is one area where AI tools are
+    changing business and IT work.
+  aspect: '16:9'
+  placement: after-title
+figures:
+- slug: what-financial-forecasting-and-budgeting-mean
+  prompt: "Editorial textbook illustration for the section 'What financial forecasting and\
+    \ budgeting mean'. Represent this idea visually: Before we talk about AI, we need to define\
+    \ the finance work. **Financial forecasting** means estimating what will happen in the\
+    \ future: next month\u2019s sales, next quarter\u2019s cash flow, next year\u2019s payroll\
+    \ expense, or how much inventory the company will need. A forecast is not a promise. It\
+    \ is an informed estimate based on current data, historical patterns, and assumptions\
+    \ about the future. Use simplified people, business objects, workflow arrows, abstract\
+    \ screens, and symbolic data shapes only."
+  alt: Illustration of What financial forecasting and budgeting mean using abstract business
+    and technology symbols.
+  caption: What financial forecasting and budgeting mean is a practical part of AI use in
+    business and IT.
+  aspect: '4:3'
+  anchor_heading: 1. What financial forecasting and budgeting mean
+  placement: after-first-paragraph
+- slug: where-ai-fits-in-the-forecasting
+  prompt: 'Editorial textbook illustration for the section ''Where AI fits in the forecasting
+    and budgeting workflow''. Represent this idea visually: A typical financial forecasting
+    and budgeting process has several stages. AI tools can assist at almost every stage. Use
+    simplified people, business objects, workflow arrows, abstract screens, and symbolic data
+    shapes only.'
+  alt: Illustration of Where AI fits in the forecasting and budgeting workflow using abstract
+    business and technology symbols.
+  caption: Where AI fits in the forecasting and budgeting workflow is a practical part of
+    AI use in business and IT.
+  aspect: '4:3'
+  anchor_heading: 3. Where AI fits in the forecasting and budgeting workflow
+  placement: after-first-paragraph
+- slug: what-ai-is-good-at-in
+  prompt: 'Editorial textbook illustration for the section ''What AI is good at in finance
+    planning''. Represent this idea visually: AI tools are strongest when the task has clear
+    data, repeated patterns, and a need for speed. They are good at finding patterns across
+    many rows of historical data. They can spot recurring seasonality, unusual spikes, delayed
+    payments, expense categories that are growing quickly, or departments that consistently
+    over-budget or under-budget. Use simplified people, business objects, workflow arrows,
+    abstract screens, and symbolic data shapes only.'
+  alt: Illustration of What AI is good at in finance planning using abstract business and
+    technology symbols.
+  caption: What AI is good at in finance planning is a practical part of AI use in business
+    and IT.
+  aspect: '4:3'
+  anchor_heading: 5. What AI is good at in finance planning
+  placement: after-first-paragraph
+- slug: how-the-finance-job-changes
+  prompt: 'Editorial textbook illustration for the section ''How the finance job changes''.
+    Represent this idea visually: AI does not remove the need for finance professionals. It
+    changes what good finance work looks like. A traditional junior analyst might spend much
+    of the week downloading data, fixing spreadsheet formats, updating formulas, checking
+    totals, and preparing slides. With AI-enabled tools, some of that work can be automated
+    or accelerated. Use simplified people, business objects, workflow arrows, abstract screens,
+    and symbolic data shapes only.'
+  alt: Illustration of How the finance job changes using abstract business and technology
+    symbols.
+  caption: How the finance job changes is a practical part of AI use in business and IT.
+  aspect: '4:3'
+  anchor_heading: 7. How the finance job changes
+  placement: after-first-paragraph

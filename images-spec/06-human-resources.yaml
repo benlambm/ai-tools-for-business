@@ -1,0 +1,78 @@
+chapter: 06-human-resources
+hero:
+  slug: hero
+  prompt: Wide editorial illustration introducing AI Tools in Human Resources. Show an abstract
+    business and information technology workplace with simplified people, screens containing
+    only abstract shapes, workflow signals, and AI tool support in a calm classroom-ready
+    composition.
+  alt: Illustration introducing AI Tools in Human Resources with abstract business and technology
+    elements.
+  caption: AI Tools in Human Resources is one area where AI tools are changing business and
+    IT work.
+  aspect: '16:9'
+  placement: after-title
+figures:
+- slug: basic-concepts-what-ai-in-hr
+  prompt: "Editorial textbook illustration for the section 'Basic Concepts: What \u201CAI\
+    \ in HR\u201D Means'. Represent this idea visually: **Artificial intelligence**, or **AI**,\
+    \ means computer systems that perform tasks associated with human judgment, language,\
+    \ pattern recognition, prediction, or decision support. In HR, AI does not usually \u201C\
+    understand people\u201D the way a human manager might. It looks for patterns in data and\
+    \ produces outputs such as recommendations, rankings, summaries, predictions, or generated\
+    \ text. **Machine learning** is a type... Use simplified people, business objects, workflow\
+    \ arrows, abstract screens, and symbolic data shapes only."
+  alt: "Illustration of Basic Concepts: What \u201CAI in HR\u201D Means using abstract business\
+    \ and technology symbols."
+  caption: "Basic Concepts: What \u201CAI in HR\u201D Means is a practical part of AI use\
+    \ in business and IT."
+  aspect: '4:3'
+  anchor_heading: "1. Basic Concepts: What \u201CAI in HR\u201D Means"
+  placement: after-first-paragraph
+- slug: learning-development-and-skills
+  prompt: "Editorial textbook illustration for the section 'Learning, Development, and Skills'.\
+    \ Represent this idea visually: Another growing use of AI in HR is **learning and development**,\
+    \ often abbreviated as **L&D**. This means helping employees build skills through training,\
+    \ coaching, certifications, courses, mentoring, and career pathways. AI can help L&D teams\
+    \ in several ways. It can recommend training based on a worker\u2019s role, career goals,\
+    \ or skill gaps. It can generate quizzes, practice scenarios, simulations, and course...\
+    \ Use simplified people, business objects, workflow arrows, abstract screens, and symbolic\
+    \ data shapes only."
+  alt: Illustration of Learning, Development, and Skills using abstract business and technology
+    symbols.
+  caption: Learning, Development, and Skills is a practical part of AI use in business and
+    IT.
+  aspect: '4:3'
+  anchor_heading: 4. Learning, Development, and Skills
+  placement: after-first-paragraph
+- slug: scheduling-monitoring-and-algorithmic-management
+  prompt: 'Editorial textbook illustration for the section ''Scheduling, Monitoring, and Algorithmic
+    Management''. Represent this idea visually: A more controversial use of AI in HR is **algorithmic
+    management**. Algorithmic management means using software, sometimes including AI, to
+    automate tasks traditionally done by human managers. That can include assigning shifts,
+    measuring productivity, ranking workers, triggering warnings, recommending discipline,
+    or controlling work pace. The OECD describes algorithmic management as software that fully
+    or partly... Use simplified people, business objects, workflow arrows, abstract screens,
+    and symbolic data shapes only.'
+  alt: Illustration of Scheduling, Monitoring, and Algorithmic Management using abstract business
+    and technology symbols.
+  caption: Scheduling, Monitoring, and Algorithmic Management is a practical part of AI use
+    in business and IT.
+  aspect: '4:3'
+  anchor_heading: 7. Scheduling, Monitoring, and Algorithmic Management
+  placement: after-first-paragraph
+- slug: what-responsible-hr-ai-looks-like
+  prompt: "Editorial textbook illustration for the section 'What Responsible HR AI Looks Like'.\
+    \ Represent this idea visually: A responsible HR AI program does not start with a flashy\
+    \ tool. It starts with a clear question: **What HR problem are we trying to solve, and\
+    \ what would count as success?** For example, \u201CWe want AI\u201D is not a good goal.\
+    \ \u201CWe want to reduce interview scheduling time while maintaining candidate satisfaction\
+    \ and avoiding discriminatory screening\u201D is better. \u201CWe want to use AI to identify\
+    \ internal employees who may... Use simplified people, business objects, workflow arrows,\
+    \ abstract screens, and symbolic data shapes only."
+  alt: Illustration of What Responsible HR AI Looks Like using abstract business and technology
+    symbols.
+  caption: What Responsible HR AI Looks Like is a practical part of AI use in business and
+    IT.
+  aspect: '4:3'
+  anchor_heading: 10. What Responsible HR AI Looks Like
+  placement: after-first-paragraph

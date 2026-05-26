@@ -1,0 +1,78 @@
+chapter: 09-product-design
+hero:
+  slug: hero
+  prompt: Wide editorial illustration introducing AI Tools in Product Design and Development.
+    Show an abstract business and information technology workplace with simplified people,
+    screens containing only abstract shapes, workflow signals, and AI tool support in a calm
+    classroom-ready composition.
+  alt: Illustration introducing AI Tools in Product Design and Development with abstract business
+    and technology elements.
+  caption: AI Tools in Product Design and Development is one area where AI tools are changing
+    business and IT work.
+  aspect: '16:9'
+  placement: after-title
+figures:
+- slug: what-product-design-and-development-means
+  prompt: "Editorial textbook illustration for the section 'What \u201Cproduct design and\
+    \ development\u201D means'. Represent this idea visually: A **product** can be physical,\
+    \ digital, or both. A water bottle, a running shoe, a banking app, a medical device, a\
+    \ video game, and an electric vehicle dashboard are all products. **Product design** is\
+    \ the work of deciding what the product should be like: what problem it solves, who it\
+    \ serves, how it looks, how it feels, and how it behaves. **Product development** is the\
+    \ larger process of turning that idea into... Use simplified people, business objects,\
+    \ workflow arrows, abstract screens, and symbolic data shapes only."
+  alt: "Illustration of What \u201Cproduct design and development\u201D means using abstract\
+    \ business and technology symbols."
+  caption: "What \u201Cproduct design and development\u201D means is a practical part of AI\
+    \ use in business and IT."
+  aspect: '4:3'
+  anchor_heading: "1. What \u201Cproduct design and development\u201D means"
+  placement: after-first-paragraph
+- slug: ai-in-idea-generation-and-concept
+  prompt: "Editorial textbook illustration for the section 'AI in idea generation and concept\
+    \ design'. Represent this idea visually: Once a team understands a problem, it explores\
+    \ possible solutions. This is where generative AI became very visible. Designers can ask\
+    \ an AI tool to generate mood boards, packaging variations, interface sketches, product\
+    \ names, landing-page copy, visual styles, or early screen layouts. This helps teams create\
+    \ many options quickly, especially at the \u201Crough draft\u201D stage. Adobe\u2019s\
+    \ 2025 annual report describes Firefly... Use simplified people, business objects, workflow\
+    \ arrows, abstract screens, and symbolic data shapes only."
+  alt: Illustration of AI in idea generation and concept design using abstract business and
+    technology symbols.
+  caption: AI in idea generation and concept design is a practical part of AI use in business
+    and IT.
+  aspect: '4:3'
+  anchor_heading: 4. AI in idea generation and concept design
+  placement: after-first-paragraph
+- slug: ai-in-digital-twins-and-manufacturing
+  prompt: 'Editorial textbook illustration for the section ''AI in digital twins and manufacturing
+    planning''. Represent this idea visually: For complex products, development does not stop
+    at the object itself. Teams also need to design the process that will build it. This is
+    where digital twins are important. A digital twin lets teams simulate a product, production
+    line, or factory before committing money to physical changes. Siemens describes its Xcelerator
+    industrial software portfolio as centered on the digital twin and says a physics-based...
+    Use simplified people, business objects, workflow arrows, abstract screens, and symbolic
+    data shapes only.'
+  alt: Illustration of AI in digital twins and manufacturing planning using abstract business
+    and technology symbols.
+  caption: AI in digital twins and manufacturing planning is a practical part of AI use in
+    business and IT.
+  aspect: '4:3'
+  anchor_heading: 8. AI in digital twins and manufacturing planning
+  placement: after-first-paragraph
+- slug: what-ai-is-good-at-and
+  prompt: "Editorial textbook illustration for the section 'What AI is good at\u2014and what\
+    \ it is not good at'. Represent this idea visually: AI is good at accelerating blank-page\
+    \ work. It can produce first drafts, generate alternatives, summarize large text sets,\
+    \ convert rough ideas into mockups, suggest code, and explore engineering design spaces.\
+    \ It is especially useful when the task has many possible answers and humans can judge\
+    \ the output. AI is weaker when the cost of being wrong is high. It may invent facts,\
+    \ misunderstand users, ignore rare edge... Use simplified people, business objects, workflow\
+    \ arrows, abstract screens, and symbolic data shapes only."
+  alt: "Illustration of What AI is good at\u2014and what it is not good at using abstract\
+    \ business and technology symbols."
+  caption: "What AI is good at\u2014and what it is not good at is a practical part of AI use\
+    \ in business and IT."
+  aspect: '4:3'
+  anchor_heading: "11. What AI is good at\u2014and what it is not good at"
+  placement: after-first-paragraph

@@ -1,5 +1,10 @@
 # Chapter 4: AI Tools in Fraud Detection and Cybersecurity
 
+
+<!-- imagegen:begin slug=hero -->
+![AI Tools in Fraud Detection and Cybersecurity is one area where AI tools are changing business and IT work.](images/04/hero.png){#fig-hero fig-alt="Illustration introducing AI Tools in Fraud Detection and Cybersecurity with abstract business and technology elements." width="100%"}
+<!-- imagegen:end -->
+
 > **Course Outcome**
 >
 > VCCS-4. Explain how AI enhances fraud detection and security by identifying fraudulent transactions, cybersecurity threats, and suspicious activities.
@@ -17,6 +22,11 @@ So the basic answer is: yes, AI is being used, but mostly as a high-speed decisi
 ## The basic idea: AI turns messy activity into risk signals
 
 Artificial intelligence, or AI, is software designed to perform tasks that normally require human-like judgment, such as recognizing patterns, classifying information, or generating explanations. Machine learning is a type of AI in which software learns patterns from data instead of being programmed with only fixed rules. A model is the trained system that makes predictions or classifications.
+
+<!-- imagegen:begin slug=the-basic-idea-ai-turns-messy -->
+![The basic idea: AI turns messy activity into risk signals is a practical part of AI use in business and IT.](images/04/the-basic-idea-ai-turns-messy.png){#fig-the-basic-idea-ai-turns-messy fig-alt="Illustration of The basic idea: AI turns messy activity into risk signals using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 In fraud and security, the model usually works with features. A feature is a piece of information the system can use, such as transaction amount, time of day, location, device type, number of failed login attempts, or whether a shipping address matches a billing address.
 
@@ -56,6 +66,11 @@ The important practical point is that many small businesses use AI fraud detecti
 
 Fraud is not only about stolen cards. Criminals also try to take over accounts, create fake accounts, and impersonate real people. Account takeover means someone gains access to an account that does not belong to them. Synthetic identity fraud means criminals combine real and fake personal information to create a new identity that looks legitimate.
 
+<!-- imagegen:begin slug=how-ai-is-used-for-account -->
+![How AI is used for account security and identity checks is a practical part of AI use in business and IT.](images/04/how-ai-is-used-for-account.png){#fig-how-ai-is-used-for-account fig-alt="Illustration of How AI is used for account security and identity checks using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
+
 AI tools are used to detect suspicious account behavior. A system might notice that a customer who usually logs in from New Jersey on an iPhone is suddenly logging in from a new device in another country, changing the password, adding a new bank account, and attempting a large transfer. Each action might be allowed by itself, but together they create a risky pattern.
 
 Businesses also use AI in identity verification. Computer vision, a type of AI that analyzes images or video, can compare a selfie to a government ID, detect whether an ID image appears altered, or check whether a person appears to be physically present rather than using a photo. Natural language processing, or NLP, can analyze text such as emails, chat messages, or documents. NLP is AI for processing human language.
@@ -92,6 +107,11 @@ This can be useful, especially for overloaded teams. But it is not the same as f
 
 The same AI tools that help defenders can also help attackers. Criminals can use generative AI to write more convincing phishing emails, translate scams into many languages, generate fake customer support messages, create malicious code, or imitate voices.
 
+<!-- imagegen:begin slug=attackers-use-ai-too -->
+![Attackers use AI too is a practical part of AI use in business and IT.](images/04/attackers-use-ai-too.png){#fig-attackers-use-ai-too fig-alt="Illustration of Attackers use AI too using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
+
 Verizon’s 2026 Data Breach Investigations Report says 31% of breaches started with software vulnerabilities, 48% involved ransomware, and 15 attack techniques were being bolstered by generative AI. ([Verizon](https://www.verizon.com/business/resources/reports/dbir/)) Google Threat Intelligence Group reported that threat actors were increasingly integrating AI into reconnaissance, social engineering, and malware development in late 2025. ([Google Cloud](https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use)) Reconnaissance means gathering information about a target before attacking it. Social engineering means tricking people, rather than only attacking machines.
 
 This is important for students to understand: AI is not automatically “good” or “bad.” It is a capability. Defenders use it to find suspicious patterns faster. Attackers use it to produce more convincing deception faster. Businesses therefore need both AI tools and basic security discipline: strong authentication, employee training, software patching, least-privilege access, backups, monitoring, and incident response plans.
@@ -125,6 +145,11 @@ In all three cases, the pattern is similar: AI helps prioritize attention. It do
 ## Risks and limitations
 
 AI fraud and security tools make two basic kinds of mistakes. A false positive happens when the system flags something innocent as suspicious. A real customer’s card gets declined, an account is frozen, or an employee is locked out. A false negative happens when the system misses a real threat. A fraudulent order ships, a stolen login succeeds, or malware spreads.
+
+<!-- imagegen:begin slug=risks-and-limitations -->
+![Risks and limitations is a practical part of AI use in business and IT.](images/04/risks-and-limitations.png){#fig-risks-and-limitations fig-alt="Illustration of Risks and limitations using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 Both are costly. Too many false positives frustrate customers and waste staff time. Too many false negatives allow losses and breaches. The goal is not “perfect AI.” The goal is a practical balance between catching risk and allowing normal business to continue.
 

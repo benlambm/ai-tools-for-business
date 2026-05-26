@@ -1,0 +1,16 @@
+id: ai-tools-for-business
+title: "AI Tools for Business and Information Technology"
+root: .
+images_dir: images
+specs_dir: images-spec
+style_file: images/STYLE.md
+chapters:
+  "01": 01-customer-service
+  "02": 02-data-analytics
+  "03": 03-digital-marketing
+  "04": 04-fraud-security
+  "05": 05-supply-chain
+  "06": 06-human-resources
+  "07": 07-financial-forecasting
+  "08": 08-business-process-automation
+  "09": 09-product-design

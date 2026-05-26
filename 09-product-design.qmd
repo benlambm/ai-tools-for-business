@@ -10,6 +10,11 @@ AI tools are already being used in product design and development, but not usual
 
 A **product** can be physical, digital, or both. A water bottle, a running shoe, a banking app, a medical device, a video game, and an electric vehicle dashboard are all products. **Product design** is the work of deciding what the product should be like: what problem it solves, who it serves, how it looks, how it feels, and how it behaves. **Product development** is the larger process of turning that idea into something real: researching users, writing requirements, designing prototypes, engineering the product, testing it, launching it, and improving it after release.
 
+<!-- imagegen:begin slug=what-product-design-and-development-means -->
+![What “product design and development” means is a practical part of AI use in business and IT.](images/09/what-product-design-and-development-means.png){#fig-what-product-design-and-development-means fig-alt="Illustration of What “product design and development” means using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
+
 AI appears throughout that cycle. A 2025 academic review of AI in new product development found that AI is being applied across stages such as idea generation, design support, forecasting, recommendation, and optimization, but also warned that adoption is fragmented: many tools help one stage, while few connect the whole product lifecycle end to end. The same review notes that AI is often discussed too broadly, so useful analysis requires breaking product development into concrete phases and use cases. ([Springer](https://link.springer.com/article/10.1007/s11301-025-00533-5))
 
 ## 2. The AI terms you need first
@@ -29,6 +34,11 @@ This use is attractive because product teams often drown in feedback. A product 
 ## 4. AI in idea generation and concept design
 
 Once a team understands a problem, it explores possible solutions. This is where generative AI became very visible. Designers can ask an AI tool to generate mood boards, packaging variations, interface sketches, product names, landing-page copy, visual styles, or early screen layouts. This helps teams create many options quickly, especially at the “rough draft” stage.
+
+<!-- imagegen:begin slug=ai-in-idea-generation-and-concept -->
+![AI in idea generation and concept design is a practical part of AI use in business and IT.](images/09/ai-in-idea-generation-and-concept.png){#fig-ai-in-idea-generation-and-concept fig-alt="Illustration of AI in idea generation and concept design using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 Adobe’s 2025 annual report describes Firefly as a family of creative generative AI models spanning image, video, vector, audio, and more. It says Firefly is built into Adobe products and can create or edit images, videos, text effects, design templates, vector graphics, and audio through natural language prompts and reference assets. Adobe also describes Firefly Custom Models and Firefly Foundry, which let enterprises train or tune models around their own brand, product, or intellectual-property styles, and Firefly Services, which provides APIs for content generation, editing, and assembly. ([Adobe](https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-10k-fy25-final.pdf))
 
@@ -67,6 +77,11 @@ The pattern is clear: AI is strong at exploring many options within constraints.
 ## 8. AI in digital twins and manufacturing planning
 
 For complex products, development does not stop at the object itself. Teams also need to design the process that will build it. This is where digital twins are important. A digital twin lets teams simulate a product, production line, or factory before committing money to physical changes.
+
+<!-- imagegen:begin slug=ai-in-digital-twins-and-manufacturing -->
+![AI in digital twins and manufacturing planning is a practical part of AI use in business and IT.](images/09/ai-in-digital-twins-and-manufacturing.png){#fig-ai-in-digital-twins-and-manufacturing fig-alt="Illustration of AI in digital twins and manufacturing planning using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 Siemens describes its Xcelerator industrial software portfolio as centered on the digital twin and says a physics-based digital twin combines mechanical, electrical, and software information to help customers make real-world decisions faster and with more confidence. Siemens also says it is applying AI capabilities to design and simulation tasks, such as running many simulations for turbine-blade cooling in the time it previously took to run one. ([Siemens Assets](https://assets.new.siemens.com/siemens/assets/api/uuid%3A7ecc0bab-33b6-4444-a9e6-548e9ba03f8f/251113-deep-dive-software.pdf))
 

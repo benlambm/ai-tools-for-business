@@ -1,0 +1,71 @@
+chapter: 03-digital-marketing
+hero:
+  slug: hero
+  prompt: Wide editorial illustration introducing AI Tools in Digital Marketing. Show an abstract
+    business and information technology workplace with simplified people, screens containing
+    only abstract shapes, workflow signals, and AI tool support in a calm classroom-ready
+    composition.
+  alt: Illustration introducing AI Tools in Digital Marketing with abstract business and technology
+    elements.
+  caption: AI Tools in Digital Marketing is one area where AI tools are changing business
+    and IT work.
+  aspect: '16:9'
+  placement: after-title
+figures:
+- slug: what-digital-marketing-means
+  prompt: "Editorial textbook illustration for the section 'What \u201Cdigital marketing\u201D\
+    \ means'. Represent this idea visually: **Digital marketing** means promoting products,\
+    \ services, brands, or ideas through digital channels. These channels include search engines,\
+    \ websites, social media, email, mobile apps, online marketplaces, streaming video, digital\
+    \ audio, and connected TV. A connected TV is a television that streams internet-based\
+    \ video through apps such as YouTube, Hulu, Netflix, or other streaming services. Digital\
+    \ marketing... Use simplified people, business objects, workflow arrows, abstract screens,\
+    \ and symbolic data shapes only."
+  alt: "Illustration of What \u201Cdigital marketing\u201D means using abstract business and\
+    \ technology symbols."
+  caption: "What \u201Cdigital marketing\u201D means is a practical part of AI use in business\
+    \ and IT."
+  aspect: '4:3'
+  anchor_heading: "What \u201Cdigital marketing\u201D means"
+  placement: after-first-paragraph
+- slug: where-ai-is-actually-being-used
+  prompt: 'Editorial textbook illustration for the section ''Where AI is actually being used''.
+    Represent this idea visually: The section explains Where AI is actually being used. Use
+    simplified people, business objects, workflow arrows, abstract screens, and symbolic data
+    shapes only.'
+  alt: Illustration of Where AI is actually being used using abstract business and technology
+    symbols.
+  caption: Where AI is actually being used is a practical part of AI use in business and IT.
+  aspect: '4:3'
+  anchor_heading: Where AI is actually being used
+  placement: after-first-paragraph
+- slug: how-ai-use-differs-by-business
+  prompt: 'Editorial textbook illustration for the section ''How AI use differs by business
+    size''. Represent this idea visually: Small businesses often use AI through built-in platform
+    features. A local restaurant, boutique, repair shop, or fitness studio may use AI inside
+    Google Ads, Meta Ads, Mailchimp, Shopify, Square, Canva, or other tools. The business
+    owner may never train a model or write code. They might use AI to draft posts, create
+    ad variations, design email promotions, or let an ad platform optimize for calls, reservations,
+    or... Use simplified people, business objects, workflow arrows, abstract screens, and
+    symbolic data shapes only.'
+  alt: Illustration of How AI use differs by business size using abstract business and technology
+    symbols.
+  caption: How AI use differs by business size is a practical part of AI use in business and
+    IT.
+  aspect: '4:3'
+  anchor_heading: How AI use differs by business size
+  placement: after-first-paragraph
+- slug: chapter-takeaway
+  prompt: 'Editorial textbook illustration for the section ''Chapter takeaway''. Represent
+    this idea visually: AI tools are absolutely being used in digital marketing, but the real
+    story is more practical than futuristic. Businesses use AI to create more content versions,
+    automate ad targeting and bidding, personalize emails and websites, summarize analytics,
+    and speed up campaign workflows. Small businesses usually access these capabilities through
+    built-in tools. Large enterprises use AI across content supply chains,... Use simplified
+    people, business objects, workflow arrows, abstract screens, and symbolic data shapes
+    only.'
+  alt: Illustration of Chapter takeaway using abstract business and technology symbols.
+  caption: Chapter takeaway is a practical part of AI use in business and IT.
+  aspect: '4:3'
+  anchor_heading: Chapter takeaway
+  placement: after-first-paragraph

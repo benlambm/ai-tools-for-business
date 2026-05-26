@@ -1,5 +1,10 @@
 # Chapter 5: AI in Supply Chain Management and Logistics
 
+
+<!-- imagegen:begin slug=hero -->
+![AI in Supply Chain Management and Logistics is one area where AI tools are changing business and IT work.](images/05/hero.png){#fig-hero fig-alt="Illustration introducing AI in Supply Chain Management and Logistics with abstract business and technology elements." width="100%"}
+<!-- imagegen:end -->
+
 > **Course Outcome**
 >
 > VCCS-5. Supply Chain Optimization Using AI Tools: Explore AI's role in supply chain optimization, including demand forecasting, inventory management, and logistics efficiency.
@@ -17,6 +22,11 @@ The key lesson is that AI is not one thing. In supply chains, it is a family of 
 ## 2. The basic AI terms students need
 
 Artificial intelligence, or **AI**, means computer systems that perform tasks that normally require human judgment, such as recognizing patterns, predicting outcomes, generating text, or recommending actions. In business, AI usually works by finding patterns in data and using those patterns to support a decision.
+
+<!-- imagegen:begin slug=the-basic-ai-terms-students-need -->
+![The basic AI terms students need is a practical part of AI use in business and IT.](images/05/the-basic-ai-terms-students-need.png){#fig-the-basic-ai-terms-students-need fig-alt="Illustration of The basic AI terms students need using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 **Machine learning** is a type of AI where software learns from examples instead of being programmed with every rule by hand. For example, a delivery company may train a model on past delivery data so it can estimate whether today’s package will arrive late.
 
@@ -55,6 +65,11 @@ The business value is clear: even a small improvement in miles driven, failed de
 ## 5. Warehouses and fulfillment: robots, cameras, and task assignment
 
 Warehouses are among the most visible places where AI touches physical work. A warehouse management system, or **WMS**, is software that helps control receiving, storage, picking, packing, and shipping. AI can be added to a WMS to decide which worker or robot should handle a task, which items should be stored near each other, or which orders should be picked together.
+
+<!-- imagegen:begin slug=warehouses-and-fulfillment-robots-cameras-and -->
+![Warehouses and fulfillment: robots, cameras, and task assignment is a practical part of AI use in business and IT.](images/05/warehouses-and-fulfillment-robots-cameras-and.png){#fig-warehouses-and-fulfillment-robots-cameras-and fig-alt="Illustration of Warehouses and fulfillment: robots, cameras, and task assignment using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 Modern fulfillment centers use several kinds of automation. Some robots move shelves or containers. Others sort packages, scan labels, or assist workers. Computer vision can inspect items, read barcodes, or detect exceptions. AI can also predict congestion inside a facility and adjust task assignments.
 
@@ -109,6 +124,11 @@ The best control-tower tools therefore combine prediction with escalation. The s
 ## 9. What the technology stack looks like
 
 A supply-chain AI system usually has four layers.
+
+<!-- imagegen:begin slug=what-the-technology-stack-looks-like -->
+![What the technology stack looks like is a practical part of AI use in business and IT.](images/05/what-the-technology-stack-looks-like.png){#fig-what-the-technology-stack-looks-like fig-alt="Illustration of What the technology stack looks like using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 The first layer is the **data layer**. It includes orders, invoices, purchase orders, inventory records, barcode scans, GPS pings, RFID tags, carrier messages, customer-service tickets, supplier data, weather data, and customs documents. RFID, or **radio-frequency identification**, uses small tags and radio signals to identify items without scanning each barcode directly.
 
@@ -241,6 +261,11 @@ This is what real AI-supported supply-chain work often looks like. The AI helps 
 ## 13. What students should take away
 
 AI tools are being used in supply chain management and logistics today, but their value comes from targeted deployment. They forecast demand, route deliveries, coordinate robots, read freight messages, classify documents, detect risks, and help workers respond faster. They are most useful when connected to clean data, clear processes, and responsible human oversight.
+
+<!-- imagegen:begin slug=what-students-should-take-away -->
+![What students should take away is a practical part of AI use in business and IT.](images/05/what-students-should-take-away.png){#fig-what-students-should-take-away fig-alt="Illustration of What students should take away using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 The most important career skill is not memorizing one AI product. Products will change. The durable skill is understanding the workflow. Ask: What decision is being made? What data supports it? What system will the AI update? What happens if the AI is wrong? Who reviews the output? How will the company measure whether the tool actually improved cost, speed, service, safety, or resilience?
 

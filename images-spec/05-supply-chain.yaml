@@ -1,0 +1,77 @@
+chapter: 05-supply-chain
+hero:
+  slug: hero
+  prompt: Wide editorial illustration introducing AI in Supply Chain Management and Logistics.
+    Show an abstract business and information technology workplace with simplified people,
+    screens containing only abstract shapes, workflow signals, and AI tool support in a calm
+    classroom-ready composition.
+  alt: Illustration introducing AI in Supply Chain Management and Logistics with abstract
+    business and technology elements.
+  caption: AI in Supply Chain Management and Logistics is one area where AI tools are changing
+    business and IT work.
+  aspect: '16:9'
+  placement: after-title
+figures:
+- slug: the-basic-ai-terms-students-need
+  prompt: 'Editorial textbook illustration for the section ''The basic AI terms students need''.
+    Represent this idea visually: Artificial intelligence, or **AI**, means computer systems
+    that perform tasks that normally require human judgment, such as recognizing patterns,
+    predicting outcomes, generating text, or recommending actions. In business, AI usually
+    works by finding patterns in data and using those patterns to support a decision. **Machine
+    learning** is a type of AI where software learns from examples instead of being programmed...
+    Use simplified people, business objects, workflow arrows, abstract screens, and symbolic
+    data shapes only.'
+  alt: Illustration of The basic AI terms students need using abstract business and technology
+    symbols.
+  caption: The basic AI terms students need is a practical part of AI use in business and
+    IT.
+  aspect: '4:3'
+  anchor_heading: 2. The basic AI terms students need
+  placement: after-first-paragraph
+- slug: warehouses-and-fulfillment-robots-cameras-and
+  prompt: 'Editorial textbook illustration for the section ''Warehouses and fulfillment: robots,
+    cameras, and task assignment''. Represent this idea visually: Warehouses are among the
+    most visible places where AI touches physical work. A warehouse management system, or
+    **WMS**, is software that helps control receiving, storage, picking, packing, and shipping.
+    AI can be added to a WMS to decide which worker or robot should handle a task, which items
+    should be stored near each other, or which orders should be picked together. Modern fulfillment
+    centers use several kinds... Use simplified people, business objects, workflow arrows,
+    abstract screens, and symbolic data shapes only.'
+  alt: 'Illustration of Warehouses and fulfillment: robots, cameras, and task assignment using
+    abstract business and technology symbols.'
+  caption: 'Warehouses and fulfillment: robots, cameras, and task assignment is a practical
+    part of AI use in business and IT.'
+  aspect: '4:3'
+  anchor_heading: '5. Warehouses and fulfillment: robots, cameras, and task assignment'
+  placement: after-first-paragraph
+- slug: what-the-technology-stack-looks-like
+  prompt: 'Editorial textbook illustration for the section ''What the technology stack looks
+    like''. Represent this idea visually: A supply-chain AI system usually has four layers.
+    The first layer is the **data layer**. It includes orders, invoices, purchase orders,
+    inventory records, barcode scans, GPS pings, RFID tags, carrier messages, customer-service
+    tickets, supplier data, weather data, and customs documents. RFID, or **radio-frequency
+    identification**, uses small tags and radio signals to identify items without scanning
+    each barcode... Use simplified people, business objects, workflow arrows, abstract screens,
+    and symbolic data shapes only.'
+  alt: Illustration of What the technology stack looks like using abstract business and technology
+    symbols.
+  caption: What the technology stack looks like is a practical part of AI use in business
+    and IT.
+  aspect: '4:3'
+  anchor_heading: 9. What the technology stack looks like
+  placement: after-first-paragraph
+- slug: what-students-should-take-away
+  prompt: 'Editorial textbook illustration for the section ''What students should take away''.
+    Represent this idea visually: AI tools are being used in supply chain management and logistics
+    today, but their value comes from targeted deployment. They forecast demand, route deliveries,
+    coordinate robots, read freight messages, classify documents, detect risks, and help workers
+    respond faster. They are most useful when connected to clean data, clear processes, and
+    responsible human oversight. The most important career skill is not... Use simplified
+    people, business objects, workflow arrows, abstract screens, and symbolic data shapes
+    only.'
+  alt: Illustration of What students should take away using abstract business and technology
+    symbols.
+  caption: What students should take away is a practical part of AI use in business and IT.
+  aspect: '4:3'
+  anchor_heading: 13. What students should take away
+  placement: after-first-paragraph

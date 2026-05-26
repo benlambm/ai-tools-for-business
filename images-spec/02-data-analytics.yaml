@@ -1,0 +1,72 @@
+chapter: 02-data-analytics
+hero:
+  slug: hero
+  prompt: Wide editorial illustration introducing AI Tools in Data Mining and Analytics. Show
+    an abstract business and information technology workplace with simplified people, screens
+    containing only abstract shapes, workflow signals, and AI tool support in a calm classroom-ready
+    composition.
+  alt: Illustration introducing AI Tools in Data Mining and Analytics with abstract business
+    and technology elements.
+  caption: AI Tools in Data Mining and Analytics is one area where AI tools are changing business
+    and IT work.
+  aspect: '16:9'
+  placement: after-title
+figures:
+- slug: core-concepts-ai-machine-learning-analytics
+  prompt: 'Editorial textbook illustration for the section ''Core concepts: AI, machine learning,
+    analytics, and business intelligence''. Represent this idea visually: **Artificial intelligence**,
+    or AI, is software that performs tasks we usually associate with human reasoning, such
+    as recognizing patterns, classifying information, generating text, or making recommendations.
+    **Machine learning**, or ML, is a major type of AI in which a system learns patterns from
+    examples instead of being programmed with every rule manually. For example, a fraud detection
+    model may learn from... Use simplified people, business objects, workflow arrows, abstract
+    screens, and symbolic data shapes only.'
+  alt: 'Illustration of Core concepts: AI, machine learning, analytics, and business intelligence
+    using abstract business and technology symbols.'
+  caption: 'Core concepts: AI, machine learning, analytics, and business intelligence is a
+    practical part of AI use in business and IT.'
+  aspect: '4:3'
+  anchor_heading: 'Core concepts: AI, machine learning, analytics, and business intelligence'
+  placement: after-first-paragraph
+- slug: how-ai-is-being-used-in
+  prompt: 'Editorial textbook illustration for the section ''How AI is being used in data
+    mining and analytics''. Represent this idea visually: The section explains How AI is being
+    used in data mining and analytics. Use simplified people, business objects, workflow arrows,
+    abstract screens, and symbolic data shapes only.'
+  alt: Illustration of How AI is being used in data mining and analytics using abstract business
+    and technology symbols.
+  caption: How AI is being used in data mining and analytics is a practical part of AI use
+    in business and IT.
+  aspect: '4:3'
+  anchor_heading: How AI is being used in data mining and analytics
+  placement: after-first-paragraph
+- slug: what-deployment-looks-like-inside-a
+  prompt: 'Editorial textbook illustration for the section ''What deployment looks like inside
+    a real organization''. Represent this idea visually: A typical business AI analytics setup
+    has several layers. First, data is collected from business systems: sales systems, websites,
+    inventory systems, customer relationship management systems, accounting software, support
+    tickets, sensors, or external market data. Second, the data is moved into a warehouse,
+    lake, or platform where it can be governed. **Data governance** means rules for who can
+    access data, what... Use simplified people, business objects, workflow arrows, abstract
+    screens, and symbolic data shapes only.'
+  alt: Illustration of What deployment looks like inside a real organization using abstract
+    business and technology symbols.
+  caption: What deployment looks like inside a real organization is a practical part of AI
+    use in business and IT.
+  aspect: '4:3'
+  anchor_heading: What deployment looks like inside a real organization
+  placement: after-first-paragraph
+- slug: what-ai-does-well-and-what
+  prompt: "Editorial textbook illustration for the section 'What AI does well \u2014 and what\
+    \ it does poorly'. Represent this idea visually: AI analytics is strong at pattern recognition,\
+    \ summarization, classification, prediction, and interface design. It can speed up routine\
+    \ tasks and make data tools more accessible. But there are major limits. Use simplified\
+    \ people, business objects, workflow arrows, abstract screens, and symbolic data shapes\
+    \ only."
+  alt: "Illustration of What AI does well \u2014 and what it does poorly using abstract business\
+    \ and technology symbols."
+  caption: "What AI does well \u2014 and what it does poorly is a practical part of AI use\
+    \ in business and IT."
+  aspect: '4:3'
+  anchor_heading: "What AI does well \u2014 and what it does poorly"
+  placement: after-first-paragraph

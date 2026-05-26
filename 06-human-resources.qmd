@@ -14,6 +14,11 @@ A 2026 SHRM survey of HR professionals found that 39% said AI had already been a
 
 **Artificial intelligence**, or **AI**, means computer systems that perform tasks associated with human judgment, language, pattern recognition, prediction, or decision support. In HR, AI does not usually “understand people” the way a human manager might. It looks for patterns in data and produces outputs such as recommendations, rankings, summaries, predictions, or generated text.
 
+<!-- imagegen:begin slug=basic-concepts-what-ai-in-hr -->
+![Basic Concepts: What “AI in HR” Means is a practical part of AI use in business and IT.](images/06/basic-concepts-what-ai-in-hr.png){#fig-basic-concepts-what-ai-in-hr fig-alt="Illustration of Basic Concepts: What “AI in HR” Means using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
+
 **Machine learning** is a type of AI in which software learns patterns from data. For example, a machine learning model might look at past employee turnover data and identify patterns associated with people leaving the company. That does not mean the model knows why someone will quit. It means the system has found statistical relationships in the data.
 
 **Generative AI** is AI that creates new content, such as text, images, code, or summaries. In HR, generative AI might draft a job description, summarize an employee handbook, write a first draft of a performance review, or create a training quiz.
@@ -90,6 +95,11 @@ A responsible HR chatbot should be able to say, “I do not know,” cite the po
 
 Another growing use of AI in HR is **learning and development**, often abbreviated as **L&D**. This means helping employees build skills through training, coaching, certifications, courses, mentoring, and career pathways.
 
+<!-- imagegen:begin slug=learning-development-and-skills -->
+![Learning, Development, and Skills is a practical part of AI use in business and IT.](images/06/learning-development-and-skills.png){#fig-learning-development-and-skills fig-alt="Illustration of Learning, Development, and Skills using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
+
 AI can help L&D teams in several ways. It can recommend training based on a worker’s role, career goals, or skill gaps. It can generate quizzes, practice scenarios, simulations, and course outlines. It can summarize training materials or convert a long policy document into a shorter lesson. It can also help build a **skills inventory**, which is a structured list of skills employees have or may need.
 
 SHRM’s 2026 report found learning and development among the more common HR AI areas, after recruiting and HR technology. It also described AI uses such as content generation, AI-generated quizzes and scenarios, candidate-job matching, and personalized learning recommendations. ([SHRM](https://www.shrm.org/topics-tools/research/state-of-ai-hr-2026/full-report))
@@ -134,6 +144,11 @@ Prediction is not destiny. A model might find that employees with long commutes 
 
 A more controversial use of AI in HR is **algorithmic management**. Algorithmic management means using software, sometimes including AI, to automate tasks traditionally done by human managers. That can include assigning shifts, measuring productivity, ranking workers, triggering warnings, recommending discipline, or controlling work pace. The OECD describes algorithmic management as software that fully or partly automates managerial tasks, with possible productivity benefits but also risks for workers. ([OECD](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html))
 
+<!-- imagegen:begin slug=scheduling-monitoring-and-algorithmic-management -->
+![Scheduling, Monitoring, and Algorithmic Management is a practical part of AI use in business and IT.](images/06/scheduling-monitoring-and-algorithmic-management.png){#fig-scheduling-monitoring-and-algorithmic-management fig-alt="Illustration of Scheduling, Monitoring, and Algorithmic Management using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
+
 This type of AI is common in frontline settings: warehouses, delivery, retail, call centers, restaurants, transportation, and gig-work platforms. AI may forecast customer demand, assign workers to shifts, track call times, monitor route completion, evaluate productivity, or flag unusual behavior.
 
 Some uses are reasonable. A hospital needs enough staff on a shift. A grocery store needs cashiers when customers arrive. A call center needs to know whether customers are waiting too long. AI can help forecast workload and improve scheduling.
@@ -167,6 +182,11 @@ For HR professionals, the takeaway is practical: AI governance is becoming part 
 ## 10. What Responsible HR AI Looks Like
 
 A responsible HR AI program does not start with a flashy tool. It starts with a clear question: **What HR problem are we trying to solve, and what would count as success?**
+
+<!-- imagegen:begin slug=what-responsible-hr-ai-looks-like -->
+![What Responsible HR AI Looks Like is a practical part of AI use in business and IT.](images/06/what-responsible-hr-ai-looks-like.png){#fig-what-responsible-hr-ai-looks-like fig-alt="Illustration of What Responsible HR AI Looks Like using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 For example, “We want AI” is not a good goal. “We want to reduce interview scheduling time while maintaining candidate satisfaction and avoiding discriminatory screening” is better. “We want to use AI to identify internal employees who may qualify for cybersecurity training, while allowing people to add missing skills to their profiles” is also better.
 

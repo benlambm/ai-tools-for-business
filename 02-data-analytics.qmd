@@ -18,6 +18,11 @@ That means AI analytics is real, but uneven. Many large companies are already us
 
 **Artificial intelligence**, or AI, is software that performs tasks we usually associate with human reasoning, such as recognizing patterns, classifying information, generating text, or making recommendations. **Machine learning**, or ML, is a major type of AI in which a system learns patterns from examples instead of being programmed with every rule manually. For example, a fraud detection model may learn from thousands or millions of past transactions labeled “fraud” or “not fraud.”
 
+<!-- imagegen:begin slug=core-concepts-ai-machine-learning-analytics -->
+![Core concepts: AI, machine learning, analytics, and business intelligence is a practical part of AI use in business and IT.](images/02/core-concepts-ai-machine-learning-analytics.png){#fig-core-concepts-ai-machine-learning-analytics fig-alt="Illustration of Core concepts: AI, machine learning, analytics, and business intelligence using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
+
 **Generative AI** is AI that creates new content, such as text, code, images, summaries, or answers. A **large language model**, or LLM, is a generative AI model trained to work with language. ChatGPT, Claude, Gemini, and many enterprise assistants are examples of LLM-based systems. In analytics, LLMs are often used as an interface: a manager types, “Which region had the biggest decline in repeat customers?” and the system translates that question into a database query, chart, or written explanation.
 
 **Business intelligence**, often shortened to BI, refers to software and processes for reporting and dashboards. Power BI, Tableau, Looker, and similar tools help organizations visualize data. A **dashboard** is a screen of charts and metrics, such as daily sales, inventory levels, or customer satisfaction scores. A **data warehouse** is a central database designed for analysis. A **data lake** stores large amounts of raw or semi-structured data. A **semantic model** is a business-friendly layer that defines what terms mean, such as “net revenue,” “active customer,” or “return rate,” so that analytics tools answer questions consistently.
@@ -25,6 +30,11 @@ That means AI analytics is real, but uneven. Many large companies are already us
 Modern AI analytics usually combines these pieces: databases, dashboards, machine learning models, natural-language chat, data governance, and human review.
 
 ## How AI is being used in data mining and analytics
+
+
+<!-- imagegen:begin slug=how-ai-is-being-used-in -->
+![How AI is being used in data mining and analytics is a practical part of AI use in business and IT.](images/02/how-ai-is-being-used-in.png){#fig-how-ai-is-being-used-in fig-alt="Illustration of How AI is being used in data mining and analytics using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
 
 ### 1. Natural-language analytics: “talking to your data”
 
@@ -91,6 +101,11 @@ This is where analytics starts to blend with operations. The system is not only 
 ## What deployment looks like inside a real organization
 
 A typical business AI analytics setup has several layers.
+
+<!-- imagegen:begin slug=what-deployment-looks-like-inside-a -->
+![What deployment looks like inside a real organization is a practical part of AI use in business and IT.](images/02/what-deployment-looks-like-inside-a.png){#fig-what-deployment-looks-like-inside-a fig-alt="Illustration of What deployment looks like inside a real organization using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 First, data is collected from business systems: sales systems, websites, inventory systems, customer relationship management systems, accounting software, support tickets, sensors, or external market data. Second, the data is moved into a warehouse, lake, or platform where it can be governed. **Data governance** means rules for who can access data, what definitions mean, how quality is checked, and how data is protected. Third, analytics tools create reports, dashboards, models, and alerts. Fourth, AI features help users ask questions, summarize results, detect patterns, and recommend actions.
 

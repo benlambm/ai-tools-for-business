@@ -16,6 +16,11 @@ So the answer is: **yes, AI is being used in financial forecasting and budgeting
 
 Before we talk about AI, we need to define the finance work.
 
+<!-- imagegen:begin slug=what-financial-forecasting-and-budgeting-mean -->
+![What financial forecasting and budgeting mean is a practical part of AI use in business and IT.](images/07/what-financial-forecasting-and-budgeting-mean.png){#fig-what-financial-forecasting-and-budgeting-mean fig-alt="Illustration of What financial forecasting and budgeting mean using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
+
 **Financial forecasting** means estimating what will happen in the future: next month’s sales, next quarter’s cash flow, next year’s payroll expense, or how much inventory the company will need. A forecast is not a promise. It is an informed estimate based on current data, historical patterns, and assumptions about the future.
 
 **Budgeting** means deciding how much money the organization plans to spend and earn over a future period. A budget is usually more formal than a forecast. It can set targets for departments, managers, hiring, marketing, equipment purchases, debt repayment, and profit.
@@ -49,6 +54,11 @@ A fourth category is **automation**, which means software completing repeated ta
 ## 3. Where AI fits in the forecasting and budgeting workflow
 
 A typical financial forecasting and budgeting process has several stages. AI tools can assist at almost every stage.
+
+<!-- imagegen:begin slug=where-ai-fits-in-the-forecasting -->
+![Where AI fits in the forecasting and budgeting workflow is a practical part of AI use in business and IT.](images/07/where-ai-fits-in-the-forecasting.png){#fig-where-ai-fits-in-the-forecasting fig-alt="Illustration of Where AI fits in the forecasting and budgeting workflow using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 ### Stage 1: Collecting and preparing data
 
@@ -179,6 +189,11 @@ For small businesses, the practical value is not “AI strategy.” It is answer
 ## 5. What AI is good at in finance planning
 
 AI tools are strongest when the task has clear data, repeated patterns, and a need for speed.
+
+<!-- imagegen:begin slug=what-ai-is-good-at-in -->
+![What AI is good at in finance planning is a practical part of AI use in business and IT.](images/07/what-ai-is-good-at-in.png){#fig-what-ai-is-good-at-in fig-alt="Illustration of What AI is good at in finance planning using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 They are good at finding patterns across many rows of historical data. They can spot recurring seasonality, unusual spikes, delayed payments, expense categories that are growing quickly, or departments that consistently over-budget or under-budget.
 

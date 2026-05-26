@@ -1,5 +1,10 @@
 # Chapter 8: How AI Tools Are Used in Business Process Automation and RPA
 
+
+<!-- imagegen:begin slug=hero -->
+![How AI Tools Are Used in Business Process Automation and RPA is one area where AI tools are changing business and IT work.](images/08/hero.png){#fig-hero fig-alt="Illustration introducing How AI Tools Are Used in Business Process Automation and RPA with abstract business and technology elements." width="100%"}
+<!-- imagegen:end -->
+
 > **Course Outcome**
 >
 > VCCS-8. AI in Business/Designing Business Report Prompts: Examine the benefits of AI-powered process automation and robotic process automation (RPA) in improving business productivity and efficiency.
@@ -11,6 +16,11 @@ That may sound less dramatic than the popular idea of “AI agents running the c
 ## 1. The basic vocabulary
 
 A **business process** is a repeatable series of steps that produces a business result. Hiring an employee, paying an invoice, resetting a password, approving a refund, ordering supplies, or processing an insurance claim are all business processes.
+
+<!-- imagegen:begin slug=the-basic-vocabulary -->
+![The basic vocabulary is a practical part of AI use in business and IT.](images/08/the-basic-vocabulary.png){#fig-the-basic-vocabulary fig-alt="Illustration of The basic vocabulary using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 **Business Process Automation**, often shortened to **BPA**, means using software to automate all or part of a business process. BPA usually focuses on the process as a whole: who starts it, which systems are involved, what approvals are needed, what records are created, and how the process is measured.
 
@@ -57,6 +67,11 @@ Legal and contract work is another area. AI can summarize a contract, identify n
 ## 4. Process mining and task mining: finding what to automate
 
 Before a company automates a process, it needs to understand the process. This is harder than it sounds. The official process diagram might say that invoices go from “received” to “approved” to “paid.” The real process might involve five email threads, three spreadsheets, a manager who is always late, and a clerk who manually fixes vendor names every Friday.
+
+<!-- imagegen:begin slug=process-mining-and-task-mining-finding -->
+![Process mining and task mining: finding what to automate is a practical part of AI use in business and IT.](images/08/process-mining-and-task-mining-finding.png){#fig-process-mining-and-task-mining-finding fig-alt="Illustration of Process mining and task mining: finding what to automate using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 **Process mining** uses event logs from business systems to reconstruct how a process actually works. An event log is a record of what happened in a system: when a case was opened, who approved it, when it changed status, and when it closed. Process mining can show bottlenecks, rework, delays, and variations.
 
@@ -123,6 +138,11 @@ Government agencies are also using automation. The U.S. General Services Adminis
 ## 8. Why businesses use AI automation
 
 The first reason is speed. A bot can move data or check records faster than a person doing repetitive keystrokes. AI can also reduce the time needed to read and summarize documents.
+
+<!-- imagegen:begin slug=why-businesses-use-ai-automation -->
+![Why businesses use AI automation is a practical part of AI use in business and IT.](images/08/why-businesses-use-ai-automation.png){#fig-why-businesses-use-ai-automation fig-alt="Illustration of Why businesses use AI automation using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 The second reason is consistency. A workflow can enforce the same routing rule every time. A human may forget a step at the end of a long day; software does not get tired. Of course, software can still be wrong if the rule is wrong, the data is wrong, or the AI model misreads the input.
 

@@ -1,5 +1,10 @@
 # Chapter 3: AI Tools in Digital Marketing
 
+
+<!-- imagegen:begin slug=hero -->
+![AI Tools in Digital Marketing is one area where AI tools are changing business and IT work.](images/03/hero.png){#fig-hero fig-alt="Illustration introducing AI Tools in Digital Marketing with abstract business and technology elements." width="100%"}
+<!-- imagegen:end -->
+
 > **Course Outcome**
 >
 > VCCS-3. Exploring Marketing & Personalization Using AI-tools: Evaluate the impact of AI on marketing and personalization, including content customization, audience targeting, and campaign optimization.
@@ -17,6 +22,11 @@ So the best answer is: **AI is widely used in digital marketing, but it is usual
 ## What “digital marketing” means
 
 **Digital marketing** means promoting products, services, brands, or ideas through digital channels. These channels include search engines, websites, social media, email, mobile apps, online marketplaces, streaming video, digital audio, and connected TV. A connected TV is a television that streams internet-based video through apps such as YouTube, Hulu, Netflix, or other streaming services.
+
+<!-- imagegen:begin slug=what-digital-marketing-means -->
+![What “digital marketing” means is a practical part of AI use in business and IT.](images/03/what-digital-marketing-means.png){#fig-what-digital-marketing-means fig-alt="Illustration of What “digital marketing” means using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 Digital marketing usually follows a basic path called the **marketing funnel**. A funnel is a simplified model of how people move from not knowing about a product to possibly becoming customers. The main stages are:
 
@@ -47,6 +57,11 @@ A **prompt** is the instruction a person gives to an AI system. For example: “
 A **hallucination** is when an AI system produces information that sounds confident but is false, unsupported, or made up. In marketing, hallucinations are especially risky because an AI tool might invent a discount, misstate a product feature, create a fake quote, or make a legal claim the company cannot support.
 
 ## Where AI is actually being used
+
+
+<!-- imagegen:begin slug=where-ai-is-actually-being-used -->
+![Where AI is actually being used is a practical part of AI use in business and IT.](images/03/where-ai-is-actually-being-used.png){#fig-where-ai-is-actually-being-used fig-alt="Illustration of Where AI is actually being used using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
 
 ### 1. Ad targeting and automated bidding
 
@@ -187,6 +202,11 @@ The companies that use AI well do not simply say, “Let the AI handle marketing
 ## How AI use differs by business size
 
 Small businesses often use AI through built-in platform features. A local restaurant, boutique, repair shop, or fitness studio may use AI inside Google Ads, Meta Ads, Mailchimp, Shopify, Square, Canva, or other tools. The business owner may never train a model or write code. They might use AI to draft posts, create ad variations, design email promotions, or let an ad platform optimize for calls, reservations, or purchases.
+
+<!-- imagegen:begin slug=how-ai-use-differs-by-business -->
+![How AI use differs by business size is a practical part of AI use in business and IT.](images/03/how-ai-use-differs-by-business.png){#fig-how-ai-use-differs-by-business fig-alt="Illustration of How AI use differs by business size using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 Medium-sized businesses usually connect more systems. They may use a CRM, ecommerce database, email automation platform, ad platforms, website analytics, and customer support tools. Their challenge is less about generating one ad and more about keeping customer data clean, avoiding duplicate messages, and measuring what actually caused sales.
 
@@ -465,5 +485,10 @@ Submit:
 ## Chapter takeaway
 
 AI tools are absolutely being used in digital marketing, but the real story is more practical than futuristic. Businesses use AI to create more content versions, automate ad targeting and bidding, personalize emails and websites, summarize analytics, and speed up campaign workflows. Small businesses usually access these capabilities through built-in tools. Large enterprises use AI across content supply chains, customer data systems, ad platforms, and approval workflows.
+
+<!-- imagegen:begin slug=chapter-takeaway -->
+![Chapter takeaway is a practical part of AI use in business and IT.](images/03/chapter-takeaway.png){#fig-chapter-takeaway fig-alt="Illustration of Chapter takeaway using abstract business and technology symbols." width="80%"}
+<!-- imagegen:end -->
+
 
 The best marketers in 2026 are not simply asking AI to “make ads.” They are learning how to give better instructions, use cleaner data, test results carefully, protect customer privacy, avoid fake or misleading content, and keep humans responsible for judgment. AI can make digital marketing faster and more scalable. It does not remove the need for strategy, ethics, creativity, or accountability.
